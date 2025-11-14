@@ -1,0 +1,36 @@
+{
+  "id": "139d1332-535b-47cb-afc2-cbcd0a9075c6",
+  "name": "three-br",
+  "definition": null,
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "9ef69a6c-8a25-48b3-8ed7-5128b8953a18",
+  "versionType": "branch",
+  "appId": "0fe0f74d-e296-4525-a7a7-71883370ff16",
+  "currentEnvironmentId": "be6d281e-9400-474b-9862-090b13c01885",
+  "promotedFrom": null,
+  "parentVersionId": "568a7bfa-7836-4198-8d41-ed948c49dba6",
+  "createdBy": "2a438f63-9742-4905-a829-f8d1b6eb2592",
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "createdAt": "2025-11-14T07:06:40.563Z",
+  "updatedAt": "2025-11-14T07:06:40.551Z"
+}
