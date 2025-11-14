@@ -1,0 +1,29 @@
+{
+  "id": "3125a0b0-57da-4ecb-ba8d-8aba7887b440",
+  "name": "one-br",
+  "definition": null,
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "1db75c03-ff9b-445c-ae92-e81db839b3ed",
+  "versionType": "branch",
+  "appId": "0fe0f74d-e296-4525-a7a7-71883370ff16",
+  "currentEnvironmentId": "be6d281e-9400-474b-9862-090b13c01885",
+  "promotedFrom": null,
+  "parentVersionId": "1b54b146-be96-4171-84f7-72c56ae3f211",
+  "createdBy": "2a438f63-9742-4905-a829-f8d1b6eb2592",
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "createdAt": "2025-11-14T06:48:21.389Z",
+  "updatedAt": "2025-11-14T06:48:21.378Z"
+}
