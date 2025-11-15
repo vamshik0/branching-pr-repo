@@ -1,0 +1,29 @@
+{
+  "id": "d81f7c1e-76a8-4980-b5fa-f26b4b07cdde",
+  "name": "qwerty",
+  "definition": null,
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "5130b2b0-a6ad-4b41-969a-34e9c462b96c",
+  "versionType": "branch",
+  "appId": "91696505-acdc-49d8-9f76-a1329d4f86a6",
+  "currentEnvironmentId": "0446d358-e004-43f3-9546-8ca46abfdbdd",
+  "promotedFrom": null,
+  "parentVersionId": "26a5ed87-dcc2-4bb0-829f-5a592023bd62",
+  "createdBy": "5217c9a6-45ee-4f4c-b1e8-736ba782565a",
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "createdAt": "2025-11-15T17:07:53.344Z",
+  "updatedAt": "2025-11-15T17:07:53.329Z"
+}
