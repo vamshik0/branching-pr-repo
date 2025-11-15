@@ -1,0 +1,16 @@
+{
+  "id": "91696505-acdc-49d8-9f76-a1329d4f86a6",
+  "name": "nike",
+  "type": "front-end",
+  "slug": "91696505-acdc-49d8-9f76-a1329d4f86a6",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "currentVersionId": null,
+  "createdAt": "2025-11-15T17:07:32.130Z",
+  "organizationId": "6c674065-4e24-42ef-9688-aad425014c7e",
+  "userId": "5217c9a6-45ee-4f4c-b1e8-736ba782565a",
+  "icon": "menuhome"
+}
