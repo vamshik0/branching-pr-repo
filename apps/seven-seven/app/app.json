@@ -1,0 +1,16 @@
+{
+  "id": "9acd2482-36e4-4923-8d75-b5765973b757",
+  "name": "seven-seven",
+  "type": "front-end",
+  "slug": "9acd2482-36e4-4923-8d75-b5765973b757",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "currentVersionId": null,
+  "createdAt": "2025-11-15T17:05:07.539Z",
+  "organizationId": "6c674065-4e24-42ef-9688-aad425014c7e",
+  "userId": "5217c9a6-45ee-4f4c-b1e8-736ba782565a",
+  "icon": "archive"
+}
