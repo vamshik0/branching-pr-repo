@@ -1,0 +1,32 @@
+{
+  "id": "217a1906-946f-45a6-b185-ac1adadf524e",
+  "name": "Home",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": null,
+  "autoComputeLayout": true,
+  "appVersionId": "d29595d2-8eb6-417d-a31c-1357fdd3cc8f",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": ""
+}
