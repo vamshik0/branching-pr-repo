@@ -6,7 +6,7 @@
     "parameters": [],
     "runOnPageLoad": true
   },
-  "dataSourceId": "36ab79b2-ab33-4b5f-a884-fd7f2eac5df6",
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
   "appVersionId": "275c7915-26fc-4944-9759-2f0335b87cb0",
   "kind": "runjs",
   "dataSourceType": "static"
