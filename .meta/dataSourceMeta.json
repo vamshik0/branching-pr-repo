@@ -1,4 +1,10 @@
 {
+  "4f8c62ad-0c98-4be0-b888-2b6b35eef294": {
+    "name": "restapi",
+    "kind": "restapi",
+    "updatedAt": "2026-06-15T12:22:40.172Z",
+    "contentHash": "054ad5f12374131e608c23e0ae22a09cac6703852b67f1d9b99153de5084f24e"
+  },
   "a39095cd-7fbb-4ea7-be8a-6e54c54747a7": {
     "name": "postgresql",
     "kind": "postgresql",
@@ -17,5 +23,11 @@
     "updatedAt": "2026-06-17T06:27:19.970Z",
     "contentHash": "9a89718e40cd8e1e0fc84e1fee6df28878957669165117c62a3e252b12ffe2bf"
   },
-  "lastUpdatedAt": "2026-06-17T06:27:19.970Z"
+  "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
+    "name": "redis",
+    "kind": "redis",
+    "updatedAt": "2026-06-15T12:40:07.951Z",
+    "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
+  },
+  "lastUpdatedAt": "2026-06-15T12:40:07.951Z"
 }
