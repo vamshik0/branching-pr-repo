@@ -5,7 +5,7 @@
   "type": "default",
   "options": {
     "development": {
-      "url": "",
+      "url": "https://example.com",
       "scopes": "read, write",
       "headers": [
         [
