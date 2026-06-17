@@ -1,15 +1,9 @@
 {
-  "4f8c62ad-0c98-4be0-b888-2b6b35eef294": {
-    "name": "restapi",
-    "kind": "restapi",
-    "updatedAt": "2026-06-15T12:22:40.172Z",
-    "contentHash": "054ad5f12374131e608c23e0ae22a09cac6703852b67f1d9b99153de5084f24e"
-  },
-  "a39095cd-7fbb-4ea7-be8a-6e54c54747a7": {
-    "name": "postgresql",
-    "kind": "postgresql",
-    "updatedAt": "2026-06-15T12:21:26.647Z",
-    "contentHash": "ee42a79e461404e7aa24e1d9b667f6efbfa34d3f6ce4b675a07b29f49fb76838"
+  "503869be-d149-4d5e-9c37-0ffec9874564": {
+    "name": "snowflake",
+    "kind": "snowflake",
+    "updatedAt": "2026-06-17T10:07:15.123Z",
+    "contentHash": "225edd57946e3cd68760f329b11353629e9d1b8e5dca25997da7e07e8b4da4e1"
   },
   "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
     "name": "redis",
@@ -17,5 +11,5 @@
     "updatedAt": "2026-06-15T12:40:07.951Z",
     "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
   },
-  "lastUpdatedAt": "2026-06-17T09:35:27.885Z"
+  "lastUpdatedAt": "2026-06-17T10:07:15.123Z"
 }
