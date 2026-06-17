@@ -1,0 +1,15 @@
+{
+  "id": "1e886ed4-48c0-4bf5-8284-ae17da32b57e",
+  "name": "jira1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "resource": "worklog",
+    "operation": "issue_worklogs",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "7b8ddab3-4df3-4525-bb44-a5374ad7f4bb",
+  "appVersionId": "89a65ef5-439a-4aed-bbad-701dbf84d2a7",
+  "kind": "jira",
+  "dataSourceType": "default"
+}
