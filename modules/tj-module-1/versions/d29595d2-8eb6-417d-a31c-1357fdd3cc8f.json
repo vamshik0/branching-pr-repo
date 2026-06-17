@@ -20,14 +20,15 @@
   },
   "showViewerNavigation": false,
   "homePageId": "217a1906-946f-45a6-b185-ac1adadf524e",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "0873ad40-970f-43cb-b35b-fa1c55a8f17d",
   "promotedFrom": null,
-  "status": "PUBLISHED",
+  "status": "DRAFT",
   "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "moduleReferenceId": "164c525d-2bdd-407f-aa32-f3bf661ff587",
+  "remoteUpdatedAt": null,
   "sourceTag": null
 }
