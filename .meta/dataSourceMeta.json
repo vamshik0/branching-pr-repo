@@ -11,6 +11,12 @@
     "updatedAt": "2026-06-15T12:21:26.647Z",
     "contentHash": "ee42a79e461404e7aa24e1d9b667f6efbfa34d3f6ce4b675a07b29f49fb76838"
   },
+  "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
+    "name": "redis",
+    "kind": "redis",
+    "updatedAt": "2026-06-15T12:40:07.951Z",
+    "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
+  },
   "f1b11e82-a90d-4d5e-a693-93c429a5e44a": {
     "name": "mysql",
     "kind": "mysql",
@@ -22,12 +28,6 @@
     "kind": "mysql",
     "updatedAt": "2026-06-17T06:27:19.970Z",
     "contentHash": "9a89718e40cd8e1e0fc84e1fee6df28878957669165117c62a3e252b12ffe2bf"
-  },
-  "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
-    "name": "redis",
-    "kind": "redis",
-    "updatedAt": "2026-06-15T12:40:07.951Z",
-    "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
   },
   "lastUpdatedAt": "2026-06-15T12:40:07.951Z"
 }
