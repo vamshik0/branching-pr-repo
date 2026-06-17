@@ -11,6 +11,12 @@
     "updatedAt": "2026-06-17T12:05:41.662Z",
     "contentHash": "4d90eb750e26421710a525c5993946f61fb29c5ab1b4e150bf8bfa1297452147"
   },
+  "4e56170d-faad-4d84-ba9e-ef1262471155": {
+    "name": "SEO DB",
+    "kind": "postgresql",
+    "updatedAt": "2026-06-17T12:20:41.899Z",
+    "contentHash": "46a8bb28175bfcdcc92e9190d222f1fdaa183f0f8d69826965d41d3ba5673140"
+  },
   "503869be-d149-4d5e-9c37-0ffec9874564": {
     "name": "snowflake",
     "kind": "snowflake",
@@ -47,5 +53,5 @@
     "updatedAt": "2026-06-15T12:40:07.951Z",
     "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
   },
-  "lastUpdatedAt": "2026-06-17T12:05:41.663Z"
+  "lastUpdatedAt": "2026-06-17T12:20:41.899Z"
 }
