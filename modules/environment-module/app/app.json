@@ -1,0 +1,13 @@
+{
+  "id": "3c59ad75-63e5-48d1-af08-36978c69c788",
+  "name": "environment-module",
+  "type": "module",
+  "slug": "3f295716-3fa4-433a-9df1-8fe27da5542e",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.45-beta-ee"
+}

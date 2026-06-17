@@ -30,5 +30,9 @@
   "a3407718-a638-4ca2-ac57-1d2532d2c0cf": {
     "appPath": "apps/common-app-2",
     "updatedAt": "2026-06-17T10:31:45.791Z"
+  },
+  "d64fa17f-eadb-49f5-a208-af68683c1f55": {
+    "appPath": "apps/basic-cases-app",
+    "updatedAt": "2026-06-17T12:03:11.077Z"
   }
 }

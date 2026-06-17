@@ -1,0 +1,13 @@
+{
+  "id": "d64fa17f-eadb-49f5-a208-af68683c1f55",
+  "name": "basic-cases-app",
+  "type": "front-end",
+  "slug": "3b451c44-a7a8-463e-bccb-7968013f858f",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.45-beta-ee"
+}
