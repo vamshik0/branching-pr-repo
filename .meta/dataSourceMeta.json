@@ -5,12 +5,6 @@
     "updatedAt": "2026-06-15T12:22:40.172Z",
     "contentHash": "054ad5f12374131e608c23e0ae22a09cac6703852b67f1d9b99153de5084f24e"
   },
-  "503869be-d149-4d5e-9c37-0ffec9874564": {
-    "name": "snowflake",
-    "kind": "snowflake",
-    "updatedAt": "2026-06-17T08:11:37.231Z",
-    "contentHash": "225edd57946e3cd68760f329b11353629e9d1b8e5dca25997da7e07e8b4da4e1"
-  },
   "a39095cd-7fbb-4ea7-be8a-6e54c54747a7": {
     "name": "postgresql",
     "kind": "postgresql",
