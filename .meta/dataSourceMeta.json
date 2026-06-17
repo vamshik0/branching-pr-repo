@@ -11,6 +11,18 @@
     "updatedAt": "2026-06-15T12:21:26.647Z",
     "contentHash": "ee42a79e461404e7aa24e1d9b667f6efbfa34d3f6ce4b675a07b29f49fb76838"
   },
+  "f1b11e82-a90d-4d5e-a693-93c429a5e44a": {
+    "name": "mysql",
+    "kind": "mysql",
+    "updatedAt": "2026-06-17T06:26:15.967Z",
+    "contentHash": "b0f4322da8597a74a1df69045becddbdb9f904cadb78ec31626fe394f631e194"
+  },
+  "fe6e0dfa-3d68-4c41-9da8-f519e19cc047": {
+    "name": "mysql_2",
+    "kind": "mysql",
+    "updatedAt": "2026-06-17T06:27:19.970Z",
+    "contentHash": "9a89718e40cd8e1e0fc84e1fee6df28878957669165117c62a3e252b12ffe2bf"
+  },
   "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
     "name": "redis",
     "kind": "redis",
