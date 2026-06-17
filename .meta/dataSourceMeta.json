@@ -1,21 +1,9 @@
 {
-  "03fadd03-31aa-4428-83d4-72d9bba56a4a": {
-    "name": "mongodb",
-    "kind": "mongodb",
-    "updatedAt": "2026-06-17T08:08:43.826Z",
-    "contentHash": "9e6242b5b4549e77bf72d3086c3e924eda77dc70e9045f86d499d7f8196bdfbf"
-  },
   "4f8c62ad-0c98-4be0-b888-2b6b35eef294": {
     "name": "restapi",
     "kind": "restapi",
     "updatedAt": "2026-06-15T12:22:40.172Z",
     "contentHash": "054ad5f12374131e608c23e0ae22a09cac6703852b67f1d9b99153de5084f24e"
-  },
-  "869015e0-0ef8-4e38-a338-fe87e54a9856": {
-    "name": "mongodb_2",
-    "kind": "mongodb",
-    "updatedAt": "2026-06-17T08:08:43.827Z",
-    "contentHash": "6e0b14087240cc76eae092307032cdef0b665b1ce27be7917be08b459ba83fe5"
   },
   "a39095cd-7fbb-4ea7-be8a-6e54c54747a7": {
     "name": "postgresql",
