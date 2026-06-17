@@ -1,0 +1,13 @@
+{
+  "id": "aa910704-0cfc-4cbe-b895-8ece997603af",
+  "name": "runjs1",
+  "options": {
+    "code": "return 'hello moduleViewer'",
+    "parameters": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "36ab79b2-ab33-4b5f-a884-fd7f2eac5df6",
+  "appVersionId": "275c7915-26fc-4944-9759-2f0335b87cb0",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
