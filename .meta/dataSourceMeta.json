@@ -26,8 +26,8 @@
   "fe6e0dfa-3d68-4c41-9da8-f519e19cc047": {
     "name": "mysql_2",
     "kind": "mysql",
-    "updatedAt": "2026-06-17T06:27:19.970Z",
-    "contentHash": "9a89718e40cd8e1e0fc84e1fee6df28878957669165117c62a3e252b12ffe2bf"
+    "updatedAt": "2026-06-17T07:33:19.371Z",
+    "contentHash": "7e825bdf1eda256850db8d30d6596771a9e3c1685320614b49f7aa5464a142e0"
   },
-  "lastUpdatedAt": "2026-06-15T12:40:07.951Z"
+  "lastUpdatedAt": "2026-06-17T07:33:19.371Z"
 }
