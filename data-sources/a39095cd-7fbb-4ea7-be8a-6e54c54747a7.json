@@ -8,6 +8,7 @@
       "host": "localhost",
       "port": 5432,
       "ssh_port": 22,
+      "username": "postgres",
       "ssh_enabled": "disabled",
       "ssl_enabled": true,
       "ssh_auth_type": "private_key",
