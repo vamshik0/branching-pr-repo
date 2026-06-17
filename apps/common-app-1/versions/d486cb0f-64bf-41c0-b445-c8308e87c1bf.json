@@ -8,7 +8,7 @@
     "canvasMaxHeight": 2400,
     "canvasBackgroundColor": "var(--cc-appBackground-surface)",
     "backgroundFxQuery": "",
-    "appMode": "light"
+    "appMode": "auto"
   },
   "pageSettings": {
     "properties": {
@@ -29,5 +29,6 @@
   "releasedAt": null,
   "isStub": false,
   "moduleReferenceId": null,
+  "remoteUpdatedAt": null,
   "sourceTag": null
 }
