@@ -1,0 +1,57 @@
+{
+  "25941bd4-4bac-45d5-b796-366642f11ec7": {
+    "name": "JSON data",
+    "kind": "restapi",
+    "updatedAt": "2026-06-18T10:59:26.607Z",
+    "contentHash": "8f806268cad86cf3f9b45f8277e15963d617adf4aec67a30bfaf64bbf0793a66"
+  },
+  "3ee3233f-ceea-4592-a447-8376c73f313d": {
+    "name": "openai",
+    "kind": "openai",
+    "updatedAt": "2026-06-18T10:59:26.607Z",
+    "contentHash": "4d90eb750e26421710a525c5993946f61fb29c5ab1b4e150bf8bfa1297452147"
+  },
+  "4e56170d-faad-4d84-ba9e-ef1262471155": {
+    "name": "SEO DB",
+    "kind": "postgresql",
+    "updatedAt": "2026-06-18T10:59:26.607Z",
+    "contentHash": "46a8bb28175bfcdcc92e9190d222f1fdaa183f0f8d69826965d41d3ba5673140"
+  },
+  "503869be-d149-4d5e-9c37-0ffec9874564": {
+    "name": "snowflake",
+    "kind": "snowflake",
+    "updatedAt": "2026-06-18T10:59:26.607Z",
+    "contentHash": "225edd57946e3cd68760f329b11353629e9d1b8e5dca25997da7e07e8b4da4e1"
+  },
+  "781e93ac-c9f9-4c2b-a82f-ecd845fa07ad": {
+    "name": "Presto",
+    "kind": "Presto",
+    "updatedAt": "2026-06-18T10:59:26.608Z",
+    "contentHash": "70a13b4beb387cb889781fb6c819c18d18fbc09ebe9b05c06b6c543cbb517ee3"
+  },
+  "7b8ddab3-4df3-4525-bb44-a5374ad7f4bb": {
+    "name": "jira",
+    "kind": "jira",
+    "updatedAt": "2026-06-18T10:59:26.608Z",
+    "contentHash": "c99c74f6db8ea37172443600b14d7bd38f42bc4c1fb8af91162cab45d760c39d"
+  },
+  "a2e24cab-99d5-4025-8145-9249983e8f01": {
+    "name": "clickup",
+    "kind": "clickup",
+    "updatedAt": "2026-06-18T10:59:26.608Z",
+    "contentHash": "96da284f9d189eb57085932dfd7505f17015c66c9ef96bfecae5763e04bc2836"
+  },
+  "ae342240-6725-406e-bd77-e1664b100192": {
+    "name": "salesforce",
+    "kind": "salesforce",
+    "updatedAt": "2026-06-18T10:59:26.608Z",
+    "contentHash": "675cde72ee7aa7d4fc93fcb121cf3020056aabf47eeec85a0c67d27376522bea"
+  },
+  "ebf13c42-53b9-4cbc-ae11-56517d8bb18d": {
+    "name": "redis",
+    "kind": "redis",
+    "updatedAt": "2026-06-18T10:59:26.608Z",
+    "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
+  },
+  "lastUpdatedAt": "2026-06-18T10:59:26.608Z"
+}
