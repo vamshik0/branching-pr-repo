@@ -1,12 +1,12 @@
 {
-  "id": "5b383b60-4685-44a4-b99d-73038dd5e5c6",
-  "name": "button1",
+  "id": "971ef0cf-eefc-4b26-b0e5-6d0bff9f9869",
+  "name": "button2",
   "type": "Button",
-  "pageId": "057f68ea-6391-4c9b-bbdb-6d34a2a7b592",
+  "pageId": "6a59d2d0-e5ed-4fb8-bdba-336ec0c84838",
   "parent": null,
   "properties": {
     "text": {
-      "value": "Common-app-5"
+      "value": "Added to folder"
     },
     "visibility": {
       "value": "{{true}}"
@@ -22,6 +22,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -90,23 +93,23 @@
   "validation": {},
   "layouts": [
     {
-      "id": "dccaf701-8674-49fc-ab88-16c3af1443aa",
+      "id": "0ead9035-3a8f-4179-97a4-c08d9a9334b2",
       "type": "desktop",
-      "top": 150,
-      "left": 12,
-      "width": 6,
+      "top": 340,
+      "left": 3,
+      "width": 4,
       "height": 40,
-      "componentId": "5b383b60-4685-44a4-b99d-73038dd5e5c6",
+      "componentId": "971ef0cf-eefc-4b26-b0e5-6d0bff9f9869",
       "dimensionUnit": "count"
     },
     {
-      "id": "03f12860-8697-48d1-a220-ca070e86f8bd",
+      "id": "585cd207-a18e-48a8-b427-d1340c4189e3",
       "type": "mobile",
-      "top": 110,
-      "left": 13,
+      "top": 340,
+      "left": 3,
       "width": 4,
       "height": 40,
-      "componentId": "5b383b60-4685-44a4-b99d-73038dd5e5c6",
+      "componentId": "971ef0cf-eefc-4b26-b0e5-6d0bff9f9869",
       "dimensionUnit": "count"
     }
   ]

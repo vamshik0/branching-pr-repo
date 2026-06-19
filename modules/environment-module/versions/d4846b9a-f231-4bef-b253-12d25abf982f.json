@@ -17,11 +17,10 @@
   "appId": "3c59ad75-63e5-48d1-af08-36978c69c788",
   "promotedFrom": null,
   "status": "PUBLISHED",
-  "description": "",
+  "description": "saving v1 of environment-module",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "moduleReferenceId": "a948cb49-d5c1-41a6-be9f-fe4608b10a3b",
   "remoteUpdatedAt": null,
   "sourceTag": null
 }

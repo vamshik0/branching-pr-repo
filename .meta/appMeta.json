@@ -1,7 +1,7 @@
 {
   "b97b8432-f00f-43a2-b9f6-a3fb227312b0": {
-    "appPath": "apps/tj-app-2",
-    "updatedAt": "2026-06-17T12:13:37.469Z"
+    "appPath": "apps/tj-apps/tj-app-2",
+    "updatedAt": "2026-06-19T07:37:05.043Z"
   },
   "762df1a4-ed63-4bff-b241-154b3e9280e5": {
     "appPath": "apps/tj-app-1",
@@ -9,11 +9,11 @@
   },
   "891cf49e-792a-40eb-a7f5-ccb7e82508fb": {
     "appPath": "apps/tj-app-3",
-    "updatedAt": "2026-06-17T10:28:19.978Z"
+    "updatedAt": "2026-06-19T09:44:18.588Z"
   },
   "d61ee375-9d9a-4979-ac1a-d63ee3ec9944": {
-    "appPath": "apps/common-app-5",
-    "updatedAt": "2026-06-02T12:11:51.975Z"
+    "appPath": "apps/common-apps/common-app-5",
+    "updatedAt": "2026-06-19T07:15:20.653Z"
   },
   "6e9772cd-d63b-4dfd-857e-f01d0869bc31": {
     "appPath": "apps/common-app-4",
@@ -28,12 +28,12 @@
     "updatedAt": "2026-06-15T12:29:16.051Z"
   },
   "a3407718-a638-4ca2-ac57-1d2532d2c0cf": {
-    "appPath": "apps/common-app-2",
-    "updatedAt": "2026-06-17T12:16:03.084Z"
+    "appPath": "apps/common-apps/common-app-2",
+    "updatedAt": "2026-06-19T07:38:15.771Z"
   },
   "d64fa17f-eadb-49f5-a208-af68683c1f55": {
     "appPath": "apps/basic-cases-app",
-    "updatedAt": "2026-06-17T12:12:16.702Z"
+    "updatedAt": "2026-06-19T09:49:35.416Z"
   },
   "7d3bc9c2-8231-48c0-b8fb-ca191b7e80ce": {
     "appPath": "apps/New-app",
