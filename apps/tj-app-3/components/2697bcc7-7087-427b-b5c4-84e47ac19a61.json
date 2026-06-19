@@ -5,17 +5,18 @@
   "pageId": "2a47bb80-cc5c-4bfd-b82b-ce2eeb981b22",
   "parent": null,
   "properties": {
+    "visibility": {
+      "value": true
+    },
     "moduleAppId": {
       "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
     },
     "moduleVersionId": {
-      "value": "164c525d-2bdd-407f-aa32-f3bf661ff587"
+      "value": "ca3173e3-8030-4ad8-ae92-4d6c30f6a57b",
+      "versionName": "v1"
     },
     "moduleEnvironmentId": {
       "value": "7ec193af-01b6-4799-9bcc-9ad63e62b09d"
-    },
-    "visibility": {
-      "value": true
     }
   },
   "general": {},
