@@ -24,11 +24,10 @@
   "appId": "382749f0-0ed2-49e5-8c09-568e522cdacd",
   "promotedFrom": null,
   "status": "PUBLISHED",
-  "description": "",
+  "description": "saving v1 of common-module-1",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "moduleReferenceId": "8d15363e-e361-4949-b069-30c3917d36bc",
   "remoteUpdatedAt": null,
   "sourceTag": null
 }
