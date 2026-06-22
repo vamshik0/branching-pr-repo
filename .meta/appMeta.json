@@ -33,14 +33,10 @@
   },
   "d64fa17f-eadb-49f5-a208-af68683c1f55": {
     "appPath": "apps/basic-cases-app",
-    "updatedAt": "2026-06-22T11:25:47.412Z"
+    "updatedAt": "2026-06-22T11:32:10.239Z"
   },
   "7d3bc9c2-8231-48c0-b8fb-ca191b7e80ce": {
     "appPath": "apps/New-app",
     "updatedAt": "2026-06-22T11:20:04.785Z"
-  },
-  "253059e5-a2b4-48bc-8bf3-64ea37a85f96": {
-    "appPath": "apps/ds-testing-export",
-    "updatedAt": "2026-06-22T10:00:00.686Z"
   }
 }
