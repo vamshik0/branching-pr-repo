@@ -1,0 +1,131 @@
+{
+  "id": "0e91ea00-3cb8-480c-b9ac-a7a91007550a",
+  "name": "restapi_2",
+  "kind": "restapi",
+  "type": "default",
+  "options": {
+    "development": {
+      "url": "http://130.131.160.149:3099/data",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "production": {
+      "url": "http://130.131.160.149:3099/data",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "staging": {
+      "url": "http://130.131.160.149:3099/data",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  }
+}
