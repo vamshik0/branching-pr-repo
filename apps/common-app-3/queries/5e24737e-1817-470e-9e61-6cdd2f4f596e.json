@@ -1,0 +1,14 @@
+{
+  "id": "5e24737e-1817-470e-9e61-6cdd2f4f596e",
+  "name": "elasticsearch1",
+  "options": {
+    "query": "",
+    "operation": "index_document",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "247f5f62-6c37-43a4-bd6e-829b4a013ddc",
+  "appVersionId": "89a65ef5-439a-4aed-bbad-701dbf84d2a7",
+  "kind": "elasticsearch",
+  "dataSourceType": "default"
+}
