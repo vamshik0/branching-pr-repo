@@ -1,0 +1,199 @@
+{
+  "id": "a8d1c71a-3e97-4a57-aa3f-8808646f96b5",
+  "name": "hobbies",
+  "type": "DropdownV2",
+  "pageId": "f8e57cbc-c269-4f86-8820-3d564caba747",
+  "parent": "5d0902fd-99aa-4b55-80ad-3fdbf06e94e5",
+  "properties": {
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "schema": {
+      "value": "{{[\t{label: 'option1',value: 1,caption: null,disable: false,visible: true,default: true},{label: 'option2',value: 2,caption: null,disable: false,visible: true},{label: 'option3',value: 3,caption: null,disable: false,visible: true}\t]}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "reading",
+          "value": 0,
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "default": {
+            "value": false
+          }
+        },
+        {
+          "label": "gaming",
+          "value": 1,
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "default": {
+            "value": false
+          }
+        },
+        {
+          "label": "cycling",
+          "value": 2,
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "default": {
+            "value": false
+          }
+        }
+      ]
+    },
+    "label": {
+      "value": "Hobbies"
+    },
+    "optionsLoadingState": {
+      "value": "{{false}}"
+    },
+    "sort": {
+      "value": "none"
+    },
+    "placeholder": {
+      "value": "Select an option"
+    },
+    "showClearBtn": {
+      "value": "{{true}}"
+    },
+    "showSearchInput": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelFontSize": {
+      "value": "{{12}}"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBorderRadius": {
+      "value": "6"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "fieldBorderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "widthType": {
+      "value": "ofComponent"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": false
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "9b9827de-46b5-4820-85f1-7ff9ebba033b",
+      "type": "desktop",
+      "top": 320,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "componentId": "a8d1c71a-3e97-4a57-aa3f-8808646f96b5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c8bf700c-0b05-49b5-a881-77411731cc0c",
+      "type": "mobile",
+      "top": 320,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "componentId": "a8d1c71a-3e97-4a57-aa3f-8808646f96b5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

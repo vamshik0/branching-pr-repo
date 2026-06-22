@@ -1,0 +1,13 @@
+{
+  "id": "ab0169b5-2fb0-468f-8611-a96e51d2c2cf",
+  "name": "ds-testing-export",
+  "type": "front-end",
+  "slug": "90eb1b86-c5e3-4d82-bbca-25812cebed0d",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.45-beta-ee"
+}
