@@ -53,5 +53,11 @@
     "updatedAt": "2026-06-15T12:40:07.951Z",
     "contentHash": "14c513069daeb38a62293bcbcc39a5f3c621fbac4cfe6c0ae8b297e9b4ca4cb8"
   },
-  "lastUpdatedAt": "2026-06-22T10:03:03.169Z"
+  "f10de5c0-4034-49aa-b72a-0821687472c6": {
+    "name": "postgresql",
+    "kind": "postgresql",
+    "updatedAt": "2026-06-22T11:32:21.143Z",
+    "contentHash": "1455a38165133eb161e731cc65d14372e86826ffe9fd9c91f8fb7e5cfaaf6787"
+  },
+  "lastUpdatedAt": "2026-06-22T11:32:21.143Z"
 }
