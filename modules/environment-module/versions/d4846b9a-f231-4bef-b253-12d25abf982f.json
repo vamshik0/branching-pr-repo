@@ -13,14 +13,14 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "34a55809-d439-42ca-8863-81639258e85a",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "3c59ad75-63e5-48d1-af08-36978c69c788",
   "promotedFrom": null,
-  "status": "PUBLISHED",
-  "description": "saving v1 of environment-module",
+  "status": "DRAFT",
+  "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "remoteUpdatedAt": null,
-  "sourceTag": null
+  "sourceTag": "v1"
 }
