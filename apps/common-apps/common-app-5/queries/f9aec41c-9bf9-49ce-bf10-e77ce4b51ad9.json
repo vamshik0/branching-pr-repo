@@ -1,0 +1,13 @@
+{
+  "id": "f9aec41c-9bf9-49ce-bf10-e77ce4b51ad9",
+  "name": "bigquery1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "4ef46370-da72-47a1-b468-d091e23cee15",
+  "appVersionId": "795469d9-9b0a-4af4-bd75-77a5417eb0b2",
+  "kind": "bigquery",
+  "dataSourceType": "default"
+}
