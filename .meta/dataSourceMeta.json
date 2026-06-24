@@ -23,6 +23,12 @@
     "updatedAt": "2026-06-17T12:20:41.899Z",
     "contentHash": "46a8bb28175bfcdcc92e9190d222f1fdaa183f0f8d69826965d41d3ba5673140"
   },
+  "4ef46370-da72-47a1-b468-d091e23cee15": {
+    "name": "common-5",
+    "kind": "bigquery",
+    "updatedAt": "2026-06-23T12:02:28.411Z",
+    "contentHash": "5a2755843671a2cbf2ed8540588d25547ef1fbd8c748935e13bdeaa62f3d58a9"
+  },
   "503869be-d149-4d5e-9c37-0ffec9874564": {
     "name": "snowflake",
     "kind": "snowflake",
@@ -65,5 +71,5 @@
     "updatedAt": "2026-06-22T11:32:21.143Z",
     "contentHash": "1455a38165133eb161e731cc65d14372e86826ffe9fd9c91f8fb7e5cfaaf6787"
   },
-  "lastUpdatedAt": "2026-06-22T12:43:47.797Z"
+  "lastUpdatedAt": "2026-06-23T12:02:28.413Z"
 }
