@@ -47,6 +47,12 @@
     "updatedAt": "2026-06-17T12:05:41.663Z",
     "contentHash": "c99c74f6db8ea37172443600b14d7bd38f42bc4c1fb8af91162cab45d760c39d"
   },
+  "965a84da-3a75-4fc7-805d-c31ef7a9fa03": {
+    "name": "mongodb",
+    "kind": "mongodb",
+    "updatedAt": "2026-06-24T06:47:38.942Z",
+    "contentHash": "e221b7f256641dbe40f93a47b4230404db6bd5b48dde1e30c10572d20ee3ff18"
+  },
   "a2e24cab-99d5-4025-8145-9249983e8f01": {
     "name": "clickup",
     "kind": "clickup",
@@ -71,5 +77,5 @@
     "updatedAt": "2026-06-22T11:32:21.143Z",
     "contentHash": "1455a38165133eb161e731cc65d14372e86826ffe9fd9c91f8fb7e5cfaaf6787"
   },
-  "lastUpdatedAt": "2026-06-23T12:02:28.413Z"
+  "lastUpdatedAt": "2026-06-24T06:47:38.942Z"
 }
