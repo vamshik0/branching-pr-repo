@@ -1,0 +1,14 @@
+{
+  "id": "ae2471be-f0f1-4895-87c0-439841d4a798",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Redis failed!",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "addb657a-ce65-46aa-b564-93538b80e2e9",
+  "target": "data_query",
+  "appVersionId": "a63752b0-ffab-4f9e-b2be-dd3360b6761c"
+}
