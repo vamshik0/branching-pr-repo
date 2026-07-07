@@ -1,20 +1,10 @@
 {
-  "id": "661533c1-57b0-408b-9f4b-32cd69b69ea9",
-  "name": "moduleviewer1",
+  "id": "395b8f99-e7bd-4cbc-8ce9-535ebb3fe48f",
+  "name": "moduleviewer2",
   "type": "ModuleViewer",
   "pageId": "16f95a21-2ade-4291-b347-c58d76d45cee",
   "parent": null,
   "properties": {
-    "moduleAppId": {
-      "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
-    },
-    "moduleVersionId": {
-      "value": "8c9ca738-78b2-412f-9272-a38cce7b95cf",
-      "versionName": "v2"
-    },
-    "moduleEnvironmentId": {
-      "value": "7ec193af-01b6-4799-9bcc-9ad63e62b09d"
-    },
     "visibility": {
       "value": true
     },
@@ -23,18 +13,25 @@
     },
     "collapseWhenHidden": {
       "value": "{{false}}"
+    },
+    "moduleAppId": {
+      "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
+    },
+    "moduleVersionId": {
+      "value": "ca3173e3-8030-4ad8-ae92-4d6c30f6a57b",
+      "versionName": "v1"
     }
   },
   "general": {},
   "styles": {
+    "cssClass": {
+      "value": ""
+    },
     "backgroundColor": {
       "value": "#fff"
     },
     "padding": {
       "value": "default"
-    },
-    "cssClass": {
-      "value": ""
     }
   },
   "generalStyles": {
@@ -53,27 +50,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "d936e388-9642-4d73-b7f5-45067d118ef4",
+      "id": "d4aa9b6d-da98-4700-8447-06c2393e63d3",
       "type": "desktop",
-      "top": 60,
+      "top": 490,
       "left": 2,
       "width": 33,
       "height": 170,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "661533c1-57b0-408b-9f4b-32cd69b69ea9",
+      "componentId": "395b8f99-e7bd-4cbc-8ce9-535ebb3fe48f",
       "dimensionUnit": "count"
     },
     {
-      "id": "898420d7-ce60-4a63-b979-3673783b195a",
+      "id": "2b6dc87b-62b9-41c1-83c5-57a390360e7d",
       "type": "mobile",
-      "top": 60,
+      "top": 490,
       "left": 2,
       "width": 38,
       "height": 400,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "661533c1-57b0-408b-9f4b-32cd69b69ea9",
+      "componentId": "395b8f99-e7bd-4cbc-8ce9-535ebb3fe48f",
       "dimensionUnit": "count"
     }
   ]
