@@ -1,9 +1,9 @@
 {
-  "id": "5d0902fd-99aa-4b55-80ad-3fdbf06e94e5",
+  "id": "7e6a8746-b5c4-4fe3-ae73-2bb7ac1b9bed",
   "name": "form1",
   "type": "Form",
-  "pageId": "f8e57cbc-c269-4f86-8820-3d564caba747",
-  "parent": null,
+  "pageId": "8b743969-9278-44d3-99c9-a614f6b18814",
+  "parent": "6a2f07ed-14a9-48af-8009-2c1428f946ee",
   "properties": {
     "loadingState": {
       "value": "{{false}}"
@@ -48,10 +48,10 @@
       "value": "{{true}}"
     },
     "generateFormFrom": {
-      "value": "rawJson"
+      "value": "jsonSchema"
     },
     "JSONData": {
-      "value": "{{{ 'name': 'John Doe', 'age': 35, 'isActive': true, 'dob': '01-01-1990', 'hobbies': ['reading', 'gaming', 'cycling'], 'address': { 'street': '123 Main Street', 'city': 'New York' } }}}"
+      "value": {}
     },
     "tooltipFormat": {
       "value": "plainText"
@@ -60,56 +60,10 @@
       "value": ""
     },
     "buttonToSubmit": {
-      "value": "88a86624-8cbc-4160-b6b6-fe8bd47d1b97"
+      "value": "eb5e340b-2bcd-4ff9-99a6-835d06ba4d96"
     },
     "fields": {
-      "value": [
-        {
-          "componentId": "61b49c7a-3b14-446e-b8d8-19691f133225",
-          "isCustomField": false,
-          "dataType": "string",
-          "key": "name"
-        },
-        {
-          "componentId": "f00576a4-4e54-42a9-bdd7-24003aa65e8e",
-          "isCustomField": false,
-          "dataType": "number",
-          "key": "age"
-        },
-        {
-          "componentId": "8f4fc7a2-7f53-43e1-bee1-8b283dacffd6",
-          "isCustomField": false,
-          "dataType": "boolean",
-          "key": "isActive"
-        },
-        {
-          "componentId": "f6712c64-41d1-4902-8968-a37d5b764b35",
-          "isCustomField": false,
-          "dataType": "date",
-          "key": "dob"
-        },
-        {
-          "componentId": "a8d1c71a-3e97-4a57-aa3f-8808646f96b5",
-          "isCustomField": false,
-          "dataType": "array",
-          "key": "hobbies"
-        },
-        {
-          "componentId": "70c59c12-d5b4-4686-8b8f-58da84f1820e",
-          "isCustomField": false,
-          "dataType": "string",
-          "key": "address.street"
-        },
-        {
-          "componentId": "7633faa8-3766-46f7-8be2-7715ec623d2c",
-          "isCustomField": false,
-          "dataType": "string",
-          "key": "address.city"
-        }
-      ]
-    },
-    "canvasHeight": {
-      "value": 540
+      "value": []
     }
   },
   "general": {},
@@ -148,27 +102,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "65154a6d-febe-448b-bd26-681d72643704",
+      "id": "e242dc2e-9a85-430e-92d6-1e3f37050ff5",
       "type": "desktop",
-      "top": 70,
-      "left": 1,
-      "width": 7,
-      "height": 1080,
-      "widthPx": null,
-      "fillWidth": null,
-      "componentId": "5d0902fd-99aa-4b55-80ad-3fdbf06e94e5",
-      "dimensionUnit": "count"
-    },
-    {
-      "id": "8701787e-558d-46b6-8bc0-cd6735074b57",
-      "type": "mobile",
-      "top": 30,
-      "left": 1,
-      "width": 15,
+      "top": 170,
+      "left": 21,
+      "width": 21,
       "height": 450,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "5d0902fd-99aa-4b55-80ad-3fdbf06e94e5",
+      "componentId": "7e6a8746-b5c4-4fe3-ae73-2bb7ac1b9bed",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "bfdac853-8533-4c36-917a-dbcf672ad812",
+      "type": "mobile",
+      "top": 180,
+      "left": 14,
+      "width": 29,
+      "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "7e6a8746-b5c4-4fe3-ae73-2bb7ac1b9bed",
       "dimensionUnit": "count"
     }
   ]

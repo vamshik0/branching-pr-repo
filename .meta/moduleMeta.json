@@ -18,5 +18,9 @@
   "87feacc1-5466-4306-84d0-b1a627d71420": {
     "appPath": "modules/spare-module",
     "updatedAt": "2026-06-24T08:01:47.885Z"
+  },
+  "cd0c4b63-ac3c-4910-9613-a037d279a62a": {
+    "appPath": "modules/outside-module",
+    "updatedAt": "2026-07-07T10:33:49.083Z"
   }
 }

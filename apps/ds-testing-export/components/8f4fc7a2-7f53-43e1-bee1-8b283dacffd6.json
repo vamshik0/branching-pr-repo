@@ -32,9 +32,6 @@
   },
   "general": {},
   "styles": {
-    "disabledState": {
-      "value": "{{false}}"
-    },
     "textColor": {
       "value": "var(--cc-primary-text)"
     },
@@ -85,6 +82,8 @@
       "left": 3,
       "width": 37,
       "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "8f4fc7a2-7f53-43e1-bee1-8b283dacffd6",
       "dimensionUnit": "count"
     },
@@ -95,6 +94,8 @@
       "left": 3,
       "width": 37,
       "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "8f4fc7a2-7f53-43e1-bee1-8b283dacffd6",
       "dimensionUnit": "count"
     }

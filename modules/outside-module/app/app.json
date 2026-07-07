@@ -1,8 +1,8 @@
 {
-  "id": "ab0169b5-2fb0-468f-8611-a96e51d2c2cf",
-  "name": "ds-testing-export",
-  "type": "front-end",
-  "slug": "90eb1b86-c5e3-4d82-bbca-25812cebed0d",
+  "id": "cd0c4b63-ac3c-4910-9613-a037d279a62a",
+  "name": "outside-module",
+  "type": "module",
+  "slug": "e4f83322-6dcd-49b6-b6c3-802b6c5a1862",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
