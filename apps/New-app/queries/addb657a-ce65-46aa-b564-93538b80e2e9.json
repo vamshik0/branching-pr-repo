@@ -1,0 +1,14 @@
+{
+  "id": "addb657a-ce65-46aa-b564-93538b80e2e9",
+  "name": "redis1",
+  "options": {
+    "query": "PING",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "ebf13c42-53b9-4cbc-ae11-56517d8bb18d",
+  "appVersionId": "a63752b0-ffab-4f9e-b2be-dd3360b6761c",
+  "kind": "redis",
+  "dataSourceType": "default"
+}

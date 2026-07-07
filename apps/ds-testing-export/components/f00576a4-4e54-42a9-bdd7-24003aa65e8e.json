@@ -11,12 +11,6 @@
     "label": {
       "value": "Age"
     },
-    "maxValue": {
-      "value": ""
-    },
-    "minValue": {
-      "value": ""
-    },
     "placeholder": {
       "value": "0"
     },
@@ -139,6 +133,8 @@
       "left": 3,
       "width": 37,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "f00576a4-4e54-42a9-bdd7-24003aa65e8e",
       "dimensionUnit": "count"
     },
@@ -149,6 +145,8 @@
       "left": 3,
       "width": 37,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "f00576a4-4e54-42a9-bdd7-24003aa65e8e",
       "dimensionUnit": "count"
     }

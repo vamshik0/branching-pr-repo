@@ -7,21 +7,24 @@
     "development": {
       "host": "localhost",
       "port": 6379,
-      "username": "",
+      "database": "redis",
+      "username": "redis",
       "tls_enabled": false,
       "tls_certificate": "none"
     },
     "production": {
       "host": "localhost",
       "port": 6379,
-      "username": "",
+      "database": "redis",
+      "username": "redis",
       "tls_enabled": false,
       "tls_certificate": "none"
     },
     "staging": {
       "host": "localhost",
       "port": 6379,
-      "username": "",
+      "database": "redis",
+      "username": "redis",
       "tls_enabled": false,
       "tls_certificate": "none"
     }

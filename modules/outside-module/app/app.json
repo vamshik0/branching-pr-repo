@@ -1,0 +1,13 @@
+{
+  "id": "cd0c4b63-ac3c-4910-9613-a037d279a62a",
+  "name": "outside-module",
+  "type": "module",
+  "slug": "e4f83322-6dcd-49b6-b6c3-802b6c5a1862",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.49-beta-ee"
+}
