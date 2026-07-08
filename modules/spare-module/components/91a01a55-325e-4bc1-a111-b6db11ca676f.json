@@ -44,8 +44,10 @@
       "type": "desktop",
       "top": 50,
       "left": 3,
-      "width": 9,
+      "width": 10,
       "height": 1020,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "91a01a55-325e-4bc1-a111-b6db11ca676f",
       "dimensionUnit": "count"
     },
@@ -56,6 +58,8 @@
       "left": 3,
       "width": 38,
       "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "91a01a55-325e-4bc1-a111-b6db11ca676f",
       "dimensionUnit": "count"
     }
