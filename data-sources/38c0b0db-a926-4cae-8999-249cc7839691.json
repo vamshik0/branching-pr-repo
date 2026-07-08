@@ -1,0 +1,107 @@
+{
+  "id": "38c0b0db-a926-4cae-8999-249cc7839691",
+  "name": "grpcv2-3",
+  "kind": "grpcv2",
+  "type": "default",
+  "options": {
+    "development": {
+      "url": "",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "production": {
+      "url": "",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "staging": {
+      "url": "",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    }
+  }
+}

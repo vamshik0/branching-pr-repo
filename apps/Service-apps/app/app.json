@@ -1,0 +1,13 @@
+{
+  "id": "e9591116-e702-4775-9d1d-cfa02e8987c6",
+  "name": "Service-apps",
+  "type": "front-end",
+  "slug": "c5eaf39e-f836-4e4b-ab7c-67f29c2011d7",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.49-beta-ee"
+}

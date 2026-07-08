@@ -37,7 +37,7 @@
   },
   "7d3bc9c2-8231-48c0-b8fb-ca191b7e80ce": {
     "appPath": "apps/New-app",
-    "updatedAt": "2026-07-07T10:46:32.835Z"
+    "updatedAt": "2026-07-08T10:57:40.838Z"
   },
   "ab0169b5-2fb0-468f-8611-a96e51d2c2cf": {
     "appPath": "apps/ds-testing-export",
@@ -46,5 +46,9 @@
   "de66200f-11bc-4646-bb1f-4ef7f5d01d88": {
     "appPath": "apps/Outside-folder/Outside-folder",
     "updatedAt": "2026-07-07T10:16:18.764Z"
+  },
+  "e9591116-e702-4775-9d1d-cfa02e8987c6": {
+    "appPath": "apps/Service-apps",
+    "updatedAt": "2026-07-08T10:58:54.228Z"
   }
 }
