@@ -24,7 +24,7 @@
       "value": "{{false}}"
     },
     "headerHeight": {
-      "value": 360
+      "value": 350
     },
     "tooltipFormat": {
       "value": "plainText"
@@ -72,6 +72,8 @@
       "left": 0,
       "width": 43,
       "height": 990,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "cc587ff3-737b-4f7f-a446-3f8371a98364",
       "dimensionUnit": "count"
     },
@@ -82,6 +84,8 @@
       "left": 0,
       "width": 43,
       "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "cc587ff3-737b-4f7f-a446-3f8371a98364",
       "dimensionUnit": "count"
     }
