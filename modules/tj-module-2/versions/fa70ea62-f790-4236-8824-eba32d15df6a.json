@@ -1,5 +1,5 @@
 {
-  "id": "275c7915-26fc-4944-9759-2f0335b87cb0",
+  "id": "fa70ea62-f790-4236-8824-eba32d15df6a",
   "definition": null,
   "globalSettings": {
     "appInMaintenance": false,
@@ -19,15 +19,15 @@
     }
   },
   "showViewerNavigation": false,
-  "homePageId": "bd8f8820-8742-4069-b984-536e8a364f29",
-  "versionType": "version",
-  "appId": "382749f0-0ed2-49e5-8c09-568e522cdacd",
+  "homePageId": "cf2a774d-3c15-41be-80eb-a1942a44868f",
+  "versionType": "branch",
+  "appId": "33d869a2-3274-4f9c-a312-504a5fa8933c",
   "promotedFrom": null,
-  "status": "PUBLISHED",
-  "description": "saving v1 of common-module-1",
+  "status": "DRAFT",
+  "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "remoteUpdatedAt": null,
-  "sourceTag": "v1"
+  "sourceTag": null
 }

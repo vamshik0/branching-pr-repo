@@ -1,8 +1,8 @@
 {
-  "id": "0a12d14b-bbbd-4d43-a8ff-34ae4a989fb7",
+  "id": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
   "name": "ModuleContainer",
   "type": "ModuleContainer",
-  "pageId": "bd8f8820-8742-4069-b984-536e8a364f29",
+  "pageId": "cf2a774d-3c15-41be-80eb-a1942a44868f",
   "parent": null,
   "properties": {
     "inputItems": {
@@ -33,19 +33,19 @@
   "validation": {},
   "layouts": [
     {
-      "id": "f01c67e8-5947-4e3d-8bf2-7390f77212fa",
+      "id": "1a8b5290-dec0-4a9f-8de6-9cd8faef1aba",
       "type": "desktop",
       "top": 50,
       "left": 3,
-      "width": 7,
-      "height": 940,
+      "width": 30,
+      "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0a12d14b-bbbd-4d43-a8ff-34ae4a989fb7",
+      "componentId": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
       "dimensionUnit": "count"
     },
     {
-      "id": "5392f030-8606-4d5a-a57e-a83c5dfce6ef",
+      "id": "a2b97211-f4b3-47a1-b0b1-ce401eacbb03",
       "type": "mobile",
       "top": 50,
       "left": 3,
@@ -53,7 +53,7 @@
       "height": 400,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0a12d14b-bbbd-4d43-a8ff-34ae4a989fb7",
+      "componentId": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
       "dimensionUnit": "count"
     }
   ]
