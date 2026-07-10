@@ -13,14 +13,14 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "e1f8dcf1-2c98-45aa-aeb3-0bd40a8ab3f6",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "87feacc1-5466-4306-84d0-b1a627d71420",
   "promotedFrom": null,
-  "status": "DRAFT",
-  "description": null,
+  "status": "PUBLISHED",
+  "description": "saving v1 of the spare-module",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "remoteUpdatedAt": "2026-07-08T07:22:55.451Z",
+  "remoteUpdatedAt": null,
   "sourceTag": null
 }
