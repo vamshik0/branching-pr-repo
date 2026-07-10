@@ -1,8 +1,8 @@
 {
-  "id": "0d61aef3-ff1d-4251-8d49-d5007599816a",
+  "id": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
   "name": "ModuleContainer",
   "type": "ModuleContainer",
-  "pageId": "7d6a712a-cc0e-4df3-80ef-1e140dee7ee7",
+  "pageId": "cf2a774d-3c15-41be-80eb-a1942a44868f",
   "parent": null,
   "properties": {
     "inputItems": {
@@ -37,11 +37,11 @@
       "type": "desktop",
       "top": 50,
       "left": 3,
-      "width": 33,
-      "height": 170,
+      "width": 30,
+      "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0d61aef3-ff1d-4251-8d49-d5007599816a",
+      "componentId": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
       "dimensionUnit": "count"
     },
     {
@@ -53,7 +53,7 @@
       "height": 400,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0d61aef3-ff1d-4251-8d49-d5007599816a",
+      "componentId": "ca92fda6-6976-4f5a-a6a5-694ef5d5faf5",
       "dimensionUnit": "count"
     }
   ]
