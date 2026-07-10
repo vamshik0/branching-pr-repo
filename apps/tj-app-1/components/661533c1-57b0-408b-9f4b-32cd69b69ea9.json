@@ -9,8 +9,8 @@
       "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
     },
     "moduleVersionId": {
-      "value": "8c9ca738-78b2-412f-9272-a38cce7b95cf",
-      "versionName": "v2"
+      "value": "ca3173e3-8030-4ad8-ae92-4d6c30f6a57b",
+      "versionName": "v1"
     },
     "moduleEnvironmentId": {
       "value": "7ec193af-01b6-4799-9bcc-9ad63e62b09d"
@@ -55,10 +55,10 @@
     {
       "id": "d936e388-9642-4d73-b7f5-45067d118ef4",
       "type": "desktop",
-      "top": 60,
-      "left": 2,
-      "width": 33,
-      "height": 170,
+      "top": 70,
+      "left": 7,
+      "width": 29,
+      "height": 150,
       "widthPx": null,
       "fillWidth": null,
       "componentId": "661533c1-57b0-408b-9f4b-32cd69b69ea9",
