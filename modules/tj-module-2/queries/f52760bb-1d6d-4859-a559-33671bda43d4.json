@@ -11,12 +11,12 @@
     "json_body": null,
     "body_toggle": false,
     "retry_network_errors": null,
-    "transformationLanguage": "javascript",
     "enableTransformation": false,
+    "transformationLanguage": "javascript",
     "runOnPageLoad": true,
     "requestConfirmation": false,
-    "confirmationMessage": "do you want to run restApi query?",
-    "requestConfirmationFx": false
+    "requestConfirmationFx": false,
+    "confirmationMessage": "do you want to run restApi query?"
   },
   "dataSourceId": "5ad583ce-4bbf-42ac-9f75-f8e48e93ee92",
   "appVersionId": "fa70ea62-f790-4236-8824-eba32d15df6a",
