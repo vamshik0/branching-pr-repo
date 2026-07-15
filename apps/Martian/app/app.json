@@ -1,13 +1,13 @@
 {
-  "id": "cc8ee1cc-3d1c-497e-837b-6fe2722d5177",
-  "name": "tj-module-3",
-  "type": "module",
-  "slug": "822af0e3-d7b3-4536-b3b9-29c8102759f9",
+  "id": "904c3f22-244b-438d-9e76-870d21a0983f",
+  "name": "Martian",
+  "type": "front-end",
+  "slug": "b39bdf86-afb1-488e-beeb-d964827c4550",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "apps",
+  "icon": "home",
   "tooljetVersion": "3.21.51-beta-ee"
 }

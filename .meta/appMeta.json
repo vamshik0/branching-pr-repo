@@ -50,5 +50,9 @@
   "e9591116-e702-4775-9d1d-cfa02e8987c6": {
     "appPath": "apps/Service-apps",
     "updatedAt": "2026-07-08T10:58:54.228Z"
+  },
+  "904c3f22-244b-438d-9e76-870d21a0983f": {
+    "appPath": "apps/Martian",
+    "updatedAt": "2026-07-15T04:39:37.958Z"
   }
 }

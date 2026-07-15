@@ -20,14 +20,14 @@
   },
   "showViewerNavigation": false,
   "homePageId": "7d6a712a-cc0e-4df3-80ef-1e140dee7ee7",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "cc8ee1cc-3d1c-497e-837b-6fe2722d5177",
   "promotedFrom": null,
-  "status": "DRAFT",
-  "description": null,
+  "status": "PUBLISHED",
+  "description": "saving v1 of tj-module-3",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "remoteUpdatedAt": null,
-  "sourceTag": null
+  "sourceTag": "v1"
 }
