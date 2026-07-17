@@ -1,33 +1,21 @@
 {
-  "id": "c65d597d-41c4-4674-af9a-404bd53e3296",
-  "name": "datetimepicker1",
-  "type": "DatetimePickerV2",
-  "pageId": "16f95a21-2ade-4291-b347-c58d76d45cee",
-  "parent": null,
+  "id": "e3d14349-16a9-4ff0-a660-355548f350fc",
+  "name": "dob",
+  "type": "DatePickerV2",
+  "pageId": "1699f644-a29c-4cd8-8c3b-6b8b38a370d6",
+  "parent": "6b072663-26d6-4397-bdaf-dc4ba115e24a",
   "properties": {
     "label": {
-      "value": "Label"
+      "value": "Dob"
     },
     "defaultValue": {
-      "value": "01/01/2022"
+      "value": "01-01-1990"
     },
     "placeholder": {
-      "value": "Select date and time"
+      "value": "Select date"
     },
     "dateFormat": {
       "value": "DD/MM/YYYY"
-    },
-    "timeFormat": {
-      "value": "HH:mm"
-    },
-    "isTimezoneEnabled": {
-      "value": "{{false}}"
-    },
-    "displayTimezone": {
-      "value": "UTC"
-    },
-    "storeTimezone": {
-      "value": "UTC"
     },
     "loadingState": {
       "value": "{{false}}"
@@ -60,7 +48,7 @@
       "value": "{{12}}"
     },
     "alignment": {
-      "value": "side"
+      "value": "top"
     },
     "direction": {
       "value": "left"
@@ -87,7 +75,7 @@
       "value": "var(--cc-error-systemStatus)"
     },
     "icon": {
-      "value": "IconCalendarTime"
+      "value": "IconCalendarEvent"
     },
     "iconVisibility": {
       "value": true
@@ -127,12 +115,6 @@
     "maxDate": {
       "value": ""
     },
-    "minTime": {
-      "value": ""
-    },
-    "maxTime": {
-      "value": ""
-    },
     "disabledDates": {
       "value": "{{[]}}"
     },
@@ -140,32 +122,32 @@
       "value": ""
     },
     "mandatory": {
-      "value": "{{false}}"
+      "value": false
     }
   },
   "layouts": [
     {
-      "id": "2a1c9272-fcbd-4d17-918f-f661fa444672",
+      "id": "762cc562-ca9b-4f98-b0a9-e7bf25c1e3bf",
       "type": "desktop",
-      "top": 310,
-      "left": 15,
-      "width": 10,
+      "top": 240,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "c65d597d-41c4-4674-af9a-404bd53e3296",
+      "componentId": "e3d14349-16a9-4ff0-a660-355548f350fc",
       "dimensionUnit": "count"
     },
     {
-      "id": "e5600bbc-ce25-465b-a0a6-f90e7ecd8dd7",
+      "id": "4bc5ad7a-17fa-4b34-bb1d-5b7e8607bc43",
       "type": "mobile",
-      "top": 310,
-      "left": 15,
-      "width": 10,
+      "top": 240,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "c65d597d-41c4-4674-af9a-404bd53e3296",
+      "componentId": "e3d14349-16a9-4ff0-a660-355548f350fc",
       "dimensionUnit": "count"
     }
   ]
