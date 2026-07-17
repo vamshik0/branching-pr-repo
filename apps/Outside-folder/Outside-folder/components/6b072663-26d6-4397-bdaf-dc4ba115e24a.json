@@ -48,10 +48,10 @@
       "value": "{{true}}"
     },
     "generateFormFrom": {
-      "value": "jsonSchema"
+      "value": "rawJson"
     },
     "JSONData": {
-      "value": {}
+      "value": "{{{ 'name': 'John Doe', 'age': 35, 'isActive': true, 'dob': '01-01-1990', 'hobbies': ['reading', 'gaming', 'cycling'], 'address': { 'street': '123 Main Street', 'city': 'New York' } }}}"
     },
     "tooltipFormat": {
       "value": "plainText"
@@ -63,7 +63,53 @@
       "value": "1d675828-85ce-420f-aec0-b187a45386a1"
     },
     "fields": {
-      "value": []
+      "value": [
+        {
+          "componentId": "073983f7-10d8-4307-89eb-5e8a28711fc6",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "name"
+        },
+        {
+          "componentId": "07c6eb71-ce5f-41ff-81ad-54dcf71ef18e",
+          "isCustomField": false,
+          "dataType": "number",
+          "key": "age"
+        },
+        {
+          "componentId": "43cbfd89-0552-4d2b-bf48-075e3bd1f5af",
+          "isCustomField": false,
+          "dataType": "boolean",
+          "key": "isActive"
+        },
+        {
+          "componentId": "e3d14349-16a9-4ff0-a660-355548f350fc",
+          "isCustomField": false,
+          "dataType": "date",
+          "key": "dob"
+        },
+        {
+          "componentId": "03df9976-d49d-4771-b6ec-0f9a775317b5",
+          "isCustomField": false,
+          "dataType": "array",
+          "key": "hobbies"
+        },
+        {
+          "componentId": "f2c1edcb-6527-4351-b85e-2cc10ac23fe5",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.street"
+        },
+        {
+          "componentId": "43a9e350-f62a-4fe6-bab7-84a54053e161",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.city"
+        }
+      ]
+    },
+    "canvasHeight": {
+      "value": 540
     }
   },
   "general": {},
@@ -106,8 +152,8 @@
       "type": "desktop",
       "top": 200,
       "left": 1,
-      "width": 13,
-      "height": 450,
+      "width": 12,
+      "height": 800,
       "widthPx": null,
       "fillWidth": null,
       "componentId": "6b072663-26d6-4397-bdaf-dc4ba115e24a",

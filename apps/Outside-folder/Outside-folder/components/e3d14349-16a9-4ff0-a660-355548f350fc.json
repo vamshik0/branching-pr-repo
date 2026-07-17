@@ -1,18 +1,24 @@
 {
-  "id": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
-  "name": "textinput1",
-  "type": "TextInput",
+  "id": "e3d14349-16a9-4ff0-a660-355548f350fc",
+  "name": "dob",
+  "type": "DatePickerV2",
   "pageId": "1699f644-a29c-4cd8-8c3b-6b8b38a370d6",
-  "parent": null,
+  "parent": "6b072663-26d6-4397-bdaf-dc4ba115e24a",
   "properties": {
-    "value": {
-      "value": "Outside-folder - {{globals.environment.name}} - {{globals.appVersion.name}}"
-    },
     "label": {
-      "value": "App name"
+      "value": "Dob"
+    },
+    "defaultValue": {
+      "value": "01-01-1990"
     },
     "placeholder": {
-      "value": "Enter your input"
+      "value": "Select date"
+    },
+    "dateFormat": {
+      "value": "DD/MM/YYYY"
+    },
+    "loadingState": {
+      "value": "{{false}}"
     },
     "visibility": {
       "value": "{{true}}"
@@ -21,9 +27,6 @@
       "value": "{{false}}"
     },
     "disabledState": {
-      "value": "{{false}}"
-    },
-    "loadingState": {
       "value": "{{false}}"
     },
     "tooltip": {
@@ -38,59 +41,59 @@
   },
   "general": {},
   "styles": {
-    "textColor": {
+    "labelColor": {
       "value": "var(--cc-primary-text)"
     },
     "labelFontSize": {
       "value": "{{12}}"
     },
-    "placeholderTextColor": {
-      "value": "var(--cc-placeholder-text)"
+    "alignment": {
+      "value": "top"
     },
-    "borderColor": {
+    "direction": {
+      "value": "left"
+    },
+    "labelWidth": {
+      "value": "20"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "fieldBorderColor": {
       "value": "var(--cc-default-border)"
     },
     "accentColor": {
       "value": "var(--cc-primary-brand)"
     },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
     "errTextColor": {
       "value": "var(--cc-error-systemStatus)"
     },
-    "borderRadius": {
-      "value": "{{6}}"
+    "icon": {
+      "value": "IconCalendarEvent"
     },
-    "backgroundColor": {
-      "value": "var(--cc-surface1-surface)"
+    "iconVisibility": {
+      "value": true
     },
-    "iconColor": {
-      "value": "var(--cc-default-icon)"
-    },
-    "direction": {
+    "iconDirection": {
       "value": "left"
     },
-    "width": {
-      "value": "{{33}}"
-    },
-    "alignment": {
-      "value": "side"
-    },
-    "color": {
-      "value": "var(--cc-primary-text)"
-    },
-    "auto": {
-      "value": "{{true}}"
-    },
-    "padding": {
-      "value": "default"
+    "fieldBorderRadius": {
+      "value": "{{6}}"
     },
     "boxShadow": {
       "value": "0px 0px 0px 0px #00000040"
     },
-    "icon": {
-      "value": "IconHome2"
+    "padding": {
+      "value": "default"
     },
-    "iconVisibility": {
-      "value": false
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
     },
     "widthType": {
       "value": "ofComponent"
@@ -106,45 +109,45 @@
     }
   },
   "validation": {
-    "mandatory": {
-      "value": "{{false}}"
-    },
-    "regex": {
+    "minDate": {
       "value": ""
     },
-    "minLength": {
+    "maxDate": {
       "value": ""
     },
-    "maxLength": {
-      "value": ""
+    "disabledDates": {
+      "value": "{{[]}}"
     },
     "customRule": {
       "value": ""
+    },
+    "mandatory": {
+      "value": false
     }
   },
   "layouts": [
     {
-      "id": "21eb9103-2aec-4feb-9eb2-26f7c4238e8a",
+      "id": "762cc562-ca9b-4f98-b0a9-e7bf25c1e3bf",
       "type": "desktop",
-      "top": 90,
-      "left": 1,
-      "width": 12,
+      "top": 240,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "e3d14349-16a9-4ff0-a660-355548f350fc",
       "dimensionUnit": "count"
     },
     {
-      "id": "9bfda9ba-6bbc-4714-9531-edc3c6094483",
+      "id": "4bc5ad7a-17fa-4b34-bb1d-5b7e8607bc43",
       "type": "mobile",
       "top": 240,
-      "left": 1,
-      "width": 10,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "e3d14349-16a9-4ff0-a660-355548f350fc",
       "dimensionUnit": "count"
     }
   ]

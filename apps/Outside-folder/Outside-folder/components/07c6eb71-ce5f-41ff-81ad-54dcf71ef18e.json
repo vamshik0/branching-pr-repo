@@ -1,30 +1,27 @@
 {
-  "id": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
-  "name": "textinput1",
-  "type": "TextInput",
+  "id": "07c6eb71-ce5f-41ff-81ad-54dcf71ef18e",
+  "name": "age",
+  "type": "NumberInput",
   "pageId": "1699f644-a29c-4cd8-8c3b-6b8b38a370d6",
-  "parent": null,
+  "parent": "6b072663-26d6-4397-bdaf-dc4ba115e24a",
   "properties": {
     "value": {
-      "value": "Outside-folder - {{globals.environment.name}} - {{globals.appVersion.name}}"
+      "value": "{{35}}"
     },
     "label": {
-      "value": "App name"
+      "value": "Age"
+    },
+    "maxValue": {
+      "value": ""
+    },
+    "minValue": {
+      "value": ""
     },
     "placeholder": {
-      "value": "Enter your input"
+      "value": "0"
     },
-    "visibility": {
-      "value": "{{true}}"
-    },
-    "collapseWhenHidden": {
-      "value": "{{false}}"
-    },
-    "disabledState": {
-      "value": "{{false}}"
-    },
-    "loadingState": {
-      "value": "{{false}}"
+    "decimalPlaces": {
+      "value": "{{2}}"
     },
     "tooltip": {
       "value": ""
@@ -32,20 +29,29 @@
     "tooltipFormat": {
       "value": "plainText"
     },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
     "showClearBtn": {
       "value": "{{false}}"
     }
   },
   "general": {},
   "styles": {
-    "textColor": {
-      "value": "var(--cc-primary-text)"
+    "borderRadius": {
+      "value": "{{6}}"
     },
-    "labelFontSize": {
-      "value": "{{12}}"
-    },
-    "placeholderTextColor": {
-      "value": "var(--cc-placeholder-text)"
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
     },
     "borderColor": {
       "value": "var(--cc-default-border)"
@@ -56,11 +62,17 @@
     "errTextColor": {
       "value": "var(--cc-error-systemStatus)"
     },
-    "borderRadius": {
-      "value": "{{6}}"
+    "textColor": {
+      "value": "var(--cc-primary-text)"
     },
-    "backgroundColor": {
-      "value": "var(--cc-surface1-surface)"
+    "labelFontSize": {
+      "value": "{{12}}"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
     },
     "iconColor": {
       "value": "var(--cc-default-icon)"
@@ -72,10 +84,7 @@
       "value": "{{33}}"
     },
     "alignment": {
-      "value": "side"
-    },
-    "color": {
-      "value": "var(--cc-primary-text)"
+      "value": "top"
     },
     "auto": {
       "value": "{{true}}"
@@ -107,15 +116,15 @@
   },
   "validation": {
     "mandatory": {
-      "value": "{{false}}"
+      "value": false
     },
     "regex": {
       "value": ""
     },
-    "minLength": {
+    "minValue": {
       "value": ""
     },
-    "maxLength": {
+    "maxValue": {
       "value": ""
     },
     "customRule": {
@@ -124,27 +133,27 @@
   },
   "layouts": [
     {
-      "id": "21eb9103-2aec-4feb-9eb2-26f7c4238e8a",
+      "id": "f3ef1612-ea07-418d-ac39-70dddb9a3ced",
       "type": "desktop",
-      "top": 90,
-      "left": 1,
-      "width": 12,
+      "top": 120,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "07c6eb71-ce5f-41ff-81ad-54dcf71ef18e",
       "dimensionUnit": "count"
     },
     {
-      "id": "9bfda9ba-6bbc-4714-9531-edc3c6094483",
+      "id": "c3cb4fa0-1767-478d-afc4-fc3ca3fafd38",
       "type": "mobile",
-      "top": 240,
-      "left": 1,
-      "width": 10,
+      "top": 120,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "07c6eb71-ce5f-41ff-81ad-54dcf71ef18e",
       "dimensionUnit": "count"
     }
   ]

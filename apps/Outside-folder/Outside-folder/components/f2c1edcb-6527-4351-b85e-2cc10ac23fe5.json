@@ -1,15 +1,15 @@
 {
-  "id": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
-  "name": "textinput1",
+  "id": "f2c1edcb-6527-4351-b85e-2cc10ac23fe5",
+  "name": "address.street",
   "type": "TextInput",
   "pageId": "1699f644-a29c-4cd8-8c3b-6b8b38a370d6",
-  "parent": null,
+  "parent": "6b072663-26d6-4397-bdaf-dc4ba115e24a",
   "properties": {
     "value": {
-      "value": "Outside-folder - {{globals.environment.name}} - {{globals.appVersion.name}}"
+      "value": "123 Main Street"
     },
     "label": {
-      "value": "App name"
+      "value": "Street"
     },
     "placeholder": {
       "value": "Enter your input"
@@ -72,7 +72,7 @@
       "value": "{{33}}"
     },
     "alignment": {
-      "value": "side"
+      "value": "top"
     },
     "color": {
       "value": "var(--cc-primary-text)"
@@ -107,7 +107,7 @@
   },
   "validation": {
     "mandatory": {
-      "value": "{{false}}"
+      "value": false
     },
     "regex": {
       "value": ""
@@ -124,27 +124,27 @@
   },
   "layouts": [
     {
-      "id": "21eb9103-2aec-4feb-9eb2-26f7c4238e8a",
+      "id": "197e4281-c2ae-40ef-b3cf-c9bd9f547d40",
       "type": "desktop",
-      "top": 90,
-      "left": 1,
-      "width": 13,
+      "top": 400,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "f2c1edcb-6527-4351-b85e-2cc10ac23fe5",
       "dimensionUnit": "count"
     },
     {
-      "id": "9bfda9ba-6bbc-4714-9531-edc3c6094483",
+      "id": "339d8f4a-bd83-4724-a143-c0407600f5d0",
       "type": "mobile",
-      "top": 240,
-      "left": 1,
-      "width": 10,
+      "top": 400,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "f2c1edcb-6527-4351-b85e-2cc10ac23fe5",
       "dimensionUnit": "count"
     }
   ]

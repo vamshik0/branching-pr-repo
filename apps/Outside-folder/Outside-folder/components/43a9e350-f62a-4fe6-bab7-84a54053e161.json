@@ -1,15 +1,15 @@
 {
-  "id": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
-  "name": "textinput1",
+  "id": "43a9e350-f62a-4fe6-bab7-84a54053e161",
+  "name": "address.city",
   "type": "TextInput",
   "pageId": "1699f644-a29c-4cd8-8c3b-6b8b38a370d6",
-  "parent": null,
+  "parent": "6b072663-26d6-4397-bdaf-dc4ba115e24a",
   "properties": {
     "value": {
-      "value": "Outside-folder - {{globals.environment.name}} - {{globals.appVersion.name}}"
+      "value": "New York"
     },
     "label": {
-      "value": "App name"
+      "value": "City"
     },
     "placeholder": {
       "value": "Enter your input"
@@ -72,7 +72,7 @@
       "value": "{{33}}"
     },
     "alignment": {
-      "value": "side"
+      "value": "top"
     },
     "color": {
       "value": "var(--cc-primary-text)"
@@ -107,7 +107,7 @@
   },
   "validation": {
     "mandatory": {
-      "value": "{{false}}"
+      "value": false
     },
     "regex": {
       "value": ""
@@ -124,27 +124,27 @@
   },
   "layouts": [
     {
-      "id": "21eb9103-2aec-4feb-9eb2-26f7c4238e8a",
+      "id": "64bcbe27-a7fb-49da-a8e8-af1b88a71a24",
       "type": "desktop",
-      "top": 90,
-      "left": 1,
-      "width": 12,
+      "top": 480,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "43a9e350-f62a-4fe6-bab7-84a54053e161",
       "dimensionUnit": "count"
     },
     {
-      "id": "9bfda9ba-6bbc-4714-9531-edc3c6094483",
+      "id": "0fb368cd-1732-4b50-8840-44fc4c59b4bd",
       "type": "mobile",
-      "top": 240,
-      "left": 1,
-      "width": 10,
+      "top": 480,
+      "left": 3,
+      "width": 37,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "75eccbd1-3e3a-4fcc-b4e1-6609737c3cf9",
+      "componentId": "43a9e350-f62a-4fe6-bab7-84a54053e161",
       "dimensionUnit": "count"
     }
   ]
