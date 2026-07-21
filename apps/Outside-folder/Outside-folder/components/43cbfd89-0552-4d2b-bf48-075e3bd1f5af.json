@@ -32,9 +32,6 @@
   },
   "general": {},
   "styles": {
-    "disabledState": {
-      "value": "{{false}}"
-    },
     "textColor": {
       "value": "var(--cc-primary-text)"
     },
