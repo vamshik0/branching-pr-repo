@@ -8,18 +8,18 @@
     "visibility": {
       "value": true
     },
-    "dynamicHeight": {
-      "value": "{{false}}"
-    },
-    "collapseWhenHidden": {
-      "value": "{{false}}"
-    },
     "moduleAppId": {
       "value": "cc8ee1cc-3d1c-497e-837b-6fe2722d5177"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
     },
     "moduleVersionId": {
       "value": "aeb2a088-d204-41e9-9d69-4ed3c6495be9",
       "versionName": "v1"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
