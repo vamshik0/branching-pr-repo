@@ -1,0 +1,13 @@
+{
+  "id": "e11bf2c2-d3e9-40b2-ab8d-7cf6b797dad7",
+  "name": "Presto1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "781e93ac-c9f9-4c2b-a82f-ecd845fa07ad",
+  "appVersionId": "fc6229ab-41fe-4956-ae44-5443e46f02a9",
+  "kind": "Presto",
+  "dataSourceType": "default"
+}
