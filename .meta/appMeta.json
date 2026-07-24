@@ -54,5 +54,9 @@
   "8f5067d4-e73d-463c-a794-1ee464a00cec": {
     "appPath": "apps/tj-app-2/tj-app-4",
     "updatedAt": "2026-07-24T09:43:52.122Z"
+  },
+  "d6ccac70-a438-4ccd-9007-9fe092e02afe": {
+    "appPath": "apps/inside-folder/inside-folder",
+    "updatedAt": "2026-07-24T10:03:38.425Z"
   }
 }
