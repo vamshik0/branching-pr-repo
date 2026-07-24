@@ -12,7 +12,8 @@
     "body_toggle": false,
     "retry_network_errors": null,
     "transformationLanguage": "javascript",
-    "enableTransformation": false
+    "enableTransformation": false,
+    "runOnPageLoad": true
   },
   "dataSourceId": "5ad583ce-4bbf-42ac-9f75-f8e48e93ee92",
   "appVersionId": "5f3adf4e-dcbf-476b-a60b-caa60fb06149",
