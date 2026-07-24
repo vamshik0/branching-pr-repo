@@ -1,15 +1,15 @@
 {
   "b97b8432-f00f-43a2-b9f6-a3fb227312b0": {
-    "appPath": "apps/tj-app-2",
-    "updatedAt": "2026-07-24T09:13:29.778Z"
+    "appPath": "apps/tj-app-2/tj-app-2",
+    "updatedAt": "2026-07-24T09:42:39.901Z"
   },
   "762df1a4-ed63-4bff-b241-154b3e9280e5": {
-    "appPath": "apps/tj-app-1",
-    "updatedAt": "2026-07-24T09:14:02.638Z"
+    "appPath": "apps/tj-app-2/tj-app-1",
+    "updatedAt": "2026-07-24T09:36:10.850Z"
   },
   "891cf49e-792a-40eb-a7f5-ccb7e82508fb": {
-    "appPath": "apps/tj-app-3",
-    "updatedAt": "2026-07-24T08:09:00.000Z"
+    "appPath": "apps/tj-app-2/tj-app-3",
+    "updatedAt": "2026-07-24T09:43:00.362Z"
   },
   "d61ee375-9d9a-4979-ac1a-d63ee3ec9944": {
     "appPath": "apps/common-apps/common-app-5",
@@ -52,7 +52,7 @@
     "updatedAt": "2026-07-24T08:09:00.000Z"
   },
   "8f5067d4-e73d-463c-a794-1ee464a00cec": {
-    "appPath": "apps/tj-app-4",
-    "updatedAt": "2026-07-24T08:09:00.000Z"
+    "appPath": "apps/tj-app-2/tj-app-4",
+    "updatedAt": "2026-07-24T09:43:52.122Z"
   }
 }
