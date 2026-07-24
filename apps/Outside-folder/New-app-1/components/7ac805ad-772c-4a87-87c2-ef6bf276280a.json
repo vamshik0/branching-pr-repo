@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "text": {
-      "value": "v2"
+      "value": "v3"
     },
     "visibility": {
       "value": "{{true}}"
@@ -95,8 +95,8 @@
     {
       "id": "af278894-10fa-43ff-81d0-3dfccbf0afa4",
       "type": "desktop",
-      "top": 90,
-      "left": 9,
+      "top": 80,
+      "left": 6,
       "width": 4,
       "height": 40,
       "widthPx": null,

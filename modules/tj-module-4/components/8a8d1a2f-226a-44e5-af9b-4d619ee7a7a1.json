@@ -30,6 +30,30 @@
           "visible": {
             "value": true
           }
+        },
+        {
+          "title": "v2",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#CE27611A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#CE2761"
+          }
         }
       ]
     },
