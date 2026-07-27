@@ -6,7 +6,7 @@
   "parent": "70f6dbcc-6993-41bf-84c3-984f2df6c9c3",
   "properties": {
     "text": {
-      "value": "{{globals.environment.name}}"
+      "value": "{{globals.environment.name}} - {{globals.currentUser.email}}"
     },
     "visibility": {
       "value": "{{true}}"
