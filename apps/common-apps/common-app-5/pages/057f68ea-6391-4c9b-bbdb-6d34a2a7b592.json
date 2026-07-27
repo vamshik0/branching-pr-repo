@@ -28,5 +28,6 @@
     "showOnDesktop": false,
     "backgroundColor": "var(--cc-surface1-surface)"
   },
-  "appId": ""
+  "appId": "",
+  "targetCorelationId": null
 }
