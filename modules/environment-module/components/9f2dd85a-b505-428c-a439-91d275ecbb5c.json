@@ -1,12 +1,12 @@
 {
-  "id": "10e6c8ab-1024-4213-a1dc-617992b3b707",
-  "name": "button1",
+  "id": "9f2dd85a-b505-428c-a439-91d275ecbb5c",
+  "name": "button2",
   "type": "Button",
-  "pageId": "daf664d6-98f6-4a64-b820-740c2a6106ba",
-  "parent": null,
+  "pageId": "34a55809-d439-42ca-8863-81639258e85a",
+  "parent": "70f6dbcc-6993-41bf-84c3-984f2df6c9c3",
   "properties": {
     "text": {
-      "value": "Common-app-1"
+      "value": "v1"
     },
     "visibility": {
       "value": "{{true}}"
@@ -36,7 +36,7 @@
       "value": "normal"
     },
     "textColor": {
-      "value": "#FFFFFF"
+      "value": "var(--cc-surface1-surface)"
     },
     "borderColor": {
       "value": "var(--cc-primary-brand)"
@@ -60,7 +60,7 @@
       "value": "var(--cc-primary-brand)"
     },
     "iconColor": {
-      "value": "var(--cc-default-icon)"
+      "value": "var(--cc-surface1-surface)"
     },
     "direction": {
       "value": "left"
@@ -93,27 +93,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "674202c1-697d-4dfa-8f59-0ce16ce9fcec",
+      "id": "274fbdbd-f446-4904-9da6-69578140d83e",
       "type": "desktop",
-      "top": 150,
-      "left": 12,
-      "width": 6,
-      "height": 40,
-      "widthPx": null,
-      "fillWidth": null,
-      "componentId": "10e6c8ab-1024-4213-a1dc-617992b3b707",
-      "dimensionUnit": "count"
-    },
-    {
-      "id": "ab7719cb-cb03-4cc0-a46e-69c849b0c45b",
-      "type": "mobile",
-      "top": 110,
-      "left": 13,
+      "top": 80,
+      "left": 29,
       "width": 4,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "10e6c8ab-1024-4213-a1dc-617992b3b707",
+      "componentId": "9f2dd85a-b505-428c-a439-91d275ecbb5c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "84279994-4789-455f-9a3e-9ac32ff981ca",
+      "type": "mobile",
+      "top": 60,
+      "left": 28,
+      "width": 13,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9f2dd85a-b505-428c-a439-91d275ecbb5c",
       "dimensionUnit": "count"
     }
   ]
