@@ -11,9 +11,15 @@
     "moduleAppId": {
       "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
     },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
     "moduleVersionId": {
       "value": "ca3173e3-8030-4ad8-ae92-4d6c30f6a57b",
       "versionName": "v1"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     },
     "moduleEnvironmentId": {
       "value": "7ec193af-01b6-4799-9bcc-9ad63e62b09d"
@@ -26,6 +32,9 @@
     },
     "padding": {
       "value": "default"
+    },
+    "cssClass": {
+      "value": ""
     }
   },
   "generalStyles": {
