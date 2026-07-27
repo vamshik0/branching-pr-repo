@@ -12,11 +12,17 @@
       "value": "0873ad40-970f-43cb-b35b-fa1c55a8f17d"
     },
     "moduleVersionId": {
-      "value": "ca3173e3-8030-4ad8-ae92-4d6c30f6a57b",
-      "versionName": "v1"
+      "value": "a454cd35-f863-4b0f-b0a7-dbd02337bc75",
+      "versionName": "v2"
     },
     "moduleEnvironmentId": {
       "value": "7ec193af-01b6-4799-9bcc-9ad63e62b09d"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
@@ -26,6 +32,9 @@
     },
     "padding": {
       "value": "default"
+    },
+    "cssClass": {
+      "value": ""
     }
   },
   "generalStyles": {
