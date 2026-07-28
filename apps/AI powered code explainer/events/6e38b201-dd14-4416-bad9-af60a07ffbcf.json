@@ -1,0 +1,17 @@
+{
+  "id": "6e38b201-dd14-4416-bad9-af60a07ffbcf",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "6c83dfce-c8db-4b48-9d11-9c9a124b062f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "getCodeExplanation",
+    "parameters": {}
+  },
+  "sourceId": "92417441-6ce4-4c39-9468-9cca9992d875",
+  "target": "component",
+  "appVersionId": "d78a6d94-eba1-4305-9424-6e0e8b3e435e"
+}

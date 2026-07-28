@@ -1,0 +1,60 @@
+{
+  "id": "9c1c3e04-401a-497c-bb6a-3cf357c87aca",
+  "name": "text8",
+  "type": "Text",
+  "pageId": "44d4e19d-ef88-42cf-adbd-8951fe9d252a",
+  "parent": "00cb89d4-4a60-4b36-9d6f-40e271fe045e",
+  "properties": {
+    "text": {
+      "value": "Gemini Model"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "daf0b2d2-e797-4779-86e2-c999bb380303",
+      "type": "desktop",
+      "top": 450,
+      "left": 1,
+      "width": 14,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9c1c3e04-401a-497c-bb6a-3cf357c87aca",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "71cc62cc-d3af-4443-b0d0-5d98c8993b93",
+      "type": "mobile",
+      "top": 70,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9c1c3e04-401a-497c-bb6a-3cf357c87aca",
+      "dimensionUnit": "count"
+    }
+  ]
+}

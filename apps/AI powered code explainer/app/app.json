@@ -1,0 +1,13 @@
+{
+  "id": "79068872-d6b5-4e2d-9903-bc66eab8f369",
+  "name": "AI powered code explainer",
+  "type": "front-end",
+  "slug": "f8a1f958-6134-4d32-a368-04186224ff10",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.55-beta-ee"
+}

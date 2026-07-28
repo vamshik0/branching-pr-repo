@@ -1,0 +1,62 @@
+{
+  "id": "9c56fe3f-0801-4951-b348-b0add904bec0",
+  "name": "dropdown2",
+  "type": "DropDown",
+  "pageId": "44d4e19d-ef88-42cf-adbd-8951fe9d252a",
+  "parent": "00cb89d4-4a60-4b36-9d6f-40e271fe045e",
+  "properties": {
+    "values": {
+      "value": "{{[\n  \"\",\n  \"C#\",\n  \"C++\",\n  \"Dart\",\n  \"Elixir\",\n  \"Erlang\",\n  \"F#\",\n  \"Go\",\n  \"Groovy\",\n  \"Haskell\",\n  \"Java\",\n  \"JavaScript\",\n  \"Kotlin\",\n  \"Lua\",\n  \"MATLAB\",\n  \"Objective-C\",\n  \"Perl\",\n  \"PHP\",\n  \"Python\",\n  \"R\",\n  \"Ruby\",\n  \"Rust\",\n  \"Scala\",\n  \"Shell\",\n  \"SQL\",\n  \"Swift\",\n  \"TypeScript\"\n]}}"
+    },
+    "display_values": {
+      "value": "{{[\n  \"Any language\",\n  \"C#\",\n  \"C++\",\n  \"Dart\",\n  \"Elixir\",\n  \"Erlang\",\n  \"F#\",\n  \"Go\",\n  \"Groovy\",\n  \"Haskell\",\n  \"Java\",\n  \"JavaScript\",\n  \"Kotlin\",\n  \"Lua\",\n  \"MATLAB\",\n  \"Objective-C\",\n  \"Perl\",\n  \"PHP\",\n  \"Python\",\n  \"R\",\n  \"Ruby\",\n  \"Rust\",\n  \"Scala\",\n  \"Shell\",\n  \"SQL\",\n  \"Swift\",\n  \"TypeScript\"\n]}}"
+    },
+    "value": {
+      "value": ""
+    },
+    "placeholder": {
+      "value": "Select a language"
+    },
+    "label": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "011d93d5-4f94-4f28-bcb2-0c30933ebc47",
+      "type": "desktop",
+      "top": 390,
+      "left": 1,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9c56fe3f-0801-4951-b348-b0add904bec0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c1149ac8-107c-4c70-b2be-eb836f02d3e8",
+      "type": "mobile",
+      "top": 420,
+      "left": 2,
+      "width": 8,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9c56fe3f-0801-4951-b348-b0add904bec0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "5936fadd-f365-453a-bcd8-5f7a20cd80a9",
+  "name": "textarea1",
+  "type": "TextArea",
+  "pageId": "44d4e19d-ef88-42cf-adbd-8951fe9d252a",
+  "parent": "00cb89d4-4a60-4b36-9d6f-40e271fe045e",
+  "properties": {
+    "value": {
+      "value": "function addNumbers(a, b) {\n  return a + b;\n}\n\nconst sum = addNumbers(5, 3);\nconsole.log(sum);"
+    },
+    "placeholder": {
+      "value": "function addNumbers(a, b) {\n  return a + b;\n}\n\nconst sum = addNumbers(5, 3);\nconsole.log(sum);"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "label": ""
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c504ec29-3606-4690-808f-338b9d84745c",
+      "type": "desktop",
+      "top": 70,
+      "left": 1,
+      "width": 20,
+      "height": 270,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5936fadd-f365-453a-bcd8-5f7a20cd80a9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "96273467-2296-4d69-81d1-089abd49bf9e",
+      "type": "mobile",
+      "top": 100,
+      "left": 3,
+      "width": 13.953488372093023,
+      "height": 100,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5936fadd-f365-453a-bcd8-5f7a20cd80a9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

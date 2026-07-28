@@ -1,0 +1,73 @@
+{
+  "id": "190e958e-dbd1-44b8-92c8-fa21bb4941f8",
+  "name": "text7",
+  "type": "Text",
+  "pageId": "44d4e19d-ef88-42cf-adbd-8951fe9d252a",
+  "parent": "00cb89d4-4a60-4b36-9d6f-40e271fe045e",
+  "properties": {
+    "text": {
+      "value": "{{`<div style=\"padding: 10px;\">${queries.getCodeExplanation.data.candidates ? queries.getCodeExplanation.data.candidates[0].content.parts[0].text : \"<ul> <li><strong>Language:</strong> JavaScript</li> <li><code>function addNumbers(a, b) {</code>: Defines a function named <code>addNumbers</code> that takes two parameters <code>a</code> and <code>b</code>.</li> <li><code>return a + b;</code>: The function returns the sum of <code>a</code> and <code>b</code>.</li> <li><code>}</code>: Ends the function definition.</li> <li><code>const sum = addNumbers(5, 3);</code>: Calls the <code>addNumbers</code> function with arguments <code>5</code> and <code>3</code>, and assigns the result to the constant <code>sum</code>.</li> <li><code>console.log(sum);</code>: Outputs the value of <code>sum</code> to the console, which is <code>8</code>.</li></ul>\"}</div>`}}"
+    },
+    "textFormat": {
+      "value": "html"
+    },
+    "loadingState": {
+      "fxActive": true,
+      "value": "{{queries.6c83dfce-c8db-4b48-9d11-9c9a124b062f.isLoading}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderColor": {
+      "value": "#ddddddff"
+    },
+    "borderRadius": {
+      "value": "5"
+    },
+    "verticalAlignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a77c42fe-4bcd-4435-a27f-509327234aa6",
+      "type": "desktop",
+      "top": 70,
+      "left": 22,
+      "width": 20,
+      "height": 520,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "190e958e-dbd1-44b8-92c8-fa21bb4941f8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0bdb02e4-9a70-406d-9091-d6df01c47b0e",
+      "type": "mobile",
+      "top": 290,
+      "left": 23,
+      "width": 6,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "190e958e-dbd1-44b8-92c8-fa21bb4941f8",
+      "dimensionUnit": "count"
+    }
+  ]
+}
