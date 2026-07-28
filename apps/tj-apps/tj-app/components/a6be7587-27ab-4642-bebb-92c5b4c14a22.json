@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "text": {
-      "value": "tj-apps"
+      "value": "tj-apps - {{queries.caa4f792-4845-4649-b4d1-432ecd5381a5.data}}"
     },
     "visibility": {
       "value": "{{true}}"
