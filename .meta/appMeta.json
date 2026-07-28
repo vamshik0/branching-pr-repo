@@ -11,10 +11,6 @@
     "appPath": "apps/common-app-1",
     "updatedAt": "2026-07-27T10:45:31.397Z"
   },
-  "a3407718-a638-4ca2-ac57-1d2532d2c0cf": {
-    "appPath": "apps/common-apps/common-app-2",
-    "updatedAt": "2026-07-27T10:47:05.865Z"
-  },
   "d64fa17f-eadb-49f5-a208-af68683c1f55": {
     "appPath": "apps/basic-cases-app",
     "updatedAt": "2026-07-24T08:09:00.000Z"
@@ -27,17 +23,9 @@
     "appPath": "apps/ds-testing",
     "updatedAt": "2026-07-27T10:42:06.172Z"
   },
-  "de66200f-11bc-4646-bb1f-4ef7f5d01d88": {
-    "appPath": "apps/inside-folder/Outside-folder",
-    "updatedAt": "2026-07-27T10:03:49.111Z"
-  },
   "e9591116-e702-4775-9d1d-cfa02e8987c6": {
     "appPath": "apps/Service-apps",
     "updatedAt": "2026-07-27T10:43:35.153Z"
-  },
-  "d6ccac70-a438-4ccd-9007-9fe092e02afe": {
-    "appPath": "apps/inside-folder/inside-folder",
-    "updatedAt": "2026-07-27T10:05:03.337Z"
   },
   "4d3ec0b0-0870-4719-98b8-9b1e6af6f2b8": {
     "appPath": "apps/Code base",
