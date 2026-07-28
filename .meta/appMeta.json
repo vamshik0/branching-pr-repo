@@ -1,8 +1,4 @@
 {
-  "b02f3a79-972d-48b4-821e-b4751d89c5ab": {
-    "appPath": "apps/common-app-3",
-    "updatedAt": "2026-07-27T10:47:57.390Z"
-  },
   "39f9a222-5cf9-486d-9e9d-7ee9964752b1": {
     "appPath": "apps/common-app-1",
     "updatedAt": "2026-07-27T10:45:31.397Z"
@@ -10,10 +6,6 @@
   "d64fa17f-eadb-49f5-a208-af68683c1f55": {
     "appPath": "apps/basic-cases-app",
     "updatedAt": "2026-07-24T08:09:00.000Z"
-  },
-  "ab0169b5-2fb0-468f-8611-a96e51d2c2cf": {
-    "appPath": "apps/ds-testing",
-    "updatedAt": "2026-07-27T10:42:06.172Z"
   },
   "e9591116-e702-4775-9d1d-cfa02e8987c6": {
     "appPath": "apps/Service-apps",
