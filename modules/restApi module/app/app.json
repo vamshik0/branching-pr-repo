@@ -1,0 +1,13 @@
+{
+  "id": "762c3714-2936-4d69-82ea-d71f1d0f5b1d",
+  "name": "restApi module",
+  "type": "module",
+  "slug": "2a2387a7-4a31-49cb-903f-1d47f6014399",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "layers",
+  "tooljetVersion": "3.21.55-beta-ee"
+}
