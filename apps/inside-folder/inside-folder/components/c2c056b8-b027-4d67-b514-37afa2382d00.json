@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "text": {
-      "value": "inside-folder"
+      "value": "inside-folder - {{globals.environment.name}}"
     },
     "visibility": {
       "value": "{{true}}"
