@@ -1,0 +1,93 @@
+{
+  "id": "4572e1eb-a8b6-4508-9555-0cfe900613a6",
+  "name": "filepicker1",
+  "type": "FilePicker",
+  "pageId": "48e4c309-cf38-4864-a44a-eaec2c65ea25",
+  "parent": "9600e502-54db-4a67-8675-696f904e9e87",
+  "properties": {
+    "instructionText": {
+      "value": "Drag and Drop an image file here, or click to select an image file"
+    },
+    "enableDropzone": {
+      "value": "{{true}}",
+      "fxActive": true
+    },
+    "enablePicker": {
+      "value": "{{true}}",
+      "fxActive": true
+    },
+    "enableMultiple": {
+      "value": "{{false}}",
+      "fxActive": true
+    },
+    "parseContent": {
+      "value": "{{false}}"
+    },
+    "parseFileType": {
+      "value": "auto-detect"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "label": ""
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{10}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "fileType": {
+      "value": "{{\"image/*\"}}",
+      "fxActive": true
+    },
+    "maxFileCount": {
+      "value": "{{1}}",
+      "fxActive": true
+    },
+    "maxSize": {
+      "value": "{{1048576}}",
+      "fxActive": true
+    },
+    "minSize": {
+      "value": "{{50}}",
+      "fxActive": true
+    },
+    "minFileCount": {
+      "value": "{{0}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "2313a77c-5814-4087-b10f-a46701b86748",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 39.00000000000001,
+      "height": 130,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4572e1eb-a8b6-4508-9555-0cfe900613a6",
+      "dimensionUnit": "count"
+    }
+  ]
+}
