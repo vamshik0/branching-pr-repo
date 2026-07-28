@@ -1,0 +1,35 @@
+{
+  "id": "5aafd538-e572-4228-a11e-479f0802846b",
+  "name": "getGeminiModels",
+  "options": {
+    "method": "get",
+    "url": "https://generativelanguage.googleapis.com/v1beta/models?key={{constants.GEMINI_API_KEY}}",
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "body_toggle": false,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "5ad583ce-4bbf-42ac-9f75-f8e48e93ee92",
+  "appVersionId": "d78a6d94-eba1-4305-9424-6e0e8b3e435e",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

@@ -58,5 +58,9 @@
   "d6ccac70-a438-4ccd-9007-9fe092e02afe": {
     "appPath": "apps/inside-folder/inside-folder",
     "updatedAt": "2026-07-27T10:05:03.337Z"
+  },
+  "79068872-d6b5-4e2d-9903-bc66eab8f369": {
+    "appPath": "apps/AI powered code explainer",
+    "updatedAt": "2026-07-28T10:19:17.782Z"
   }
 }

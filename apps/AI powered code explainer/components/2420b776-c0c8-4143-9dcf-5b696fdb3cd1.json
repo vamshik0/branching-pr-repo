@@ -1,0 +1,61 @@
+{
+  "id": "2420b776-c0c8-4143-9dcf-5b696fdb3cd1",
+  "name": "text2",
+  "type": "Text",
+  "pageId": "1dde00d6-7780-4c6c-b734-b0be61e22995",
+  "parent": "666770ee-defd-4789-9f7c-85a874acd42b",
+  "properties": {
+    "text": {
+      "value": "<div style=\"font-weight: 600;\">AI Code Explainer</div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#000",
+      "fxActive": false
+    },
+    "textSize": {
+      "value": "{{20}}"
+    },
+    "textAlign": {
+      "value": "right"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "isScrollRequired": {
+      "value": "disabled"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "9191851d-65a7-4988-b627-0e1373ae89f3",
+      "type": "desktop",
+      "top": 10,
+      "left": 25,
+      "width": 17,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2420b776-c0c8-4143-9dcf-5b696fdb3cd1",
+      "dimensionUnit": "count"
+    }
+  ]
+}
