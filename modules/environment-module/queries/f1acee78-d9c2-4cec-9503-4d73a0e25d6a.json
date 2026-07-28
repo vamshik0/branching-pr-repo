@@ -1,6 +1,6 @@
 {
   "id": "f1acee78-d9c2-4cec-9503-4d73a0e25d6a",
-  "name": "runjs1",
+  "name": "runjs",
   "options": {
     "code": "return 'hello tooljet'",
     "parameters": [],
