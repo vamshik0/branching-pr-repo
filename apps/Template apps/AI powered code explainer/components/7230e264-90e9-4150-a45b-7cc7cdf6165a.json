@@ -1,0 +1,66 @@
+{
+  "id": "7230e264-90e9-4150-a45b-7cc7cdf6165a",
+  "name": "text3",
+  "type": "Text",
+  "pageId": "1dde00d6-7780-4c6c-b734-b0be61e22995",
+  "parent": "66e9ce2c-c2c9-4347-b01e-b5667c8c13f8",
+  "properties": {
+    "text": {
+      "value": "Code to be explained"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "24"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "isScrollRequired": {
+      "value": "disabled"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "09c10fb0-2617-410f-aa05-90dab27a196c",
+      "type": "desktop",
+      "top": 20,
+      "left": 1,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "7230e264-90e9-4150-a45b-7cc7cdf6165a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "51d58647-ac51-4d37-8370-db236c2c2c71",
+      "type": "mobile",
+      "top": 20,
+      "left": 9,
+      "width": 13.953488372093023,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "7230e264-90e9-4150-a45b-7cc7cdf6165a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

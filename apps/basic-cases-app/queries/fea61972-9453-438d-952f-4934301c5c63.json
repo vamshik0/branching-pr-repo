@@ -1,0 +1,22 @@
+{
+  "id": "fea61972-9453-438d-952f-4934301c5c63",
+  "name": "localRestapi1",
+  "options": {
+    "method": "get",
+    "url": "https://jsonplaceholder.typicode.com/users",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "5ad583ce-4bbf-42ac-9f75-f8e48e93ee92",
+  "appVersionId": "d732f4e9-3cd8-4e61-a30f-a750a0e74838",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

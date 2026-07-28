@@ -1,0 +1,14 @@
+{
+  "id": "7501e209-2066-4f9b-a65c-dae343090363",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "OpenAI failed!",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "539ff283-efa2-4d1e-a5dc-07be5b04a948",
+  "target": "data_query",
+  "appVersionId": "c1b44de4-43af-4bc2-ab7f-42eb949469e0"
+}

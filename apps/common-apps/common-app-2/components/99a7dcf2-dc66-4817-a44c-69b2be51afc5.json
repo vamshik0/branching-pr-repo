@@ -1,0 +1,93 @@
+{
+  "id": "99a7dcf2-dc66-4817-a44c-69b2be51afc5",
+  "name": "container1",
+  "type": "Container",
+  "pageId": "9befdcce-7b8f-40de-8c05-08c23321fa89",
+  "parent": null,
+  "properties": {
+    "showHeader": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "headerHeight": {
+      "value": 260
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1d9ede80-5244-42b8-8347-69bedfb8239b",
+      "type": "desktop",
+      "top": 410,
+      "left": 11,
+      "width": 10,
+      "height": 650,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "99a7dcf2-dc66-4817-a44c-69b2be51afc5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0cc0e03f-9963-4149-97d7-191e5ae179f8",
+      "type": "mobile",
+      "top": 580,
+      "left": 10,
+      "width": 15,
+      "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "99a7dcf2-dc66-4817-a44c-69b2be51afc5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

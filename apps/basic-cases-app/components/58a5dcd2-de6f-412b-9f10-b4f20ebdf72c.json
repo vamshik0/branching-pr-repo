@@ -1,0 +1,96 @@
+{
+  "id": "58a5dcd2-de6f-412b-9f10-b4f20ebdf72c",
+  "name": "calendar1",
+  "type": "Calendar",
+  "pageId": "e5657435-5e2d-44e6-bf03-00b61b248efe",
+  "parent": null,
+  "properties": {
+    "dateFormat": {
+      "value": "MM-DD-YYYY HH:mm:ss A Z"
+    },
+    "defaultDate": {
+      "value": "{{moment().format(\"MM-DD-YYYY HH:mm:ss A Z\")}}"
+    },
+    "events": {
+      "value": "{{[\n\t\t{\n\t\t\t title: 'Sample event',\n\t\t\t start: `${moment().startOf('day').format('MM-DD-YYYY HH:mm:ss A Z')}`,\n\t\t\t end: `${moment().endOf('day').format('MM-DD-YYYY HH:mm:ss A Z')}`,\n\t\t\t allDay: false\n\t\t}\n]}}"
+    },
+    "resources": {
+      "value": "{{[]}}"
+    },
+    "defaultView": {
+      "value": "{{'month'}}"
+    },
+    "startTime": {
+      "value": "{{moment().startOf('day').format('MM-DD-YYYY HH:mm:ss A Z')}}"
+    },
+    "endTime": {
+      "value": "{{moment().endOf('day').format('MM-DD-YYYY HH:mm:ss A Z')}}"
+    },
+    "displayToolbar": {
+      "value": true
+    },
+    "displayViewSwitcher": {
+      "value": true
+    },
+    "highlightToday": {
+      "value": true
+    },
+    "showPopOverOnEventClick": {
+      "value": false
+    }
+  },
+  "general": {},
+  "styles": {
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "cellSizeInViewsClassifiedByResource": {
+      "value": "spacious"
+    },
+    "weekDateFormat": {
+      "value": "DD MMM"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "borderRadius": {
+      "value": 6
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1bcfe9d3-c4ce-4fd4-8825-6993ff9e353d",
+      "type": "desktop",
+      "top": 90,
+      "left": 1,
+      "width": 22,
+      "height": 750,
+      "componentId": "58a5dcd2-de6f-412b-9f10-b4f20ebdf72c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0320ae6c-5e6c-4603-b9dc-2e81f9bf2209",
+      "type": "mobile",
+      "top": 90,
+      "left": 1,
+      "width": 30,
+      "height": 600,
+      "componentId": "58a5dcd2-de6f-412b-9f10-b4f20ebdf72c",
+      "dimensionUnit": "count"
+    }
+  ]
+}
