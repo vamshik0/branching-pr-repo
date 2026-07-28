@@ -65,6 +65,12 @@
     "updatedAt": "2026-06-17T12:05:41.663Z",
     "contentHash": "96da284f9d189eb57085932dfd7505f17015c66c9ef96bfecae5763e04bc2836"
   },
+  "ac30704f-8da8-4114-8761-3387cd2dc51c": {
+    "name": "AWS S3",
+    "kind": "s3",
+    "updatedAt": "2026-07-28T10:49:28.237Z",
+    "contentHash": "4db13b8ed867a38c558077380c91786973053abd9f46f2ce5aea201cd6c9d53c"
+  },
   "ae342240-6725-406e-bd77-e1664b100192": {
     "name": "salesforce",
     "kind": "salesforce",
@@ -83,5 +89,5 @@
     "updatedAt": "2026-06-22T11:32:21.143Z",
     "contentHash": "1455a38165133eb161e731cc65d14372e86826ffe9fd9c91f8fb7e5cfaaf6787"
   },
-  "lastUpdatedAt": "2026-07-17T11:30:21.797Z"
+  "lastUpdatedAt": "2026-07-28T10:49:28.237Z"
 }
