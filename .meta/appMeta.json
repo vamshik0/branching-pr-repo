@@ -66,5 +66,9 @@
   "7297591c-dc62-42ca-9dcd-6c74ca6976d8": {
     "appPath": "apps/Template apps/AWS S3 file explorer",
     "updatedAt": "2026-07-28T10:25:41.921Z"
+  },
+  "4d3ec0b0-0870-4719-98b8-9b1e6af6f2b8": {
+    "appPath": "apps/Code base",
+    "updatedAt": "2026-07-28T10:30:44.229Z"
   }
 }
