@@ -1,0 +1,22 @@
+{
+  "id": "c66e734b-d6f7-4ef7-a4d5-8e5e08d52d8e",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "componentId": "45abafa4-8132-4680-b39d-9a32e6a6a5c9",
+    "componentSpecificActionHandle": "setPage",
+    "componentSpecificActionParams": [
+      {
+        "value": "{{1}}",
+        "handle": "page"
+      }
+    ]
+  },
+  "sourceId": "6cc39e61-fad9-4ff9-a507-feeca25974ea",
+  "target": "data_query",
+  "appVersionId": "8c128977-3ecf-4aaf-907b-09154ba07067"
+}

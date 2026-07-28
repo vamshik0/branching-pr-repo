@@ -1,0 +1,97 @@
+{
+  "id": "5669e940-f604-45ed-80a8-fc288f1dbf7a",
+  "name": "text2",
+  "type": "Text",
+  "pageId": "48e4c309-cf38-4864-a44a-eaec2c65ea25",
+  "parent": "6ba775aa-d9f3-4cd6-9b5c-91caf7cf23cf",
+  "properties": {
+    "text": {
+      "value": "AWS S3 File Browser"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "textColor": {
+      "value": "#ffffffff",
+      "fxActive": false
+    },
+    "textSize": {
+      "value": "{{22}}"
+    },
+    "textAlign": {
+      "value": "left"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": 1.5
+    },
+    "textIndent": {
+      "value": 0
+    },
+    "letterSpacing": {
+      "value": 0
+    },
+    "wordSpacing": {
+      "value": 0
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "4d28f7a5-b0d9-48ba-b2cd-52cba572ad1a",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 13.993303186907838,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5669e940-f604-45ed-80a8-fc288f1dbf7a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

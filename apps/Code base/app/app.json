@@ -1,0 +1,13 @@
+{
+  "id": "4d3ec0b0-0870-4719-98b8-9b1e6af6f2b8",
+  "name": "Code base",
+  "type": "front-end",
+  "slug": "fd953bff-1bbc-4ece-a0ad-8de938fdb511",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.55-beta-ee"
+}

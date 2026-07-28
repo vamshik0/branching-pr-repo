@@ -1,0 +1,14 @@
+{
+  "id": "13d6094f-63a4-4e87-8b6a-931583f23edd",
+  "name": "elasticsearch1",
+  "options": {
+    "query": "",
+    "operation": "search",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "247f5f62-6c37-43a4-bd6e-829b4a013ddc",
+  "appVersionId": "d486cb0f-64bf-41c0-b445-c8308e87c1bf",
+  "kind": "elasticsearch",
+  "dataSourceType": "default"
+}

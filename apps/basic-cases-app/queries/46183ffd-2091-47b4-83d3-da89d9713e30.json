@@ -1,0 +1,15 @@
+{
+  "id": "46183ffd-2091-47b4-83d3-da89d9713e30",
+  "name": "postgresql1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "select * from products;",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "f10de5c0-4034-49aa-b72a-0821687472c6",
+  "appVersionId": "d732f4e9-3cd8-4e61-a30f-a750a0e74838",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

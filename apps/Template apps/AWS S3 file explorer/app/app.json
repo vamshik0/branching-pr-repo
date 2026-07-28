@@ -1,0 +1,13 @@
+{
+  "id": "7297591c-dc62-42ca-9dcd-6c74ca6976d8",
+  "name": "AWS S3 file explorer",
+  "type": "front-end",
+  "slug": "36a8b560-c94b-41a2-9f67-986c88f9de8c",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.55-beta-ee"
+}

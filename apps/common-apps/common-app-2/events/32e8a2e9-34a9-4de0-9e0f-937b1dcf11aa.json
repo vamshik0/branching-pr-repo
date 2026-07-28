@@ -1,0 +1,14 @@
+{
+  "id": "32e8a2e9-34a9-4de0-9e0f-937b1dcf11aa",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "clickup failed!",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "6fc6293d-9a6a-46ac-9dc9-5bea3a00a3da",
+  "target": "data_query",
+  "appVersionId": "9fe82c7b-56ea-434a-befc-30cf1514969f"
+}
