@@ -1,0 +1,14 @@
+{
+  "id": "d2b2c4ae-29c9-4ff4-8814-7836c23929b2",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Image uploaded successfully.",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "ebf3de37-f223-4196-a304-19ded8cbdfe0",
+  "target": "data_query",
+  "appVersionId": "8c128977-3ecf-4aaf-907b-09154ba07067"
+}

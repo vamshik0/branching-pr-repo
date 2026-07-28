@@ -1,0 +1,32 @@
+{
+  "id": "6cc39e61-fad9-4ff9-a507-feeca25974ea",
+  "name": "getObjects",
+  "options": {
+    "maxKeys": 1000,
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "operation": "list_objects",
+    "bucket": "{{components.table2.selectedRow.Name}}",
+    "events": [
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "control-component",
+        "message": "Hello world!",
+        "alertType": "info",
+        "componentSpecificActionHandle": "setPage",
+        "componentId": "a49e6b60-0c29-4ac7-b0ac-1e9bb85b0cee",
+        "componentSpecificActionParams": [
+          {
+            "handle": "page",
+            "value": "{{1}}"
+          }
+        ]
+      }
+    ],
+    "transformation": "function convertBytesToSize(bytes) {\n  const sizes = [\"Bytes\", \"KB\", \"MB\", \"GB\", \"TB\"];\n  if (bytes === 0) return \"0 Byte\";\n\n  const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));\n  const roundedSize = parseFloat(\n    (bytes / Math.pow(1024, i)).toFixed(2)\n  ).toString();\n  return roundedSize + \" \" + sizes[i];\n}\n\nvar Contents = data.Contents.map((file) => ({\n  ...file,\n  Size: convertBytesToSize(parseInt(file.Size)),\n}));\n\nreturn { ...data, Contents };"
+  },
+  "dataSourceId": "ac30704f-8da8-4114-8761-3387cd2dc51c",
+  "appVersionId": "8c128977-3ecf-4aaf-907b-09154ba07067",
+  "kind": "s3",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "efa589c0-dafc-47ce-bcf6-2340f07dd3f3",
+  "name": "onDataQueryFailure",
+  "index": 4,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Failed to upload image! Please check and try again.",
+    "actionId": "show-alert",
+    "alertType": "warning"
+  },
+  "sourceId": "ebf3de37-f223-4196-a304-19ded8cbdfe0",
+  "target": "data_query",
+  "appVersionId": "8c128977-3ecf-4aaf-907b-09154ba07067"
+}
