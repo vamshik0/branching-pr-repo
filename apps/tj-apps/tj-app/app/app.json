@@ -1,0 +1,13 @@
+{
+  "id": "f38cc2ad-3daf-4a11-8ed0-94823ea6a98f",
+  "name": "tj-app",
+  "type": "front-end",
+  "slug": "bc156908-81a2-481e-8725-e262bca5f5fd",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.55-beta-ee"
+}
