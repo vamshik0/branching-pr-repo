@@ -1,8 +1,4 @@
 {
-  "891cf49e-792a-40eb-a7f5-ccb7e82508fb": {
-    "appPath": "apps/tj-app-2/tj-app-3",
-    "updatedAt": "2026-07-24T09:43:00.362Z"
-  },
   "d61ee375-9d9a-4979-ac1a-d63ee3ec9944": {
     "appPath": "apps/common-apps/common-app-5",
     "updatedAt": "2026-07-27T10:59:16.362Z"
@@ -50,10 +46,6 @@
   "79068872-d6b5-4e2d-9903-bc66eab8f369": {
     "appPath": "apps/Template apps/AI powered code explainer",
     "updatedAt": "2026-07-28T10:44:07.668Z"
-  },
-  "7297591c-dc62-42ca-9dcd-6c74ca6976d8": {
-    "appPath": "apps/Template apps/AWS S3 file explorer",
-    "updatedAt": "2026-07-28T10:25:41.921Z"
   },
   "4d3ec0b0-0870-4719-98b8-9b1e6af6f2b8": {
     "appPath": "apps/Code base",
