@@ -21,6 +21,7 @@
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "remoteUpdatedAt": null,
-  "sourceTag": null
+  "gitTreeSha": null,
+  "sourceTag": null,
+  "isSynced": true
 }
