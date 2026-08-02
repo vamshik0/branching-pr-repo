@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "title": {
-      "value": "This title can be changed"
+      "value": "Bar graph"
     },
     "markerColor": {
       "value": "var(--cc-primary-brand)"
