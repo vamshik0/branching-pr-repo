@@ -1,31 +1,31 @@
 {
   "id": "ae342240-6725-406e-bd77-e1664b100192",
-  "name": "salesforce",
+  "isPlugin": true,
   "kind": "salesforce",
-  "type": "default",
+  "name": "salesforce",
   "options": {
     "development": {
-      "scopes": "full",
       "auth_type": "oauth2",
       "grant_type": "authorization_code",
       "oauth_type": "custom_app",
-      "redirect_url": ""
+      "redirect_url": "",
+      "scopes": "full"
     },
     "production": {
-      "scopes": "full",
       "auth_type": "oauth2",
       "grant_type": "authorization_code",
       "oauth_type": "custom_app",
-      "redirect_url": ""
+      "redirect_url": "",
+      "scopes": "full"
     },
     "staging": {
-      "scopes": "full",
       "auth_type": "oauth2",
       "grant_type": "authorization_code",
       "oauth_type": "custom_app",
-      "redirect_url": ""
+      "redirect_url": "",
+      "scopes": "full"
     }
   },
-  "isPlugin": true,
-  "pluginKind": "salesforce"
+  "pluginKind": "salesforce",
+  "type": "default"
 }
