@@ -16,8 +16,11 @@ Files are laid out by ToolJet's git-sync adapter:
   serialized definition, pages, components, and queries.
 - `modules/<module-name>/` — same layout for modules embedded via
   ModuleViewer.
-- `data-sources/<datasource-id>.json` — datasource resources
-  written to the repo root when git-sync serializes them.
+- `data-sources/<datasource-name>/data-source.json` — one folder per
+  datasource, named after the datasource (e.g. `postgresql/`,
+  `SEO DB/`), each holding a single `data-source.json`. The file
+  carries the datasource `id`, `kind`, `name`, `type`, and per-
+  environment `options` (`development` / `staging` / `production`).
 
 Branches on this repo correspond to ToolJet workspace branches. The
 default branch mirrors the workspace's default (usually `main`);
