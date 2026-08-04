@@ -1,0 +1,13 @@
+{
+  "id": "a2e24cab-99d5-4025-8145-9249983e8f01",
+  "isPlugin": true,
+  "kind": "clickup",
+  "name": "clickup",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  },
+  "pluginKind": "clickup",
+  "type": "default"
+}
