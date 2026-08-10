@@ -1,0 +1,13 @@
+{
+  "id": "7eba0e7d-2d35-49a5-9c6c-81ea4b45eae2",
+  "name": "constants-module",
+  "type": "module",
+  "slug": "a1f25108-f758-46d2-9da2-2f55e7d09676",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sun",
+  "tooljetVersion": "3.21.58-beta-ee"
+}

@@ -74,5 +74,9 @@
   "f38cc2ad-3daf-4a11-8ed0-94823ea6a98f": {
     "appPath": "apps/tj-app",
     "updatedAt": "2026-07-29T09:47:36.511Z"
+  },
+  "4f6fbece-52ce-47b7-85dd-d5a3f94abcb6": {
+    "appPath": "apps/constants-app",
+    "updatedAt": "2026-08-10T06:15:23.623Z"
   }
 }
