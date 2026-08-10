@@ -87,7 +87,7 @@
       ]
     },
     "staging": {
-      "url": "{{secerts.ui_url}}",
+      "url": "{{secrets.ui_url}}",
       "scopes": "read, write",
       "headers": [
         [
