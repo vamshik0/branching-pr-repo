@@ -1,16 +1,16 @@
 {
   "id": "3a5fce74-2ea9-4b33-83aa-1c5e11e6abdd",
-  "name": "testing-restapi",
+  "name": "constants-restapi",
   "kind": "restapi",
   "type": "default",
   "options": {
     "development": {
-      "url": "",
+      "url": "{{secrets.ui_url}}",
       "scopes": "read, write",
       "headers": [
         [
-          "",
-          ""
+          "{{constants.headerKey}}",
+          "{{constants.headerValue}}"
         ]
       ],
       "audience": "",
@@ -46,12 +46,12 @@
       ]
     },
     "production": {
-      "url": "",
+      "url": "{{secrets.ui_url}}",
       "scopes": "read, write",
       "headers": [
         [
-          "",
-          ""
+          "{{constants.headerKey}}",
+          "{{constants.headerValue}}"
         ]
       ],
       "audience": "",
@@ -87,12 +87,12 @@
       ]
     },
     "staging": {
-      "url": "",
+      "url": "{{secerts.ui_url}}",
       "scopes": "read, write",
       "headers": [
         [
-          "",
-          ""
+          "{{constants.headerKey}}",
+          "{{constants.headerValue}}"
         ]
       ],
       "audience": "",
