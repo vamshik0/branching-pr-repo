@@ -1,0 +1,13 @@
+{
+  "id": "a33be73a-d024-4229-b4ed-d929537a6f8d",
+  "name": "secrets-module",
+  "type": "module",
+  "slug": "8adf178b-af8e-428c-bacb-e1d09dad7bb7",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.56-beta-ee"
+}
