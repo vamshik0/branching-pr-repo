@@ -1,0 +1,15 @@
+{
+  "id": "cbc31b15-78d9-403b-a121-ee1cc23f320c",
+  "name": "mongodb1",
+  "options": {
+    "document": "{ }",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "list_collections",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "965a84da-3a75-4fc7-805d-c31ef7a9fa03",
+  "appVersionId": "387788cb-a9ff-4574-bff8-156b22eda5ff",
+  "kind": "mongodb",
+  "dataSourceType": "default"
+}

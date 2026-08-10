@@ -1,0 +1,13 @@
+{
+  "id": "4f6fbece-52ce-47b7-85dd-d5a3f94abcb6",
+  "name": "constants-app",
+  "type": "front-end",
+  "slug": "a76141de-b3a8-4a12-9da8-112567c2a3d6",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sun",
+  "tooljetVersion": "3.21.58-beta-ee"
+}
