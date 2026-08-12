@@ -1,0 +1,131 @@
+{
+  "id": "25941bd4-4bac-45d5-b796-366642f11ec7",
+  "kind": "restapi",
+  "name": "JSON data",
+  "options": {
+    "development": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "body",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "retry_network_errors": true,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "username": ""
+    },
+    "production": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "body",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "retry_network_errors": true,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "https://jsonplaceholder.typicode.com/users",
+      "username": ""
+    },
+    "staging": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "body",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "retry_network_errors": true,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "https://jsonplaceholder.typicode.com/albums",
+      "username": ""
+    }
+  },
+  "type": "default"
+}

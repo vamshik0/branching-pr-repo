@@ -1,0 +1,29 @@
+{
+  "id": "ac30704f-8da8-4114-8761-3387cd2dc51c",
+  "kind": "s3",
+  "name": "AWS S3",
+  "options": {
+    "development": {
+      "access_key": "",
+      "endpoint": "",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    },
+    "production": {
+      "access_key": "",
+      "endpoint": "",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    },
+    "staging": {
+      "access_key": "",
+      "endpoint": "",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    }
+  },
+  "type": "default"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ebf13c42-53b9-4cbc-ae11-56517d8bb18d",
+  "kind": "redis",
+  "name": "redis",
+  "options": {
+    "development": {
+      "database": "redis",
+      "host": "localhost",
+      "port": 6379,
+      "tls_certificate": "none",
+      "tls_enabled": false,
+      "username": "redis"
+    },
+    "production": {
+      "database": "redis",
+      "host": "localhost",
+      "port": 6379,
+      "tls_certificate": "none",
+      "tls_enabled": false,
+      "username": "redis"
+    },
+    "staging": {
+      "database": "redis",
+      "host": "localhost",
+      "port": 6379,
+      "tls_certificate": "none",
+      "tls_enabled": false,
+      "username": "redis"
+    }
+  },
+  "type": "default"
+}
