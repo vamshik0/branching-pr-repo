@@ -1,0 +1,18 @@
+{
+  "id": "e00c2ed9-7781-4837-9739-fb35a5a8dc81",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "cbc31b15-78d9-403b-a121-ee1cc23f320c",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "mongodb1",
+    "parameters": {}
+  },
+  "sourceId": "1453b47b-369a-4052-8c9c-73d7a81e16c3",
+  "target": "component",
+  "appVersionId": "387788cb-a9ff-4574-bff8-156b22eda5ff"
+}
