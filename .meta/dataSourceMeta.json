@@ -14,8 +14,8 @@
   "3a5fce74-2ea9-4b33-83aa-1c5e11e6abdd": {
     "name": "constants-restapi",
     "kind": "restapi",
-    "updatedAt": "2026-08-10T06:15:46.423Z",
-    "contentHash": "3fd6068bd2c7aa784267726037e4524c287c5919537f0d3bd02b33875fbf2c22"
+    "updatedAt": "2026-08-17T10:43:59.973Z",
+    "contentHash": "02e88a29b24f4ac00eb36e315ceda5983a6d35ac9acce49110027574dbaa5442"
   },
   "3ee3233f-ceea-4592-a447-8376c73f313d": {
     "name": "openai",
@@ -89,5 +89,5 @@
     "updatedAt": "2026-06-22T11:32:21.143Z",
     "contentHash": "1455a38165133eb161e731cc65d14372e86826ffe9fd9c91f8fb7e5cfaaf6787"
   },
-  "lastUpdatedAt": "2026-08-10T06:15:46.424Z"
+  "lastUpdatedAt": "2026-08-17T10:43:59.973Z"
 }
