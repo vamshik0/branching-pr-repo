@@ -1,13 +1,13 @@
 {
-  "id": "cc8ee1cc-3d1c-497e-837b-6fe2722d5177",
-  "name": "tj-module-3",
+  "id": "0873ad40-970f-43cb-b35b-fa1c55a8f17d",
+  "name": "tj-module-1",
   "type": "module",
-  "slug": "822af0e3-d7b3-4536-b3b9-29c8102759f9",
+  "slug": "40aa17cf-b871-4bad-a598-5347263b4c54",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "apps",
-  "tooljetVersion": "3.21.55-beta-ee"
+  "tooljetVersion": "3.21.60-beta-ee"
 }
