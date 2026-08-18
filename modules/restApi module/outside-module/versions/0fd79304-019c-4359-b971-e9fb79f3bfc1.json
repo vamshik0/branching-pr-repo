@@ -1,5 +1,5 @@
 {
-  "id": "a6cdc80f-2a39-4a6c-a208-69fd170cb4d0",
+  "id": "0fd79304-019c-4359-b971-e9fb79f3bfc1",
   "definition": {},
   "globalSettings": {
     "appInMaintenance": false,
@@ -12,15 +12,15 @@
   },
   "pageSettings": {},
   "showViewerNavigation": false,
-  "homePageId": "85c042a3-857d-43b9-83e4-7f92392f901c",
+  "homePageId": "8b743969-9278-44d3-99c9-a614f6b18814",
   "versionType": "branch",
-  "appId": "762c3714-2936-4d69-82ea-d71f1d0f5b1d",
+  "appId": "cd0c4b63-ac3c-4910-9613-a037d279a62a",
   "promotedFrom": null,
   "status": "DRAFT",
   "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "remoteUpdatedAt": null,
-  "sourceTag": null
+  "sourceTag": null,
+  "isSynced": true
 }
