@@ -18,8 +18,8 @@
       "value": "7eba0e7d-2d35-49a5-9c6c-81ea4b45eae2"
     },
     "moduleVersionId": {
-      "value": "db3c2670-34c3-48cf-9a41-d0c0edd930e5",
-      "versionName": "v1"
+      "value": "__default_branch_draft__",
+      "versionName": ""
     }
   },
   "general": {},
@@ -64,9 +64,9 @@
     {
       "id": "75f682d5-3287-4b10-9d1d-6d0e7c3010d8",
       "type": "mobile",
-      "top": 50,
-      "left": 1,
-      "width": 38,
+      "top": 0,
+      "left": 0,
+      "width": 43,
       "height": 400,
       "widthPx": null,
       "fillWidth": null,

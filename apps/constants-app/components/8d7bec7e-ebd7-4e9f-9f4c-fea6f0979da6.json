@@ -1,6 +1,6 @@
 {
-  "id": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
-  "name": "table1",
+  "id": "8d7bec7e-ebd7-4e9f-9f4c-fea6f0979da6",
+  "name": "table2",
   "type": "Table",
   "pageId": "e50a9938-bdcd-49be-afa5-7a8e4bb00f3b",
   "parent": null,
@@ -18,7 +18,7 @@
       "value": "rawJson"
     },
     "data": {
-      "value": "{{queries.cbc31b15-78d9-403b-a121-ee1cc23f320c.data}}"
+      "value": "{{queries.90de4eab-fefc-402e-8694-50240815a5c4.data}}"
     },
     "useDynamicColumn": {
       "value": "{{false}}"
@@ -238,19 +238,19 @@
   "validation": {},
   "layouts": [
     {
-      "id": "39e69dd7-ccb9-4d74-b3f1-c31533e0d395",
+      "id": "b78fc4ad-20e0-450c-ab66-bf7309b0d37b",
       "type": "desktop",
       "top": 580,
-      "left": 1,
+      "left": 20,
       "width": 18,
       "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
+      "componentId": "8d7bec7e-ebd7-4e9f-9f4c-fea6f0979da6",
       "dimensionUnit": "count"
     },
     {
-      "id": "faefde55-c883-4dd5-93b0-37b6e292ad5e",
+      "id": "37faec94-a4ae-4c6c-a567-9b1ce055ba93",
       "type": "mobile",
       "top": 440,
       "left": 0,
@@ -258,7 +258,7 @@
       "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
+      "componentId": "8d7bec7e-ebd7-4e9f-9f4c-fea6f0979da6",
       "dimensionUnit": "count"
     }
   ]

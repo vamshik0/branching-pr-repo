@@ -1,12 +1,12 @@
 {
-  "id": "1453b47b-369a-4052-8c9c-73d7a81e16c3",
-  "name": "button1",
+  "id": "c1732bb0-9204-44e3-8abc-44158f42e057",
+  "name": "button2",
   "type": "Button",
   "pageId": "e50a9938-bdcd-49be-afa5-7a8e4bb00f3b",
   "parent": null,
   "properties": {
     "text": {
-      "value": "Run mongoDB query"
+      "value": "Run restApi query"
     },
     "visibility": {
       "value": "{{true}}"
@@ -93,19 +93,19 @@
   "validation": {},
   "layouts": [
     {
-      "id": "9fe31bc1-a38f-4882-ba2f-5bc5243fc019",
+      "id": "fa0f7f62-e312-4777-b26e-541c410992e5",
       "type": "desktop",
       "top": 510,
-      "left": 1,
+      "left": 20,
       "width": 4,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "1453b47b-369a-4052-8c9c-73d7a81e16c3",
+      "componentId": "c1732bb0-9204-44e3-8abc-44158f42e057",
       "dimensionUnit": "count"
     },
     {
-      "id": "9fcd5f1e-855c-43bb-9517-b9e0e9832c6b",
+      "id": "a5a2a652-5502-4dde-a243-532de64ec13b",
       "type": "mobile",
       "top": 400,
       "left": 0,
@@ -113,7 +113,7 @@
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "1453b47b-369a-4052-8c9c-73d7a81e16c3",
+      "componentId": "c1732bb0-9204-44e3-8abc-44158f42e057",
       "dimensionUnit": "count"
     }
   ]
