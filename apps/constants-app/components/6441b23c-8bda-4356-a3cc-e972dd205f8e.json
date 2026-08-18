@@ -1,6 +1,6 @@
 {
-  "id": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
-  "name": "table1",
+  "id": "6441b23c-8bda-4356-a3cc-e972dd205f8e",
+  "name": "table2",
   "type": "Table",
   "pageId": "e50a9938-bdcd-49be-afa5-7a8e4bb00f3b",
   "parent": null,
@@ -18,7 +18,7 @@
       "value": "rawJson"
     },
     "data": {
-      "value": "{{queries.cbc31b15-78d9-403b-a121-ee1cc23f320c.data}}"
+      "value": "{{queries.restApi.data}}"
     },
     "useDynamicColumn": {
       "value": "{{false}}"
@@ -238,19 +238,19 @@
   "validation": {},
   "layouts": [
     {
-      "id": "39e69dd7-ccb9-4d74-b3f1-c31533e0d395",
+      "id": "4c3c7547-9513-49c6-82b4-6f97264e642b",
       "type": "desktop",
       "top": 580,
-      "left": 1,
+      "left": 21,
       "width": 19,
       "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
+      "componentId": "6441b23c-8bda-4356-a3cc-e972dd205f8e",
       "dimensionUnit": "count"
     },
     {
-      "id": "faefde55-c883-4dd5-93b0-37b6e292ad5e",
+      "id": "e53632e9-7913-4a24-8b9f-741f0949c2c7",
       "type": "mobile",
       "top": 550,
       "left": 1,
@@ -258,7 +258,7 @@
       "height": 460,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "0eecba6e-e3b6-4dba-ab4c-b50083d1de63",
+      "componentId": "6441b23c-8bda-4356-a3cc-e972dd205f8e",
       "dimensionUnit": "count"
     }
   ]
