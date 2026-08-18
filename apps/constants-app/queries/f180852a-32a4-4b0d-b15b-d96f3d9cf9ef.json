@@ -4,15 +4,37 @@
   "options": {
     "method": "get",
     "url": "",
-    "url_params": [],
-    "headers": [],
-    "cookies": [],
-    "body": [],
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "{{secrets.headerKey}}",
+        "{{secrets.headerValue}}"
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
     "json_body": null,
     "body_toggle": false,
     "retry_network_errors": true,
     "transformationLanguage": "javascript",
-    "enableTransformation": false
+    "enableTransformation": false,
+    "raw_body": null,
+    "arrayValuesChanged": true
   },
   "dataSourceId": "3a5fce74-2ea9-4b33-83aa-1c5e11e6abdd",
   "appVersionId": "387788cb-a9ff-4574-bff8-156b22eda5ff",
