@@ -3,7 +3,7 @@
   "name": "constants-app",
   "type": "front-end",
   "slug": "a76141de-b3a8-4a12-9da8-112567c2a3d6",
-  "isPublic": false,
+  "isPublic": true,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
