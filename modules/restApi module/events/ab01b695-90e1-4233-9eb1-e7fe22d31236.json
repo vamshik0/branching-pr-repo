@@ -1,0 +1,18 @@
+{
+  "id": "ab01b695-90e1-4233-9eb1-e7fe22d31236",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "0d88f5bb-8d5e-449c-bc32-e199fd2f69d7",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button2",
+    "queryName": "restapi1",
+    "parameters": {}
+  },
+  "sourceId": "8c62f24e-c86d-4b72-bc95-8f594fe38ae1",
+  "target": "component",
+  "appVersionId": "a6cdc80f-2a39-4a6c-a208-69fd170cb4d0"
+}
