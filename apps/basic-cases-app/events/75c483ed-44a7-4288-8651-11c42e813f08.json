@@ -4,7 +4,7 @@
   "index": 0,
   "event": {
     "eventId": "onDataQuerySuccess",
-    "message": "Environment check!",
+    "message": "{{globals.environment.name}} check!",
     "actionId": "show-alert",
     "alertType": "success"
   },
