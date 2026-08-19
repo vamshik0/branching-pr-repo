@@ -2,7 +2,7 @@
   "id": "0bd0a1ae-0feb-4230-a1b4-34ffb9f171a0",
   "name": "runjs1",
   "options": {
-    "code": "return 'environment check'",
+    "code": "return `${globals.environment.name} check`",
     "parameters": [],
     "runOnPageLoad": true
   },
