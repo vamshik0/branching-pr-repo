@@ -1,0 +1,50 @@
+{
+  "id": "7ed3fd07-8c2d-45bf-9aae-121d43ed14f5",
+  "kind": "postgresql",
+  "name": "NEW_postgresql",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "tooljet_development",
+      "host": "localhost",
+      "password": "{{constants.password}}",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "postgres"
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "tooljet_development",
+      "host": "localhost",
+      "password": "{{constants.password}}",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "postgres"
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "tooljet_development",
+      "host": "localhost",
+      "password": "{{constants.password}}",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "postgres"
+    }
+  },
+  "type": "default"
+}
