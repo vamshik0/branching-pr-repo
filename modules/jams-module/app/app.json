@@ -1,0 +1,13 @@
+{
+  "id": "b2d6cde7-1200-4cf8-b73c-d4785618e2a7",
+  "name": "jams-module",
+  "type": "module",
+  "slug": "a5f920e9-47f5-4cc0-a11a-1c70f9cf46ac",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sun",
+  "tooljetVersion": "3.21.61-beta-ee"
+}
