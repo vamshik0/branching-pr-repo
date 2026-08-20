@@ -1,0 +1,13 @@
+{
+  "id": "2a536f53-8bb0-40f1-9885-ef702b99a1ba",
+  "name": "arcade-module",
+  "type": "module",
+  "slug": "bc9956b4-8597-43ad-ab6f-43e77c619f44",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.61-beta-ee"
+}
