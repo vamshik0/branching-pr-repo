@@ -1,13 +1,13 @@
 {
-  "id": "382749f0-0ed2-49e5-8c09-568e522cdacd",
-  "name": "common-module-1",
-  "type": "module",
-  "slug": "aac70aa2-8d74-4120-805e-e58715884e76",
+  "id": "a3407718-a638-4ca2-ac57-1d2532d2c0cf",
+  "name": "common-app-2",
+  "type": "front-end",
+  "slug": "a3407718-a638-4ca2-ac57-1d2532d2c0cf",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": null,
+  "icon": "home",
   "tooljetVersion": "3.21.61-beta-ee"
 }

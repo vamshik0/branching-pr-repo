@@ -1,5 +1,5 @@
 {
-  "id": "275c7915-26fc-4944-9759-2f0335b87cb0",
+  "id": "9fe82c7b-56ea-434a-befc-30cf1514969f",
   "definition": null,
   "globalSettings": {
     "appInMaintenance": false,
@@ -13,15 +13,15 @@
   "pageSettings": {
     "properties": {
       "disableMenu": {
-        "value": "{{true}}",
+        "value": "{{false}}",
         "fxActive": false
       }
     }
   },
-  "showViewerNavigation": false,
-  "homePageId": "c4a7c76b-23fb-4ee5-9e4e-af527ae8de5e",
+  "showViewerNavigation": true,
+  "homePageId": "cdc153d0-4166-4e78-9421-a77f60167d33",
   "versionType": "branch",
-  "appId": "382749f0-0ed2-49e5-8c09-568e522cdacd",
+  "appId": "a3407718-a638-4ca2-ac57-1d2532d2c0cf",
   "promotedFrom": null,
   "status": "DRAFT",
   "description": null,
