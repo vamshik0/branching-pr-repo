@@ -1,12 +1,12 @@
 {
-  "id": "c9c00ce0-ce54-45db-ad0d-3caf179f5ea5",
-  "name": "button3",
+  "id": "7ac805ad-772c-4a87-87c2-ef6bf276280a",
+  "name": "button2",
   "type": "Button",
   "pageId": "9e8201c1-81f8-4d79-8f16-6c919b9f8ca9",
   "parent": null,
   "properties": {
     "text": {
-      "value": "Click me"
+      "value": "v2"
     },
     "visibility": {
       "value": "{{true}}"
@@ -93,27 +93,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "a2a28e5c-03a2-4d94-aad1-d7fcdc046fcd",
+      "id": "af278894-10fa-43ff-81d0-3dfccbf0afa4",
       "type": "desktop",
-      "top": 1050,
-      "left": 2,
+      "top": 90,
+      "left": 9,
       "width": 4,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "c9c00ce0-ce54-45db-ad0d-3caf179f5ea5",
+      "componentId": "7ac805ad-772c-4a87-87c2-ef6bf276280a",
       "dimensionUnit": "count"
     },
     {
-      "id": "4d1e2312-5336-4ae9-b344-0f4b6a995b1b",
+      "id": "ac531f7f-8891-4ac3-9cf4-ab46773d3c6f",
       "type": "mobile",
-      "top": 1040,
-      "left": 2,
+      "top": 90,
+      "left": 9,
       "width": 4,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "c9c00ce0-ce54-45db-ad0d-3caf179f5ea5",
+      "componentId": "7ac805ad-772c-4a87-87c2-ef6bf276280a",
       "dimensionUnit": "count"
     }
   ]
