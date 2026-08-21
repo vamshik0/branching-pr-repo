@@ -15,12 +15,13 @@
       "disableMenu": {
         "value": "{{false}}",
         "fxActive": false
-      }
+      },
+      "position": "top"
     }
   },
   "showViewerNavigation": true,
   "homePageId": "6a59d2d0-e5ed-4fb8-bdba-336ec0c84838",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "b97b8432-f00f-43a2-b9f6-a3fb227312b0",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -28,6 +29,6 @@
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "remoteUpdatedAt": "2026-07-27T07:59:00.644Z",
-  "sourceTag": null
+  "sourceTag": null,
+  "isSynced": true
 }
