@@ -15,7 +15,8 @@
       "disableMenu": {
         "value": "{{false}}",
         "fxActive": false
-      }
+      },
+      "position": "top"
     }
   },
   "showViewerNavigation": true,
