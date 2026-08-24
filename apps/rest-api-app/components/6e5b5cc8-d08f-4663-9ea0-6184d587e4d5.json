@@ -1,0 +1,151 @@
+{
+  "id": "6e5b5cc8-d08f-4663-9ea0-6184d587e4d5",
+  "name": "address.street",
+  "type": "TextInput",
+  "pageId": "f64e6534-2888-4fb8-9e13-5515893f8d9a",
+  "parent": "60f72818-47e2-485d-a332-fea085607039",
+  "properties": {
+    "value": {
+      "value": "123 Main Street"
+    },
+    "label": {
+      "value": "Street"
+    },
+    "placeholder": {
+      "value": "Enter your input"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelFontSize": {
+      "value": "{{12}}"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "width": {
+      "value": "{{33}}"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "widthType": {
+      "value": "ofComponent"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": false
+    },
+    "regex": {
+      "value": ""
+    },
+    "minLength": {
+      "value": ""
+    },
+    "maxLength": {
+      "value": ""
+    },
+    "customRule": {
+      "value": ""
+    }
+  },
+  "layouts": [
+    {
+      "id": "74082f8b-3959-40b3-9b96-70b10fd2332a",
+      "type": "desktop",
+      "top": 400,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6e5b5cc8-d08f-4663-9ea0-6184d587e4d5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c914aad3-edb8-45c8-a64e-5d9a2f8880ae",
+      "type": "mobile",
+      "top": 400,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6e5b5cc8-d08f-4663-9ea0-6184d587e4d5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

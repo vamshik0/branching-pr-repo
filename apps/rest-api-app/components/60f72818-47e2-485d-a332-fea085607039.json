@@ -48,10 +48,10 @@
       "value": "{{true}}"
     },
     "generateFormFrom": {
-      "value": ""
+      "value": "rawJson"
     },
     "JSONData": {
-      "value": {}
+      "value": "{{{ 'name': 'John Doe', 'age': 35, 'isActive': true, 'dob': '01-01-1990', 'hobbies': ['reading', 'gaming', 'cycling'], 'address': { 'street': '123 Main Street', 'city': 'New York' } }}}"
     },
     "tooltipFormat": {
       "value": "plainText"
@@ -61,6 +61,55 @@
     },
     "buttonToSubmit": {
       "value": "d215c640-3e32-4f3c-85af-e6ae64c73885"
+    },
+    "fields": {
+      "value": [
+        {
+          "componentId": "9b688aa0-274f-488d-ae2a-227904835c05",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "name"
+        },
+        {
+          "componentId": "e03aae85-2536-44e3-9fcf-ec1153ef5cd6",
+          "isCustomField": false,
+          "dataType": "number",
+          "key": "age"
+        },
+        {
+          "componentId": "3bc1d352-6a7d-47ef-8c20-8f4d41c6c564",
+          "isCustomField": false,
+          "dataType": "boolean",
+          "key": "isActive"
+        },
+        {
+          "componentId": "b4576ac8-8b05-4d6b-a6bc-1ab727e2437a",
+          "isCustomField": false,
+          "dataType": "date",
+          "key": "dob"
+        },
+        {
+          "componentId": "aaf092b5-7881-43f9-a7e2-3fb5d2413d36",
+          "isCustomField": false,
+          "dataType": "array",
+          "key": "hobbies"
+        },
+        {
+          "componentId": "6e5b5cc8-d08f-4663-9ea0-6184d587e4d5",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.street"
+        },
+        {
+          "componentId": "b9d22414-2bd5-48fe-81d0-fde85ad0e333",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.city"
+        }
+      ]
+    },
+    "canvasHeight": {
+      "value": 540
     }
   },
   "general": {},
@@ -101,10 +150,10 @@
     {
       "id": "c5a0b8cb-7dbd-4d64-8367-22c1b4e53520",
       "type": "desktop",
-      "top": 120,
-      "left": 4,
-      "width": 15,
-      "height": 450,
+      "top": 60,
+      "left": 1,
+      "width": 8,
+      "height": 750,
       "widthPx": null,
       "fillWidth": null,
       "componentId": "60f72818-47e2-485d-a332-fea085607039",
