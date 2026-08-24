@@ -1,5 +1,6 @@
 {
   "id": "de66200f-11bc-4646-bb1f-4ef7f5d01d88",
+  "name": "Outside-folder",
   "type": "front-end",
   "slug": "2c321dd2-96be-42d1-bc27-033e0e75c8a9",
   "isPublic": false,
@@ -8,5 +9,5 @@
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "sun",
-  "tooljetVersion": "3.21.61-beta-ee"
+  "tooljetVersion": "3.21.55-beta-ee"
 }
