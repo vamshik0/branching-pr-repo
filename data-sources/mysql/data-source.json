@@ -1,0 +1,52 @@
+{
+  "id": "6b3423cb-8151-47c1-acdb-34695391159b",
+  "kind": "mysql",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "test_db",
+      "host": "9.234.17.31",
+      "password": "{{secrets.mysql}}",
+      "port": "3318",
+      "protocol": "hostname",
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "root"
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "test_db",
+      "host": "9.234.17.31",
+      "password": "{{secrets.mysql}}",
+      "port": "3318",
+      "protocol": "hostname",
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "root"
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "database": "test_db",
+      "host": "9.234.17.31",
+      "password": "{{secrets.mysql}}",
+      "port": "3318",
+      "protocol": "hostname",
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "root"
+    }
+  },
+  "type": "default"
+}

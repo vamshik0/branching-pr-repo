@@ -1,0 +1,14 @@
+{
+  "id": "e4580b5b-8be7-4ce5-9501-8f1f572c17db",
+  "name": "mysql1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "SELECT TABLE_SCHEMA,\n       TABLE_NAME\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_TYPE = 'BASE TABLE';"
+  },
+  "dataSourceId": "6b3423cb-8151-47c1-acdb-34695391159b",
+  "appVersionId": "f8740bfc-6b8d-40f3-9e88-09641a71fc59",
+  "kind": "mysql",
+  "dataSourceType": "default"
+}
