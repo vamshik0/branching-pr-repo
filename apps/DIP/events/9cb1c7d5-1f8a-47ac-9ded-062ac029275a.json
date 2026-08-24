@@ -1,0 +1,18 @@
+{
+  "id": "9cb1c7d5-1f8a-47ac-9ded-062ac029275a",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "e4580b5b-8be7-4ce5-9501-8f1f572c17db",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "mysql1",
+    "parameters": {}
+  },
+  "sourceId": "7835d92d-6ee8-4b1e-ac1c-dd5ac7509c42",
+  "target": "component",
+  "appVersionId": "f8740bfc-6b8d-40f3-9e88-09641a71fc59"
+}
