@@ -1,13 +1,12 @@
 {
-  "id": "79068872-d6b5-4e2d-9903-bc66eab8f369",
-  "name": "AI powered code explainer",
+  "id": "7297591c-dc62-42ca-9dcd-6c74ca6976d8",
   "type": "front-end",
-  "slug": "27a0dc6d-1147-4150-8c81-5f76b8a589f4",
+  "slug": "811ae1e7-6b9c-4502-a947-031f65f1c816",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "apps",
+  "icon": "server",
   "tooljetVersion": "3.21.61-beta-ee"
 }
