@@ -1,0 +1,17 @@
+{
+  "id": "b14ee174-15ca-454d-894b-48e364718268",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "git-restApi success",
+    "queryId": "3640a97e-dffa-4668-96d2-25c232b7b47f",
+    "actionId": "show-alert",
+    "alertType": "success",
+    "queryName": "restapi1",
+    "parameters": {}
+  },
+  "sourceId": "bff4a1d6-e4e5-44e2-87fe-fcf2bff5dcb7",
+  "target": "data_query",
+  "appVersionId": "adf46eb9-f68a-458c-9d5d-a99af259540a"
+}
