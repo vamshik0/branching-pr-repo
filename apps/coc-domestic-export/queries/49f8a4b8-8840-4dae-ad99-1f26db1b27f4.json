@@ -1,0 +1,13 @@
+{
+  "id": "49f8a4b8-8840-4dae-ad99-1f26db1b27f4",
+  "name": "setupTileNavigation",
+  "options": {
+    "code": "if (window.__tileNavInit) return null;\nwindow.__tileNavInit = true;\nwindow.addEventListener('message', (e) => {\n  if (e.data?.type === 'tile_click' && e.data?.appId) {\n    actions.goToApp(e.data.appId);\n  }\n});\nreturn null;",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

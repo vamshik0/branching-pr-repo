@@ -1,0 +1,105 @@
+{
+  "id": "15ea95ae-7baf-4718-a02c-c896ddfe7421",
+  "name": "ModuleContainer",
+  "type": "ModuleContainer",
+  "pageId": "547312a7-1dd0-45e4-9a6a-6ad9d6986a05",
+  "parent": null,
+  "properties": {
+    "inputItems": {
+      "value": [
+        {
+          "name": "refresh_token",
+          "type": "data",
+          "defaultValue": ""
+        },
+        {
+          "name": "tj_app_id",
+          "type": "string",
+          "defaultValue": "",
+          "testInputValue": ""
+        }
+      ]
+    },
+    "outputItems": {
+      "value": []
+    }
+  },
+  "general": {
+    "undefined": {
+      "value": {}
+    }
+  },
+  "styles": {
+    "backgroundColor": {
+      "value": "transparent"
+    },
+    "undefined": {
+      "value": {
+        "backgroundColor": {
+          "value": "transparent"
+        }
+      }
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "undefined": {
+      "value": {
+        "boxShadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        }
+      }
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "undefined": {
+      "value": {
+        "showOnDesktop": {
+          "value": "{{true}}"
+        },
+        "showOnMobile": {
+          "value": "{{false}}"
+        }
+      }
+    }
+  },
+  "validation": {
+    "undefined": {
+      "value": {}
+    }
+  },
+  "layouts": [
+    {
+      "id": "57051073-9ae0-4059-a71e-6153b1ed5c7f",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 900,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "15ea95ae-7baf-4718-a02c-c896ddfe7421",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b860de9c-180c-4734-b283-b42320159ab5",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 900,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "15ea95ae-7baf-4718-a02c-c896ddfe7421",
+      "dimensionUnit": "count"
+    }
+  ]
+}

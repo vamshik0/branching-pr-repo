@@ -1,0 +1,13 @@
+{
+  "id": "f83a99de-93f1-45c4-a7f1-91403ae322b4",
+  "name": "getCurrentUser",
+  "options": {
+    "code": "const email=(globals&&globals.currentUser&&globals.currentUser.email)||'unknown@porter.in';\nconst name=email.split('@')[0].split('.').map(s=>s.charAt(0).toUpperCase()+s.slice(1)).join(' ');\nreturn { name, role: 'maker', homeCity: 'Bangalore', email };",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

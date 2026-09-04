@@ -1,0 +1,66 @@
+{
+  "id": "d6cf401b-8898-4652-b389-328a6b284d8c",
+  "name": "headerHtml",
+  "type": "Html",
+  "pageId": "71901c76-bba9-4cb9-b696-d830507c49c6",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "{{((email)=>{const name=email?email.split('@')[0].split('.').map(s=>s.charAt(0).toUpperCase()+s.slice(1)).join(' '):'User';return '<div style=\"display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;background:linear-gradient(rgba(255,255,255,0.96),rgba(247,248,251,0.85));border-bottom:1px solid var(--line);font-family:inherit\"><div style=\"display:flex;align-items:center;gap:14px;flex-shrink:0\"><strong style=\"font-size:15px;letter-spacing:-0.01em;color:var(--text)\">City Operator Console</strong><span style=\"font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)\">Porter</span></div><div style=\"display:flex;align-items:center;gap:10px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,0.84);flex-shrink:0\"><div style=\"width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#c4d0ee,#7e94d6)\"></div><strong style=\"font-size:13px;color:var(--text)\">'+name+'</strong></div></div>';})((globals && globals.currentUser && globals.currentUser.email) || '')}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b0b7704c-f928-4dc6-89e0-f8028053606f",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 70,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d6cf401b-8898-4652-b389-328a6b284d8c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "79c0f7aa-9757-4f8a-988d-5bab1bbf3a94",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 70,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d6cf401b-8898-4652-b389-328a6b284d8c",
+      "dimensionUnit": "count"
+    }
+  ]
+}

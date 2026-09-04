@@ -1,0 +1,13 @@
+{
+  "id": "5e1796fe-0930-4238-944c-6316ab0d5eac",
+  "name": "getDomains",
+  "options": {
+    "code": "const SVG=(d)=>'<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" stroke=\"currentColor\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">'+d+'</svg>';\nreturn [\n  { idx:0, key:'fare',         name:'Fare',                  desc:'Fare rules and surge rules',           iconSvg: SVG('<path d=\"M6 8h12\"/><path d=\"M6 12h9\"/><path d=\"M6 16h7\"/><path d=\"M18 6v12\"/>'), enabled:false },\n  { idx:1, key:'allocation',   name:'Allocation',            desc:'Radius, dry run, and priority rules',  iconSvg: SVG('<circle cx=\"12\" cy=\"12\" r=\"7\"/><path d=\"M12 5v14\"/><path d=\"M5 12h14\"/>'), enabled:false },\n  { idx:2, key:'partner',      name:'Partner lifecycle',     desc:'Suspension, waitlist, and partner access', iconSvg: SVG('<path d=\"M8 11a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z\"/><path d=\"M16 13a2.5 2.5 0 1 1 0-5\"/><path d=\"M4 19a4 4 0 0 1 8 0\"/><path d=\"M14 19a3 3 0 0 1 6 0\"/>'), enabled:false },\n  { idx:3, key:'city',         name:'City & vehicle setup',  desc:'City launch and operating rules',      iconSvg: SVG('<path d=\"M5 19h14\"/><path d=\"M7 19V9l5-4l5 4v10\"/><path d=\"M10 13h4\"/>'), enabled:false },\n  { idx:4, key:'supply',       name:'Supply management',     desc:'Onboarding, wallets, and performance controls', iconSvg: SVG('<path d=\"M6 8h12\"/><path d=\"M8 12h8\"/><path d=\"M10 16h4\"/><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"2\"/>'), enabled:false },\n  { idx:5, key:'order',        name:'Order management',      desc:'Batching, routing, and schedule controls', iconSvg: SVG('<path d=\"M7 7h10v10H7z\"/><path d=\"M7 12h10\"/><path d=\"M12 7v10\"/>'), enabled:false },\n  { idx:6, key:'customer',     name:'Customer engagement',   desc:'Rewards, promos, and app surfaces',    iconSvg: SVG('<path d=\"M7 8h10\"/><path d=\"M7 12h7\"/><path d=\"M7 16h5\"/><path d=\"M18 8l-2 2l2 2\"/>'), enabled:false },\n  { idx:7, key:'financial',    name:'Financial ops',         desc:'Refunds, payouts, and financial controls', iconSvg: SVG('<path d=\"M6 8h12\"/><path d=\"M6 12h12\"/><path d=\"M6 16h8\"/><circle cx=\"17\" cy=\"16\" r=\"2\"/>'), enabled:false },\n  { idx:8, key:'all',          name:'All business functions (10)', desc:'Open the full business function directory', iconSvg: SVG('<path d=\"M8 8h8\"/><path d=\"M8 12h8\"/><path d=\"M8 16h8\"/><path d=\"M5 8h.01\"/><path d=\"M5 12h.01\"/><path d=\"M5 16h.01\"/>'), enabled:false },\n];",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

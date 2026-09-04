@@ -1,0 +1,12 @@
+{
+  "id": "e86579d4-a75f-4cbd-aa86-76e1c9ed4999",
+  "name": "submitReject",
+  "options": {
+    "code": "return await queries.processApproverDecision.run({ decision: 'REJECT' });",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ef4f6d51-63f9-444a-a24d-0019d5d0dc1f",
+  "name": "initAccess",
+  "options": {
+    "code": "try {\n  const src = constants.ACCESS_RESOLVER_CODE;\n  if (!src) { console.warn('ACCESS_RESOLVER_CODE constant missing'); await actions.setVariable('access', null); return; }\n  const fn = new Function('globals', 'constants', 'return (' + src + ')(globals, constants);');\n  const access = fn(globals, constants);\n  await actions.setVariable('access', access);\n} catch (e) {\n  console.error('initAccess failed', e);\n  await actions.setVariable('access', null);\n}",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

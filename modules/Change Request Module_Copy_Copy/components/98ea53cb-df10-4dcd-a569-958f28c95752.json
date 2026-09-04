@@ -1,0 +1,93 @@
+{
+  "id": "98ea53cb-df10-4dcd-a569-958f28c95752",
+  "name": "ListContainer",
+  "type": "Container",
+  "pageId": "547312a7-1dd0-45e4-9a6a-6ad9d6986a05",
+  "parent": "36c6a91a-abaf-442d-8cb6-bca6eb142ac6-submissions",
+  "properties": {
+    "showHeader": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{variables.rule_details_visible ? false : true}}"
+    },
+    "canvasHeight": {
+      "value": 770
+    },
+    "headerHeight": {
+      "value": 10
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "rgba(0,0,0,0)"
+    },
+    "borderColor": {
+      "value": "rgba(0,0,0,0)"
+    },
+    "borderRadius": {
+      "value": "0"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "headerBackgroundColor": {
+      "value": "rgba(0,0,0,0)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "91abeeee-2338-4543-a943-e4fd4363e0c3",
+      "type": "desktop",
+      "top": 70,
+      "left": 8,
+      "width": 27,
+      "height": 740,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "98ea53cb-df10-4dcd-a569-958f28c95752",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "269402fb-c753-4358-9fcd-acb16c84e0fe",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 900,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "98ea53cb-df10-4dcd-a569-958f28c95752",
+      "dimensionUnit": "count"
+    }
+  ]
+}
