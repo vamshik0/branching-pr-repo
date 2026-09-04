@@ -1,0 +1,49 @@
+{
+  "id": "da841b6a-cbca-4831-8521-648253771e93",
+  "name": "bannerHtml",
+  "type": "Html",
+  "pageId": "71901c76-bba9-4cb9-b696-d830507c49c6",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "{{((d)=>{const n=(d&&d.count!=null)?d.count:0;return '<div style=\"display:flex;align-items:center;justify-content:space-between;gap:16px;margin:24px 24px 0;padding:16px 22px;border-radius:20px;background:var(--brand-soft);border:1px solid rgba(20,81,138,0.1);color:var(--brand);font-family:inherit\"><strong style=\"font-size:15px\">'+n+' approvals are waiting for your decision</strong><span style=\"padding:10px 18px;border-radius:999px;border:1px solid rgba(20,81,138,0.16);background:rgba(255,255,255,0.78);color:var(--brand);font-size:13px;font-weight:700;text-decoration:none;visibility:hidden\">Go to Submissions \\u2192</span></div>';})(queries.getPendingApprovalsCount && queries.getPendingApprovalsCount.data)}}"
+    },
+    "visibility": {
+      "value": "{{variables.activeTab !== 'submissions'}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "47fe24ae-8c3a-4582-b29e-a7c8fbb4ee12",
+      "type": "desktop",
+      "top": 130,
+      "left": 0,
+      "width": 43,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "da841b6a-cbca-4831-8521-648253771e93",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "fca5fd87-3350-4c6a-b2c7-6866e3337802",
+      "type": "mobile",
+      "top": 130,
+      "left": 0,
+      "width": 43,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "da841b6a-cbca-4831-8521-648253771e93",
+      "dimensionUnit": "count"
+    }
+  ]
+}

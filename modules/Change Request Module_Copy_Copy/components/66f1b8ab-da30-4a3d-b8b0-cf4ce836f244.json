@@ -1,0 +1,145 @@
+{
+  "id": "66f1b8ab-da30-4a3d-b8b0-cf4ce836f244",
+  "name": "AdminCommentT2",
+  "type": "TextArea",
+  "pageId": "547312a7-1dd0-45e4-9a6a-6ad9d6986a05",
+  "parent": "36c6a91a-abaf-442d-8cb6-bca6eb142ac6-preview",
+  "properties": {
+    "label": {
+      "value": "Reviewer comment"
+    },
+    "value": {
+      "value": ""
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{(function(){ if (!variables.cr_preview_data || variables.cr_preview_data.status !== 'SUBMITTED') return false; var row = variables.cr_preview_data; var a = variables.access || {}; var is = a.is || {}; var me = globals.currentUser.email; if (row.maker_email === me) return true; if (is.admin || is.builder) return true; if (!is.checker) return false; var domains = Array.isArray(a.domains) ? a.domains : []; var key = String(row.domain || '').replace(/\\s+/g, '_').toLowerCase(); return a.has_all_domains || domains.map(function(s){return String(s).toLowerCase();}).indexOf(key) >= 0; })()}}"
+    },
+    "placeholder": {
+      "value": "Optional: explain approval/rejection"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "width": {
+      "value": "{{33}}"
+    },
+    "alignment": {
+      "value": "side"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "widthType": {
+      "value": "ofComponent"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "regex": {
+      "value": "{{false}}"
+    },
+    "minLength": {
+      "value": ""
+    },
+    "maxLength": {
+      "value": ""
+    },
+    "customRule": {
+      "value": ""
+    }
+  },
+  "layouts": [
+    {
+      "id": "884a8157-c173-4e2f-93bf-de6aa6ebce16",
+      "type": "desktop",
+      "top": 920,
+      "left": 0,
+      "width": 43,
+      "height": 80,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "66f1b8ab-da30-4a3d-b8b0-cf4ce836f244",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "521c077f-6d96-405a-a698-452986a34a66",
+      "type": "mobile",
+      "top": 920,
+      "left": 0,
+      "width": 43,
+      "height": 80,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "66f1b8ab-da30-4a3d-b8b0-cf4ce836f244",
+      "dimensionUnit": "count"
+    }
+  ]
+}

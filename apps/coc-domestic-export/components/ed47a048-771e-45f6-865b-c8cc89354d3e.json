@@ -1,0 +1,113 @@
+{
+  "id": "ed47a048-771e-45f6-865b-c8cc89354d3e",
+  "name": "CreateAppModal",
+  "type": "ModalV2",
+  "pageId": "71901c76-bba9-4cb9-b696-d830507c49c6",
+  "parent": null,
+  "properties": {
+    "size": {
+      "value": "lg"
+    },
+    "hideOnEsc": {
+      "value": "{{true}}"
+    },
+    "showFooter": {
+      "value": "{{true}}"
+    },
+    "showHeader": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "modalHeight": {
+      "value": "{{500}}"
+    },
+    "footerHeight": {
+      "value": 80
+    },
+    "headerHeight": {
+      "value": 80
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledModal": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "disabledTrigger": {
+      "value": "{{true}}"
+    },
+    "hideCloseButton": {
+      "value": "{{false}}"
+    },
+    "useDefaultButton": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "closeOnClickingOutside": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "bodyBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "footerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "triggerButtonTextSize": {
+      "value": "{{14}}"
+    },
+    "triggerButtonFontWeight": {
+      "value": "normal"
+    },
+    "triggerButtonContentAlignment": {
+      "value": "center"
+    },
+    "triggerButtonHoverBackgroundMode": {
+      "value": "auto"
+    },
+    "triggerButtonHoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "482cc1b1-2a7d-4bcb-b83e-61ba2e5433e6",
+      "type": "desktop",
+      "top": 40,
+      "left": 6,
+      "width": 32,
+      "height": 500,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ed47a048-771e-45f6-865b-c8cc89354d3e",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2a247879-f124-4e91-a719-78ed576bd1db",
+      "type": "mobile",
+      "top": 50,
+      "left": 0,
+      "width": 43,
+      "height": 500,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ed47a048-771e-45f6-865b-c8cc89354d3e",
+      "dimensionUnit": "count"
+    }
+  ]
+}

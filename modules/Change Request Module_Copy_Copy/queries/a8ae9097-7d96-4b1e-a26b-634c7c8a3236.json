@@ -1,0 +1,12 @@
+{
+  "id": "a8ae9097-7d96-4b1e-a26b-634c7c8a3236",
+  "name": "resetPreview",
+  "options": {
+    "code": "console.log('[RESET] back to list clicked');\ntry { await actions.setVariable('cr_preview_data', null); } catch(e){ console.error('[RESET] setVar failed', e); }\ntry { await actions.setVariable('rule_details_visible', false); } catch(e){}\ntry { if (components.CRTabs && components.CRTabs.setTab) components.CRTabs.setTab('submissions'); } catch(e){}\ntry { if (components.AdminCommentT2 && components.AdminCommentT2.setValue) components.AdminCommentT2.setValue(''); } catch(e){}\nconsole.log('[RESET] done');\nreturn { ok: true };",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

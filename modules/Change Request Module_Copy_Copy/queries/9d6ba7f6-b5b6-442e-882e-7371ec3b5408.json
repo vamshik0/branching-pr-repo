@@ -1,0 +1,78 @@
+{
+  "id": "9d6ba7f6-b5b6-442e-882e-7371ec3b5408",
+  "name": "fetchConfigRecordApi",
+  "options": {
+    "url": "{{variables.api_endpoint_base}}/v1/coc/configs",
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "method": "get",
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "X-CoC-Request-ID",
+        "b68052fd-4202-451a-82d3-12bf92d3fc13"
+      ],
+      [
+        "X-CoC-Actor-ID",
+        "viewer@porter.in"
+      ],
+      [
+        "X-CoC-Actor-Role",
+        "VIEWER"
+      ],
+      [
+        "X-CoC-Domain-ID",
+        "partner-platform"
+      ],
+      [
+        "porter-flash-id",
+        "pcoc"
+      ],
+      [
+        "porter-flash-partner-plat-web",
+        "pcoc"
+      ],
+      [
+        "porter-country",
+        "india"
+      ],
+      [
+        "porter-timezone",
+        "Asia/Kolkata"
+      ]
+    ],
+    "rawBody": null,
+    "jsonBody": null,
+    "parameters": [],
+    "urlParams": [
+      [
+        "config_type",
+        "PrimeProgramConfig"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "bodyToggle": false,
+    "arrayValuesChanged": true,
+    "confirmationMessage": "",
+    "enableTransformation": false,
+    "retryNetworkErrors": null,
+    "transformationLanguage": "javascript",
+    "showSuccessNotification": true
+  },
+  "dataSourceId": "8fd8bcb7-e277-4c4b-b8d9-078668be06a2",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

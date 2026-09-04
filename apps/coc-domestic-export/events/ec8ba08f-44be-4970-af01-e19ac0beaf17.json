@@ -1,0 +1,15 @@
+{
+  "id": "ec8ba08f-44be-4970-af01-e19ac0beaf17",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "activeTab",
+    "value": "submissions",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable",
+    "parameters": {}
+  },
+  "sourceId": "6d1f3ed0-7b33-4f43-a2bc-eafa09ce657d",
+  "target": "component",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2"
+}

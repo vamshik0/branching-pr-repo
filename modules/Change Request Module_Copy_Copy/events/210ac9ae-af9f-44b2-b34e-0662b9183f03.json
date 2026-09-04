@@ -1,0 +1,14 @@
+{
+  "id": "210ac9ae-af9f-44b2-b34e-0662b9183f03",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "queryId": "11735666-02eb-4292-8e2f-77f57f358c67",
+    "actionId": "run-query",
+    "parameters": {}
+  },
+  "sourceId": "323a5575-8842-4d5b-a564-36a27807d56a",
+  "target": "component",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95"
+}
