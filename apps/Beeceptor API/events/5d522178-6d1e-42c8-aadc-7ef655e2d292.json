@@ -1,0 +1,14 @@
+{
+  "id": "5d522178-6d1e-42c8-aadc-7ef655e2d292",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Be-ceptor down!",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "06d1cd2d-2e8f-4556-bd38-0a9ff6f70088",
+  "target": "data_query",
+  "appVersionId": "6e9822e5-d3bb-4ca1-a37c-825f169569f0"
+}

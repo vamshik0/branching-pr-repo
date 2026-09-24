@@ -1,0 +1,14 @@
+{
+  "id": "2eb0b65a-6bd0-4c4c-8470-c35f8cbd9546",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "sample_db works",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "bbfb5e6a-71d7-467e-92d9-fa3503e997c7",
+  "target": "data_query",
+  "appVersionId": "2df343be-d17f-425e-8d97-8fd613f3db18"
+}
