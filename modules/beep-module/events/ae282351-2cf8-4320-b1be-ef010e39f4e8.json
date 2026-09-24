@@ -1,0 +1,14 @@
+{
+  "id": "ae282351-2cf8-4320-b1be-ef010e39f4e8",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "sample_db fails",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "bbfb5e6a-71d7-467e-92d9-fa3503e997c7",
+  "target": "data_query",
+  "appVersionId": "2df343be-d17f-425e-8d97-8fd613f3db18"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0c0b9dca-866e-4167-82df-904ed49bd069",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Be-ceptor approved!",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "06d1cd2d-2e8f-4556-bd38-0a9ff6f70088",
+  "target": "data_query",
+  "appVersionId": "6e9822e5-d3bb-4ca1-a37c-825f169569f0"
+}
