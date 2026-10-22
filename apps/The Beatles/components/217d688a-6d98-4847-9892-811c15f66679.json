@@ -1,0 +1,178 @@
+{
+  "id": "217d688a-6d98-4847-9892-811c15f66679",
+  "name": "form1",
+  "type": "Form",
+  "pageId": "2ff8dbc2-e087-46b4-9536-b1959daa18ec",
+  "parent": null,
+  "properties": {
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "JSONSchema": {
+      "value": "{{ {title: 'User registration form', properties: {firstname: {type: 'textinput',value: 'Maria',label:'First name', validation:{maxLength:6}, styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},lastname:{type: 'textinput',value: 'Doe', label:'Last name', styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},age:{type:'number', label:'Age'},}, submitButton: {value: 'Submit', styles: {backgroundColor: '#3a433b',borderColor:'#595959'}}} }}"
+    },
+    "newJsonSchema": {
+      "value": "{{ {title: 'User registration form', properties: {firstname: {type: 'textinput',value: 'Maria',label:'First name', validation:{maxLength:6}, styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},lastname:{type: 'textinput',value: 'Doe', label:'Last name', styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},age:{type:'number', label:'Age'},}, submitButton: {value: 'Submit', styles: {backgroundColor: '#3a433b',borderColor:'#595959'}}} }}"
+    },
+    "showHeader": {
+      "value": "{{true}}"
+    },
+    "showFooter": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "headerHeight": {
+      "value": 60
+    },
+    "footerHeight": {
+      "value": 60
+    },
+    "validateOnSubmit": {
+      "value": "{{true}}"
+    },
+    "resetOnSubmit": {
+      "value": "{{true}}"
+    },
+    "generateFormFrom": {
+      "value": "rawJson"
+    },
+    "JSONData": {
+      "value": "{{{ 'name': 'John Doe', 'age': 35, 'isActive': true, 'dob': '01-01-1990', 'hobbies': ['reading', 'gaming', 'cycling'], 'address': { 'street': '123 Main Street', 'city': 'New York' } }}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "buttonToSubmit": {
+      "value": "6eb3d932-7e5c-4e07-a068-4841e69dbc35"
+    },
+    "fields": {
+      "value": [
+        {
+          "componentId": "c7f2fa74-926c-4c95-a669-16e2a8183b9b",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "name"
+        },
+        {
+          "componentId": "b0a8c805-54ae-4983-9a6e-154af4a73930",
+          "isCustomField": false,
+          "dataType": "number",
+          "key": "age"
+        },
+        {
+          "componentId": "86e942b0-363e-4c47-8aa1-eda51693c9c1",
+          "isCustomField": false,
+          "dataType": "boolean",
+          "key": "isActive"
+        },
+        {
+          "componentId": "a0f3c4f3-6ca7-4b19-80f2-fa7f43021467",
+          "isCustomField": false,
+          "dataType": "date",
+          "key": "dob"
+        },
+        {
+          "componentId": "c953bef5-8525-4225-8ded-91bcfb8192a7",
+          "isCustomField": false,
+          "dataType": "array",
+          "key": "hobbies"
+        },
+        {
+          "componentId": "aa4d70c2-0fb5-4626-91e0-180cdf4f2ac2",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.street"
+        },
+        {
+          "componentId": "55fc7260-8f05-4024-9efa-21094ceebf30",
+          "isCustomField": false,
+          "dataType": "string",
+          "key": "address.city"
+        }
+      ]
+    },
+    "canvasHeight": {
+      "value": 540
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "footerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "footerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "6827afaa-63d9-4905-a1da-8ac0aea07c09",
+      "type": "desktop",
+      "top": 550,
+      "left": 5,
+      "width": 15,
+      "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "217d688a-6d98-4847-9892-811c15f66679",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "986da0d3-1cdf-4460-a3c2-31a87cae7340",
+      "type": "mobile",
+      "top": 550,
+      "left": 5,
+      "width": 15,
+      "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "217d688a-6d98-4847-9892-811c15f66679",
+      "dimensionUnit": "count"
+    }
+  ]
+}

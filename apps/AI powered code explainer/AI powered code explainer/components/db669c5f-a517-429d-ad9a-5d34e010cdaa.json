@@ -17,7 +17,12 @@
     "tooltipFormat": {
       "value": "plainText"
     },
-    "label": ""
+    "label": {
+      "value": ""
+    },
+    "legacyInputSize": {
+      "value": "{{true}}"
+    }
   },
   "general": {},
   "styles": {
