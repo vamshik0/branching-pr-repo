@@ -1,0 +1,97 @@
+{
+  "id": "5978095e-b510-4165-af88-3202f5fdcf38",
+  "name": "jsoneditor1",
+  "type": "JSONEditor",
+  "pageId": "0239fbef-9bc5-485e-a68c-4c79a48cfad4",
+  "parent": "3255ef8d-a38d-4a8f-912a-25dd87f03489",
+  "properties": {
+    "value": {
+      "value": "{{({ workflow: queries.a9b17594-83ed-44ee-a133-a6689268e485.data, postgres: queries.9afd5b4b-e935-48bf-a2e9-d36558c5749b.data })}}"
+    },
+    "theme": {
+      "value": "solarized"
+    },
+    "shouldExpandEntireJSON": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "def7ecf3-ccba-4b83-ac5d-beca800a47f1",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 21,
+      "height": 250,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5978095e-b510-4165-af88-3202f5fdcf38",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "095dc0d3-10f1-47c8-af61-9ed3545b4b56",
+      "type": "mobile",
+      "top": 80,
+      "left": 22,
+      "width": 21,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5978095e-b510-4165-af88-3202f5fdcf38",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "9afd5b4b-e935-48bf-a2e9-d36558c5749b",
+  "name": "postgresql1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "SELECT COUNT(*)::int AS total FROM dev1;",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

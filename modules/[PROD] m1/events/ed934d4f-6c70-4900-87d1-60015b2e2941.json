@@ -1,0 +1,14 @@
+{
+  "id": "ed934d4f-6c70-4900-87d1-60015b2e2941",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Nested parent workflow passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "a9b17594-83ed-44ee-a133-a6689268e485",
+  "target": "data_query",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c"
+}

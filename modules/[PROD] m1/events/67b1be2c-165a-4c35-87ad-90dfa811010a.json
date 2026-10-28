@@ -1,0 +1,14 @@
+{
+  "id": "67b1be2c-165a-4c35-87ad-90dfa811010a",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "global pg failed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "9afd5b4b-e935-48bf-a2e9-d36558c5749b",
+  "target": "data_query",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c"
+}

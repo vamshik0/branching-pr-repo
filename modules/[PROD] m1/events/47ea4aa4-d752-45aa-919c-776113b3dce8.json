@@ -1,0 +1,14 @@
+{
+  "id": "47ea4aa4-d752-45aa-919c-776113b3dce8",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "runjs failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "b5d5cdd4-698b-4dc1-aa85-2f406507233b",
+  "target": "data_query",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c"
+}

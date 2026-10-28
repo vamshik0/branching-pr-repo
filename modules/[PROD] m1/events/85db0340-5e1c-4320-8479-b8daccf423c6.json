@@ -1,0 +1,14 @@
+{
+  "id": "85db0340-5e1c-4320-8479-b8daccf423c6",
+  "name": "Event #2",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Nested parent workflow failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "a9b17594-83ed-44ee-a133-a6689268e485",
+  "target": "data_query",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c"
+}

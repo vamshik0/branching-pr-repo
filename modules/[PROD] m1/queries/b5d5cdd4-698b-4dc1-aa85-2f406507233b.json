@@ -1,0 +1,13 @@
+{
+  "id": "b5d5cdd4-698b-4dc1-aa85-2f406507233b",
+  "name": "runjs1",
+  "options": {
+    "code": "const names = ['User1', 'User2', 'User3'];\n\nconst result = names.map((name, index) => ({\n  id: index + 1,\n  name,\n  greeting: `Hello, ${name}!`,\n}));\n\nconsole.log(result);\nreturn result;",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

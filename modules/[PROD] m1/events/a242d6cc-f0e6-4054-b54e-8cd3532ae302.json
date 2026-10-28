@@ -1,0 +1,14 @@
+{
+  "id": "a242d6cc-f0e6-4054-b54e-8cd3532ae302",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "global pg passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "9afd5b4b-e935-48bf-a2e9-d36558c5749b",
+  "target": "data_query",
+  "appVersionId": "c08eeb29-4041-4152-b0fd-2bca310f6e0c"
+}
