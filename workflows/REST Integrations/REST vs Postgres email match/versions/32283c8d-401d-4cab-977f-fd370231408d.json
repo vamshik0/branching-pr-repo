@@ -1,0 +1,263 @@
+{
+  "id": "32283c8d-401d-4cab-977f-fd370231408d",
+  "definition": {
+    "nodes": [
+      {
+        "id": "ae382372-9eed-419a-bcba-6cd8b62d135c",
+        "type": "input",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "bcaa42db-00b5-4119-90ce-01eb8762cf47",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Fetch REST records",
+          "nodeType": "query",
+          "idOnDefinition": "4eaef264-f1ab-4a34-ab44-d19cf9e6a31e",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "46e0d28a-ce41-44dc-b433-e47d2fd5cc48",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Postgres emails",
+          "nodeType": "query",
+          "idOnDefinition": "7d36a946-94b4-4a87-9953-aeaf3033820e",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "e9d7255d-5643-4a2a-b073-0ae2e5cc30c3",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Match each REST record",
+          "nodeType": "query",
+          "looped": true,
+          "iterationValuesCode": "return Array.isArray(fetchRemote.data) ? fetchRemote.data : [];",
+          "idOnDefinition": "1f7ce038-8926-4ab0-9154-d21c31febcc8",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 900,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "11581942-47d9-425d-a3b2-d6b84d2c07ff",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Summarize matches",
+          "nodeType": "query",
+          "idOnDefinition": "6cf93c52-93d7-4e59-84aa-f9631e6645d6"
+        },
+        "position": {
+          "x": 1200,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": true
+      },
+      {
+        "id": "db96139d-ef63-481e-9247-8d0b56e7f792",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return matchSummary.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "position": {
+          "x": 1500,
+          "y": 120
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "2548aa5d-01cc-4661-8376-2a805fb79beb",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'Fetch or match step failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "502"
+          }
+        },
+        "position": {
+          "x": 900,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "5fd40683-4828-45a0-b3b0-4608d31d97d6",
+        "source": "ae382372-9eed-419a-bcba-6cd8b62d135c",
+        "target": "bcaa42db-00b5-4119-90ce-01eb8762cf47",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "6bd01626-181a-416a-910c-2999eca2e991",
+        "source": "bcaa42db-00b5-4119-90ce-01eb8762cf47",
+        "target": "46e0d28a-ce41-44dc-b433-e47d2fd5cc48",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "8761ad72-b503-43ce-9aec-8ca79b6d0eac",
+        "source": "46e0d28a-ce41-44dc-b433-e47d2fd5cc48",
+        "target": "e9d7255d-5643-4a2a-b073-0ae2e5cc30c3",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "22d777e4-7b32-4ef2-9ead-3f9644346cba",
+        "source": "e9d7255d-5643-4a2a-b073-0ae2e5cc30c3",
+        "target": "11581942-47d9-425d-a3b2-d6b84d2c07ff",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "bff12dd5-29dc-4a49-a414-28075756174e",
+        "source": "11581942-47d9-425d-a3b2-d6b84d2c07ff",
+        "target": "db96139d-ef63-481e-9247-8d0b56e7f792",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "53f8e2bb-b225-4b43-bc78-74d5df8020c1",
+        "source": "bcaa42db-00b5-4119-90ce-01eb8762cf47",
+        "target": "2548aa5d-01cc-4661-8376-2a805fb79beb",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "f3cfd57a-55b6-4e3f-bc7b-35e8e27d0f09",
+        "source": "46e0d28a-ce41-44dc-b433-e47d2fd5cc48",
+        "target": "2548aa5d-01cc-4661-8376-2a805fb79beb",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "74aa3996-5a68-4575-b9ff-95e42dd42e69",
+        "source": "e9d7255d-5643-4a2a-b073-0ae2e5cc30c3",
+        "target": "2548aa5d-01cc-4661-8376-2a805fb79beb",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "7d36a946-94b4-4a87-9953-aeaf3033820e",
+        "id": "8075a57b-b76a-4366-a5cd-084f86271d47"
+      },
+      {
+        "idOnDefinition": "4eaef264-f1ab-4a34-ab44-d19cf9e6a31e",
+        "id": "d5453094-4857-4a45-95a0-e53e626f72f2"
+      },
+      {
+        "idOnDefinition": "1f7ce038-8926-4ab0-9154-d21c31febcc8",
+        "id": "36d4a9b0-f3e6-48fa-a335-771f53689136"
+      },
+      {
+        "idOnDefinition": "6cf93c52-93d7-4e59-84aa-f9631e6645d6",
+        "id": "73d6387e-19be-41d3-b7de-5ecbd4ae6123"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "3b121c70-0d1d-41c8-8085-67eeb71afb90",
+  "versionType": "version",
+  "appId": "32283c8d-401d-4cab-977f-fd370231408d",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "36d4a9b0-f3e6-48fa-a335-771f53689136",
+  "name": "matchEmails",
+  "options": {
+    "code": "const local = new Set((localEmails.data || []).map(r => String(r.email).toLowerCase()));\nconst email = value && value.email ? String(value.email).toLowerCase() : null;\nreturn { remoteId: value.id, email, matched: !!email && local.has(email) };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "32283c8d-401d-4cab-977f-fd370231408d",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

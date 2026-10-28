@@ -1,0 +1,22 @@
+{
+  "id": "d5453094-4857-4a45-95a0-e53e626f72f2",
+  "name": "fetchRemote",
+  "options": {
+    "method": "get",
+    "url": "?_limit=50",
+    "url_params": [],
+    "headers": [
+      [
+        "Accept",
+        "application/json"
+      ]
+    ],
+    "body": [],
+    "cookies": [],
+    "body_toggle": false
+  },
+  "dataSourceId": "9ca5c43f-dac2-4f1d-9798-cef47c41d333",
+  "appVersionId": "32283c8d-401d-4cab-977f-fd370231408d",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

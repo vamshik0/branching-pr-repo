@@ -1,0 +1,18 @@
+{
+  "id": "2ce0503c-67cd-46e7-a75a-f07952e85584",
+  "name": "findUser",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT id, name, email, is_active, created_at FROM dev1 WHERE lower(email) = lower(:email) LIMIT 1;",
+    "query_params": [
+      [
+        "email",
+        "{{startTrigger.params.email || ''}}"
+      ]
+    ]
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "a4fff547-2a8b-4a33-8031-9e0c9cf2a798",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

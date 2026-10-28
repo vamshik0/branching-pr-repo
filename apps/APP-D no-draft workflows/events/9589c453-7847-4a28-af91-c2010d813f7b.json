@@ -1,0 +1,14 @@
+{
+  "id": "9589c453-7847-4a28-af91-c2010d813f7b",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Email workflow passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "6314c68b-4444-4797-b2f5-2154680f39b7",
+  "target": "data_query",
+  "appVersionId": "7fcb7488-20b7-421f-888c-6597f5feb29e"
+}

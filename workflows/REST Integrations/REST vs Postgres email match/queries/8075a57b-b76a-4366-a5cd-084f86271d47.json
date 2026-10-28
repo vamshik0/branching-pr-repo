@@ -1,0 +1,12 @@
+{
+  "id": "8075a57b-b76a-4366-a5cd-084f86271d47",
+  "name": "localEmails",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT id, email FROM dev1 WHERE email IS NOT NULL ORDER BY id LIMIT 500;"
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "32283c8d-401d-4cab-977f-fd370231408d",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

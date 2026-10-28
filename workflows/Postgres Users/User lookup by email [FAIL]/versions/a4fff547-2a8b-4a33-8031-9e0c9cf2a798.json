@@ -1,0 +1,207 @@
+{
+  "id": "a4fff547-2a8b-4a33-8031-9e0c9cf2a798",
+  "definition": {
+    "nodes": [
+      {
+        "id": "0a6a916f-36fe-452f-8652-e465a4d861b2",
+        "type": "input",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 43
+      },
+      {
+        "id": "9027bdfe-030d-4b78-990a-0ab51281f78d",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Find user by email",
+          "nodeType": "query",
+          "idOnDefinition": "2b2d37cb-a22a-48a0-93ba-79d8e41b082f",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": true
+      },
+      {
+        "id": "70ffcc56-9ff3-43ba-a17e-8282a0139835",
+        "type": "if-condition",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "User found?",
+          "code": "Array.isArray(findUser.data) && findUser.data.length > 0"
+        },
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "ed43e756-b309-4ff6-b16f-ba0aed853b65",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return { found: true, user: findUser.data[0] };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "position": {
+          "x": 900,
+          "y": 100
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "124fb37d-ed9d-40bc-a894-e60bd00b0f0b",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "notFound",
+          "nodeType": "response",
+          "code": "return { found: false, email: startTrigger.params.email || null };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "404"
+          }
+        },
+        "position": {
+          "x": 900,
+          "y": 300
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "9b3a3b26-b290-411a-8fbd-1b693687e488",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'Lookup query failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "500"
+          }
+        },
+        "position": {
+          "x": 600,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "83a39b5c-fbc6-4744-9c46-d749ad4c1b26",
+        "source": "0a6a916f-36fe-452f-8652-e465a4d861b2",
+        "target": "9027bdfe-030d-4b78-990a-0ab51281f78d",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "24da9924-dbe5-40ae-aab1-d0a10b7fe378",
+        "source": "9027bdfe-030d-4b78-990a-0ab51281f78d",
+        "target": "70ffcc56-9ff3-43ba-a17e-8282a0139835",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "3e8a2c25-2f34-4e5a-b78e-6e9e23093cfe",
+        "source": "70ffcc56-9ff3-43ba-a17e-8282a0139835",
+        "target": "ed43e756-b309-4ff6-b16f-ba0aed853b65",
+        "sourceHandle": "true",
+        "type": "custom"
+      },
+      {
+        "id": "532c4743-67ce-4da6-9529-b666bc9c30fb",
+        "source": "70ffcc56-9ff3-43ba-a17e-8282a0139835",
+        "target": "124fb37d-ed9d-40bc-a894-e60bd00b0f0b",
+        "sourceHandle": "false",
+        "type": "custom"
+      },
+      {
+        "id": "4fa09779-ba31-4e7f-9a72-154f6a04ee96",
+        "source": "9027bdfe-030d-4b78-990a-0ab51281f78d",
+        "target": "9b3a3b26-b290-411a-8fbd-1b693687e488",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "2b2d37cb-a22a-48a0-93ba-79d8e41b082f",
+        "id": "2ce0503c-67cd-46e7-a75a-f07952e85584"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\"email\":\"someone@example.com\"}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "06f73712-c848-4e82-9e70-680849b3c96d",
+  "versionType": "version",
+  "appId": "a4fff547-2a8b-4a33-8031-9e0c9cf2a798",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "c7c93ade-aa90-4615-8bf4-e7b1164d331d",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "rest vs postgres failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "1041ea5b-0ade-4de4-a19c-9e50c2046658",
+  "target": "data_query",
+  "appVersionId": "7fcb7488-20b7-421f-888c-6597f5feb29e"
+}

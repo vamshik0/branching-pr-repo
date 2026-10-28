@@ -1,0 +1,14 @@
+{
+  "id": "d1109059-ef29-49d9-8b84-35ce7c9954a1",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "rest vs postgres passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "1041ea5b-0ade-4de4-a19c-9e50c2046658",
+  "target": "data_query",
+  "appVersionId": "7fcb7488-20b7-421f-888c-6597f5feb29e"
+}
