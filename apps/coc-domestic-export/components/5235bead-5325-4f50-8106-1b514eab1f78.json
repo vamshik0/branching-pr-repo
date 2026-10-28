@@ -1,0 +1,46 @@
+{
+  "id": "5235bead-5325-4f50-8106-1b514eab1f78",
+  "name": "navTabsHtml",
+  "type": "Html",
+  "pageId": "71901c76-bba9-4cb9-b696-d830507c49c6",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "{{((tab)=>{const homeActive=tab!=='submissions';const subActive=tab==='submissions';return '<div style=\"display:flex;align-items:center;gap:4px;padding:10px 24px 14px;background:linear-gradient(rgba(255,255,255,0.96),rgba(247,248,251,0.85));border-bottom:1px solid var(--line);font-family:inherit\"><div style=\"padding:8px 18px;border-radius:14px;'+(homeActive?'background:var(--brand-soft);color:var(--brand);font-weight:700':'color:var(--muted);font-weight:600;cursor:pointer')+';font-size:13px\">Home</div><div style=\"padding:8px 18px;border-radius:14px;'+(subActive?'background:var(--brand-soft);color:var(--brand);font-weight:700':'color:var(--muted);font-weight:600;cursor:pointer')+';font-size:13px\">Submissions</div></div>';})(variables.activeTab)}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c3f57805-8e27-4b5f-9dc5-18369ba3d918",
+      "type": "desktop",
+      "top": 70,
+      "left": 0,
+      "width": 43,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5235bead-5325-4f50-8106-1b514eab1f78",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3b3241e0-e1bb-4ab3-ad29-c7b34511f07d",
+      "type": "mobile",
+      "top": 70,
+      "left": 0,
+      "width": 43,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5235bead-5325-4f50-8106-1b514eab1f78",
+      "dimensionUnit": "count"
+    }
+  ]
+}

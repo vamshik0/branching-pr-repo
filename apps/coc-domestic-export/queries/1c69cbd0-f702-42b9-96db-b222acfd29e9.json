@@ -1,0 +1,13 @@
+{
+  "id": "1c69cbd0-f702-42b9-96db-b222acfd29e9",
+  "name": "fetchApps",
+  "options": {
+    "code": "const r = await fetch(`${window.location.origin}/api/tooljet-db/proxy/${constants.UTIL_TABLE}?type=eq.domestic&tj_app_id=not.is.null&order=id.desc`, {credentials:\"include\",headers:{\"Tj-Workspace-Id\":constants.WS}});if (!r.ok) throw new Error(await r.text());const rows = await r.json();return { rows };",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

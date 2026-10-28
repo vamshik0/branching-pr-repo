@@ -1,0 +1,15 @@
+{
+  "id": "ca89d32d-dbeb-4b27-a36f-88f4e2a4e595",
+  "name": "onRowClicked",
+  "index": 0,
+  "event": {
+    "eventId": "onRowClicked",
+    "queryId": "3a9702d0-2a59-49a2-8cb5-cd5cb7aa1cbe",
+    "actionId": "run-query",
+    "queryName": "openRuleDetails",
+    "parameters": {}
+  },
+  "sourceId": "0fe7c94c-9dd2-459a-a167-c7ab8241a387",
+  "target": "component",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95"
+}

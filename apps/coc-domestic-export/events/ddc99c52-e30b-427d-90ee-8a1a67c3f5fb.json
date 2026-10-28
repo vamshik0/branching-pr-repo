@@ -1,0 +1,15 @@
+{
+  "id": "ddc99c52-e30b-427d-90ee-8a1a67c3f5fb",
+  "name": "onDataQueryFailure",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "{{queries.scaffold_app.error || 'Failed to create app'}}",
+    "actionId": "show-alert",
+    "alertType": "danger",
+    "parameters": {}
+  },
+  "sourceId": "5b90d272-3380-4ced-afb0-17da6063ba7e",
+  "target": "data_query",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2"
+}

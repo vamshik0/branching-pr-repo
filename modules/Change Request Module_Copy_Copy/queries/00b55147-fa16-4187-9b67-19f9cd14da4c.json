@@ -1,0 +1,11 @@
+{
+  "id": "00b55147-fa16-4187-9b67-19f9cd14da4c",
+  "name": "loadDomains",
+  "options": {
+    "code": "const WS = constants.WS || 'ff5cb888-253b-40bc-8de7-6111d9195544';\nconst access = variables.access || {};\nconst isAdmin = !!(access.is && access.is.admin);\nconst isBuilder = !!(access.is && access.is.builder);\nconst hasAllDomains = !!access.has_all_domains;\nconst accessDomains = (Array.isArray(access.domains) ? access.domains : []).map(s => String(s).toLowerCase());\n\nconst URL = window.location.origin + '/api/tooljet-db/proxy/1687a012-ebd1-46a8-b648-ff13096f6b43?tj_app_id=not.is.null&order=name.asc';\nconst HDRS = { credentials: 'include', headers: { 'Tj-Workspace-Id': WS } };\n\nconst safeFetch = async function() {\n  try {\n    const r = await fetch(URL, HDRS);\n    if (!r.ok) { console.warn('[loadDomains] HTTP', r.status); return null; }\n    const text = await r.text();\n    if (!text) { console.warn('[loadDomains] empty body'); return null; }\n    try { return JSON.parse(text); }\n    catch (e) { console.warn('[loadDomains] invalid JSON:', String(text).slice(0,120)); return null; }\n  } catch (e) { console.warn('[loadDomains] fetch threw:', e && e.message); return null; }\n};\n\nlet rows = await safeFetch();\nif (rows === null) {\n  await new Promise(function(res){ setTimeout(res, 600); });\n  rows = await safeFetch();\n}\nif (rows === null) {\n  await actions.setVariable('domainValues', []);\n  await actions.setVariable('domainLabels', []);\n  return [];\n}\n\nconst allNames = (Array.isArray(rows) ? rows : []).map(function(row){ return row.name; }).filter(Boolean);\n\nlet visibleNames;\nif (isAdmin || isBuilder || hasAllDomains) {\n  visibleNames = allNames;\n} else {\n  visibleNames = allNames.filter(function(name){\n    const key = name.replace(/\\s+/g, '_').toLowerCase();\n    return accessDomains.includes(key);\n  });\n}\n\nawait actions.setVariable('domainValues', visibleNames);\nawait actions.setVariable('domainLabels', visibleNames);\nreturn visibleNames;\n"
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

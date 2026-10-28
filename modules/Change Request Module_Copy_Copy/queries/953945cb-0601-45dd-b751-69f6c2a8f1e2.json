@@ -1,0 +1,133 @@
+{
+  "id": "953945cb-0601-45dd-b751-69f6c2a8f1e2",
+  "name": "publishAudit",
+  "options": {
+    "method": "get",
+    "params": [
+      {
+        "key": "event_type",
+        "value": "{{variables.auditData?.event_type || \"\"}}"
+      },
+      {
+        "key": "workspace_name",
+        "value": "{{variables.auditData?.workspace_name || \"\"}}"
+      },
+      {
+        "key": "app_name",
+        "value": "{{variables.auditData?.app_name || \"\"}}"
+      },
+      {
+        "key": "page_name",
+        "value": "{{variables.auditData?.page_name || \"\"}}"
+      },
+      {
+        "key": "config_type",
+        "value": "{{variables.auditData?.config_type || \"\"}}"
+      },
+      {
+        "key": "config_group_id",
+        "value": "{{variables.auditData?.config_group_id || \"\"}}"
+      },
+      {
+        "key": "config_version_id",
+        "value": "{{variables.auditData?.config_version_id || \"\"}}"
+      },
+      {
+        "key": "current_version",
+        "value": "{{variables.auditData?.current_version || \"\"}}"
+      },
+      {
+        "key": "intent",
+        "value": "{{variables.auditData?.intent || \"\"}}"
+      },
+      {
+        "key": "rollback_of_version",
+        "value": "{{variables.auditData?.rollback_of_version || \"\"}}"
+      },
+      {
+        "key": "effective_from",
+        "value": "{{variables.auditData?.effective_from || \"\"}}"
+      },
+      {
+        "key": "effective_to",
+        "value": "{{variables.auditData?.effective_to || \"\"}}"
+      },
+      {
+        "key": "country_code",
+        "value": "{{variables.auditData?.country_code || \"\"}}"
+      },
+      {
+        "key": "geo_region_id",
+        "value": "{{variables.auditData?.geo_region_id || \"\"}}"
+      },
+      {
+        "key": "vehicle_category",
+        "value": "{{variables.auditData?.vehicle_category || \"\"}}"
+      },
+      {
+        "key": "change_request_id",
+        "value": "{{variables.auditData?.change_request_id || \"\"}}"
+      },
+      {
+        "key": "actor_email",
+        "value": "{{variables.auditData?.actor_email || \"\"}}"
+      },
+      {
+        "key": "actor_role",
+        "value": "{{variables.auditData?.actor_role || \"\"}}"
+      },
+      {
+        "key": "user_email",
+        "value": "{{variables.auditData?.user_email || \"\"}}"
+      },
+      {
+        "key": "comment",
+        "value": "{{variables.auditData?.comment || \"\"}}"
+      },
+      {
+        "key": "payload",
+        "value": "{{variables.auditData?.payload || \"\"}}"
+      },
+      {
+        "key": "created_at",
+        "value": "{{variables.auditData?.created_at || \"\"}}"
+      },
+      {
+        "key": "request",
+        "value": "{{variables.auditData?.request || \"\"}}"
+      },
+      {
+        "key": "response",
+        "value": "{{variables.auditData?.response || \"\"}}"
+      },
+      {
+        "key": "is_rollback",
+        "value": "{{variables.auditData?.is_rollback || false}}"
+      },
+      {
+        "key": "outcome",
+        "value": "{{variables.auditData?.outcome || \"\"}}"
+      },
+      {
+        "key": "rollback_target_id",
+        "value": "{{variables.auditData?.rollback_target_id || \"\"}}"
+      },
+      {
+        "key": "rollback_from_id",
+        "value": "{{variables.auditData?.rollback_from_id || \"\"}}"
+      }
+    ],
+    "versionId": "312fbb01-583a-44ba-9328-a8abae1f813d",
+    "workflowId": "3333d93b-2ff7-40ec-98a0-e39b192c0825",
+    "runSynchronously": true,
+    "workflowVersionId": "312fbb01-583a-44ba-9328-a8abae1f813d",
+    "arrayValuesChanged": true,
+    "confirmationMessage": "",
+    "workflowName": null,
+    "workflowVersionName": null
+  },
+  "dataSourceId": "8f23413c-c48a-465c-ab16-9020bdf06721",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

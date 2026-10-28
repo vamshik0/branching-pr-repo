@@ -1,0 +1,13 @@
+{
+  "id": "9b44c27f-89e2-46c8-a416-93f8936e4034",
+  "name": "resolveApiBase",
+  "options": {
+    "code": "// vestigial — superseded by per-CR domain lookup inside openRuleDetails (2026-05-16). Safe to delete once delete_query MCP tool exists.\nreturn { ok: true, deprecated: true };",
+    "runOnPageLoad": false,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "10898948-f896-414b-a793-001a929e7219",
+  "name": "BackToListBtn",
+  "type": "Button",
+  "pageId": "547312a7-1dd0-45e4-9a6a-6ad9d6986a05",
+  "parent": "36c6a91a-abaf-442d-8cb6-bca6eb142ac6-preview",
+  "properties": {
+    "text": {
+      "value": "← Back"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{!!variables.cr_preview_data && !!variables.cr_preview_data.intent}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "type": {
+      "value": "primary"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "textColor": {
+      "value": "#6b7486"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "borderColor": {
+      "value": "#e7ebf2"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": 6
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "backgroundColor": {
+      "value": "#fff"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "647cb3b8-6093-4d0b-bdb6-d629b73246aa",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 6,
+      "height": 32,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "10898948-f896-414b-a793-001a929e7219",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "1edea3fb-3416-4d71-98b5-17d93ff2d7a8",
+      "type": "mobile",
+      "top": 10,
+      "left": 1,
+      "width": 6,
+      "height": 32,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "10898948-f896-414b-a793-001a929e7219",
+      "dimensionUnit": "count"
+    }
+  ]
+}

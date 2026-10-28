@@ -1,0 +1,22 @@
+{
+  "id": "0a7dbee5-a5de-4b2a-9cea-d9829e13bcfb",
+  "name": "loadPendingInGroup",
+  "options": {
+    "code": "const _p = (typeof parameters !== 'undefined' && parameters) ? parameters : {};\nconst groupId = _p.config_group_id;\nconst excludeCrId = _p.exclude_cr_id;\nif (!groupId) return { items: [] };\nconst origin = window.location.origin;\nconst ws = constants.WS;\nconst CR_TABLE = 'ae110169-3125-46e6-92cd-f431913e1b16';\nconst url = origin + '/api/tooljet-db/proxy/' + CR_TABLE +\n  '?status=eq.SUBMITTED&select=id,maker_email,created_at,payload' +\n  '&payload->>config_group_id=eq.' + encodeURIComponent(groupId);\nconst r = await fetch(url, { credentials: 'include', headers: { 'Tj-Workspace-Id': ws } });\nif (!r.ok) { console.error('[LOAD_PENDING] http ' + r.status); return { items: [] }; }\nconst rows = await r.json();\nconst items = (rows || []).filter(x => String(x.id) !== String(excludeCrId)).map(x => ({\n  id: x.id,\n  rule_name: (x.payload && x.payload.rule_name) || ('CR #' + x.id),\n  maker_email: x.maker_email,\n  created_at: x.created_at\n}));\nreturn { items };\n",
+    "parameters": [
+      {
+        "name": "config_group_id",
+        "defaultValue": ""
+      },
+      {
+        "name": "exclude_cr_id",
+        "defaultValue": ""
+      }
+    ],
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

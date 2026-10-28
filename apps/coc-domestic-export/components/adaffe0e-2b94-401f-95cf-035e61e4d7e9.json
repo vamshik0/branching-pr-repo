@@ -1,0 +1,77 @@
+{
+  "id": "adaffe0e-2b94-401f-95cf-035e61e4d7e9",
+  "name": "CreateAppBtnV2",
+  "type": "Button",
+  "pageId": "71901c76-bba9-4cb9-b696-d830507c49c6",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "+ Create new App"
+    },
+    "visibility": {
+      "value": "{{variables.activeTab !== 'submissions' && variables.access && variables.access.is && (variables.access.is.builder || variables.access.is.admin)}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textColor": {
+      "value": "#ffffff"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "borderRadius": {
+      "value": "12"
+    },
+    "backgroundColor": {
+      "value": "#1c47cc"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c62d63c6-a74e-4412-bbeb-84712519fecc",
+      "type": "desktop",
+      "top": 80,
+      "left": 33,
+      "width": 9,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "adaffe0e-2b94-401f-95cf-035e61e4d7e9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "88e50620-ad41-4237-8ddc-dce491e97062",
+      "type": "mobile",
+      "top": 80,
+      "left": 33,
+      "width": 9,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "adaffe0e-2b94-401f-95cf-035e61e4d7e9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e4a33460-5c73-44f8-a83f-a8fbe9e5a94c",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "",
+    "queryId": "8b916ea0-0ca7-4258-bff0-eb712bfa1144",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "closeCreateModal",
+    "parameters": {}
+  },
+  "sourceId": "5b90d272-3380-4ced-afb0-17da6063ba7e",
+  "target": "data_query",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2"
+}

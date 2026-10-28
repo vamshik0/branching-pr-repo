@@ -1,0 +1,107 @@
+{
+  "id": "323a5575-8842-4d5b-a564-36a27807d56a",
+  "name": "CancelBtn",
+  "type": "Button",
+  "pageId": "547312a7-1dd0-45e4-9a6a-6ad9d6986a05",
+  "parent": "36c6a91a-abaf-442d-8cb6-bca6eb142ac6-preview",
+  "properties": {
+    "text": {
+      "value": "Cancel"
+    },
+    "visibility": {
+      "value": "{{(function(){ if (!variables.cr_preview_data || variables.cr_preview_data.status !== 'SUBMITTED') return false; var a = variables.access || {}; var is = a.is || {}; if (is.admin || is.builder) return true; return variables.cr_preview_data.maker_email === globals.currentUser.email; })()}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "type": {
+      "value": "primary"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "textColor": {
+      "value": "#8a5a1a"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "borderColor": {
+      "value": "#f5deb3"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": 8
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "backgroundColor": {
+      "value": "#fff7d6"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "fb7f4a8e-650c-4baa-8a55-687cc47e9c54",
+      "type": "desktop",
+      "top": 1010,
+      "left": 14,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "323a5575-8842-4d5b-a564-36a27807d56a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "59db0391-f7c2-45a3-b581-f2c1dc38a933",
+      "type": "mobile",
+      "top": 1010,
+      "left": 14,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "323a5575-8842-4d5b-a564-36a27807d56a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "8b916ea0-0ca7-4258-bff0-eb712bfa1144",
+  "name": "closeCreateModal",
+  "options": {
+    "code": "await components.CreateAppModal.close();",
+    "runOnPageLoad": false,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

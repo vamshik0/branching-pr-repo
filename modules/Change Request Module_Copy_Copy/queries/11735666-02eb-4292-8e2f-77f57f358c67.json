@@ -1,0 +1,12 @@
+{
+  "id": "11735666-02eb-4292-8e2f-77f57f358c67",
+  "name": "submitCancel",
+  "options": {
+    "code": "return await queries.processApproverDecision.run({ decision: 'CANCEL' });",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

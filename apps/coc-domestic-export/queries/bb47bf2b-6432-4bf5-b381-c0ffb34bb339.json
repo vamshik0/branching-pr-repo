@@ -1,0 +1,12 @@
+{
+  "id": "bb47bf2b-6432-4bf5-b381-c0ffb34bb339",
+  "name": "navToSubmissions",
+  "options": {
+    "code": "window.location.href = window.location.origin + '/porters-workspace/apps/e3c79f41-847f-4d3b-a362-74545f466f81';",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

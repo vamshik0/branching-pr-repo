@@ -1,0 +1,13 @@
+{
+  "id": "f423a410-69c7-4256-8dd2-e789ebb61114",
+  "name": "loadBucketMap",
+  "options": {
+    "code": "const TABLE = constants.CONDITION_BUCKETS_TABLE;\nconst WS = constants.WS;\nif (!TABLE) { console.warn('[BUCKET_MAP] CONDITION_BUCKETS_TABLE constant missing'); await actions.setVariable('BUCKET_MAP', {}); return {}; }\ntry {\n  const r = await fetch(window.location.origin + '/api/tooljet-db/proxy/' + TABLE + '?select=variable,bucket', { credentials:'include', headers:{ 'Tj-Workspace-Id': WS } });\n  const rows = await r.json();\n  const map = {};\n  (Array.isArray(rows) ? rows : []).forEach(row => { if (row && row.variable && row.bucket) map[row.variable] = row.bucket; });\n  console.log('[BUCKET_MAP] loaded', Object.keys(map).length, 'entries');\n  await actions.setVariable('BUCKET_MAP', map);\n  return map;\n} catch (e) {\n  console.error('[BUCKET_MAP] load failed', e);\n  await actions.setVariable('BUCKET_MAP', {});\n  return {};\n}",
+    "runOnPageLoad": true,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "09af5fbf-4f0f-42f2-b1ce-d1b8c8b150bf",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
