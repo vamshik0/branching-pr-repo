@@ -1,0 +1,240 @@
+{
+  "id": "7d16c4d2-9494-4bb3-bfad-7e0d0d617c7d",
+  "definition": {
+    "nodes": [
+      {
+        "id": "fdc0bbd2-9636-4877-b6dc-b950ff9dbeb9",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41,
+        "selected": false
+      },
+      {
+        "id": "733f9091-7b06-41b9-a39a-7ad1d6aa7c78",
+        "type": "query",
+        "data": {
+          "label": "Fetch REST records",
+          "nodeType": "query",
+          "idOnDefinition": "39ed5d8b-ad4e-4693-9809-d5cd0e645605",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "a790d9db-9c86-479d-8d7e-ebfe8a4166ad",
+        "type": "query",
+        "data": {
+          "label": "Build directory (JS + lodash)",
+          "nodeType": "query",
+          "idOnDefinition": "b22529a1-80e6-4344-9e2a-133bf8a9f13f"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "44525d4a-ae07-4d53-ad13-0ecaa42586bd",
+        "type": "if-condition",
+        "data": {
+          "label": "Any people?",
+          "code": "buildDirectory.data.people.length > 0"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "32bd4062-cd20-41a2-8cec-23125a628336",
+        "type": "output",
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return { count: buildDirectory.data.people.length, byCity: buildDirectory.data.byCity, people: buildDirectory.data.people };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 1200,
+          "y": 100
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "ed3aeffd-6a62-4d26-8a60-dbcc4ead8d40",
+        "type": "output",
+        "data": {
+          "label": "empty",
+          "nodeType": "response",
+          "code": "return { count: 0, fetched: buildDirectory.data.fetched, note: 'Source records have no email field in this environment' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 1200,
+          "y": 300
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "878e9c58-77d5-4543-a1bd-99f9d0d76932",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'REST fetch failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "502"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 600,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "9bb5fc3d-e9ef-4dce-953a-d4745bc03bdc",
+        "source": "fdc0bbd2-9636-4877-b6dc-b950ff9dbeb9",
+        "target": "733f9091-7b06-41b9-a39a-7ad1d6aa7c78",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "ad327c95-b69d-4b3f-892c-76ccb6565d80",
+        "source": "733f9091-7b06-41b9-a39a-7ad1d6aa7c78",
+        "target": "a790d9db-9c86-479d-8d7e-ebfe8a4166ad",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "f94d1b8a-6408-43b0-bb16-c6e8a8402d35",
+        "source": "a790d9db-9c86-479d-8d7e-ebfe8a4166ad",
+        "target": "44525d4a-ae07-4d53-ad13-0ecaa42586bd",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "92c14c0d-1289-4e73-b141-5ed08705ec32",
+        "source": "44525d4a-ae07-4d53-ad13-0ecaa42586bd",
+        "target": "32bd4062-cd20-41a2-8cec-23125a628336",
+        "sourceHandle": "true",
+        "type": "custom"
+      },
+      {
+        "id": "24715bb0-295a-445e-9c44-f55d141251bd",
+        "source": "44525d4a-ae07-4d53-ad13-0ecaa42586bd",
+        "target": "ed3aeffd-6a62-4d26-8a60-dbcc4ead8d40",
+        "sourceHandle": "false",
+        "type": "custom"
+      },
+      {
+        "id": "32b92404-ac22-4eb0-906f-92caa3908939",
+        "source": "733f9091-7b06-41b9-a39a-7ad1d6aa7c78",
+        "target": "878e9c58-77d5-4543-a1bd-99f9d0d76932",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "b22529a1-80e6-4344-9e2a-133bf8a9f13f",
+        "id": "4c630dc2-5e73-4e93-b9d4-a3241cbfbb57"
+      },
+      {
+        "idOnDefinition": "39ed5d8b-ad4e-4693-9809-d5cd0e645605",
+        "id": "2e05e3d5-3997-45a7-af30-dbca3ac49cb4"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\"limit\":10}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {
+          "lodash": "4.17.21"
+        }
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash (npm package)\nconst _ = require('lodash');\n// shared helper available to every JS step\nconst titleCase = (s) => _.startCase(_.toLower(s || ''));\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "34cde893-451e-4a0f-8478-d8b56c673878",
+  "versionType": "version",
+  "appId": "4b3eb5ca-4760-422e-ac86-4306e43a1304",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
