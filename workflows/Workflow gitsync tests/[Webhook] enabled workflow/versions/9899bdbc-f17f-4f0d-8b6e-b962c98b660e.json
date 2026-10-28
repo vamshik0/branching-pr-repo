@@ -1,0 +1,134 @@
+{
+  "id": "9899bdbc-f17f-4f0d-8b6e-b962c98b660e",
+  "definition": {
+    "nodes": [
+      {
+        "id": "75d183fa-ce33-4bc5-b089-d7d7efa2246a",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "type": "input",
+        "width": 206,
+        "height": 104,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "selected": false,
+        "deletable": false,
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "6f21a800-6ab1-485b-a6fc-896a914d15ea",
+        "data": {
+          "label": "echo",
+          "nodeType": "query",
+          "idOnDefinition": "2b19bb7c-073e-4551-8d46-11c781237ab9"
+        },
+        "type": "query",
+        "width": 206,
+        "height": 40,
+        "position": {
+          "x": 420,
+          "y": 250
+        },
+        "deletable": false,
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "selected": true
+      },
+      {
+        "id": "8362048d-ba2b-40f2-bb87-0393cd35f762",
+        "data": {
+          "code": "return webhookEcho.data;",
+          "label": "ok",
+          "nodeType": "response",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "type": "output",
+        "width": 206,
+        "height": 40,
+        "position": {
+          "x": 740,
+          "y": 250
+        },
+        "deletable": false,
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "edges": [
+      {
+        "id": "078358ee-7f99-4861-8eba-6c6a41d79ae2",
+        "type": "custom",
+        "source": "75d183fa-ce33-4bc5-b089-d7d7efa2246a",
+        "target": "6f21a800-6ab1-485b-a6fc-896a914d15ea",
+        "sourceHandle": null
+      },
+      {
+        "id": "9e114b3b-f675-4ee4-8115-757b389be47b",
+        "type": "custom",
+        "source": "6f21a800-6ab1-485b-a6fc-896a914d15ea",
+        "target": "8362048d-ba2b-40f2-bb87-0393cd35f762",
+        "sourceHandle": "success"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "2b19bb7c-073e-4551-8d46-11c781237ab9",
+        "id": "85618414-e037-4469-87a3-3fbacdecf63e"
+      }
+    ],
+    "webhookParams": [
+      {
+        "key": "name",
+        "dataType": "string"
+      },
+      {
+        "key": "count",
+        "dataType": "number"
+      }
+    ],
+    "defaultParams": "{\"name\":\"Ada\",\"count\":3}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": "python-dateutil==2.9.0.post0"
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# python-dateutil (pip package)\nfrom dateutil import parser as dtparser\nfrom collections import Counter\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "ea96d371-5b8c-4575-baf8-d7708eaad950",
+  "versionType": "version",
+  "appId": "699a06a0-ba79-4e91-b3cd-1c1a6b047b1c",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": true,
+  "isSynced": false
+}

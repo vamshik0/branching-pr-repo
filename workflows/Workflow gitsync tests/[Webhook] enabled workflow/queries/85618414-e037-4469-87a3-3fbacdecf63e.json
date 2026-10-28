@@ -1,0 +1,11 @@
+{
+  "id": "85618414-e037-4469-87a3-3fbacdecf63e",
+  "name": "webhookEcho",
+  "options": {
+    "code": "const p = startTrigger.params || {};\nconst name = typeof p.name === 'string' && p.name.trim() ? p.name.trim() : 'there';\nconst count = typeof p.count === 'number' ? p.count : 1;\nreturn { greeting: `Hello, ${name}!`, count, doubled: count * 2, received: p, at: new Date().toISOString() };"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "9899bdbc-f17f-4f0d-8b6e-b962c98b660e",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
