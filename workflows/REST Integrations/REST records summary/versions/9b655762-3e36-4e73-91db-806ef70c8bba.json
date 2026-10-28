@@ -1,0 +1,182 @@
+{
+  "id": "9b655762-3e36-4e73-91db-806ef70c8bba",
+  "definition": {
+    "nodes": [
+      {
+        "id": "66448503-1d1d-4a59-9e07-20db321c9238",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "6c5d00dd-2806-4238-a486-50ff20b2330a",
+        "type": "query",
+        "data": {
+          "label": "Fetch REST records",
+          "nodeType": "query",
+          "idOnDefinition": "b40eb318-634d-4c9a-9f74-934d8ef7e112",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "29b6ef29-595f-4060-84f0-13369faa7597",
+        "type": "query",
+        "data": {
+          "label": "Field profile (v2)",
+          "nodeType": "query",
+          "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 207,
+        "height": 40
+      },
+      {
+        "id": "8db7e5dc-fb40-416c-9d50-a940920324b1",
+        "type": "output",
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return summarizeRecords.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 120
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "49f2e6f4-04be-4f52-82b9-454343b7e069",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'REST fetch failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "502"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 320
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "3d5331a6-dddf-4f1c-a02c-6de209a0572a",
+        "source": "66448503-1d1d-4a59-9e07-20db321c9238",
+        "target": "6c5d00dd-2806-4238-a486-50ff20b2330a",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "07649a5f-48ef-4cc2-93e6-732234a87cc4",
+        "source": "6c5d00dd-2806-4238-a486-50ff20b2330a",
+        "target": "29b6ef29-595f-4060-84f0-13369faa7597",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "ac02a4f0-67a3-489b-a372-58356aeac930",
+        "source": "29b6ef29-595f-4060-84f0-13369faa7597",
+        "target": "8db7e5dc-fb40-416c-9d50-a940920324b1",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "9cf6efa7-e4bc-44a9-90ff-2c91ab62c42c",
+        "source": "6c5d00dd-2806-4238-a486-50ff20b2330a",
+        "target": "49f2e6f4-04be-4f52-82b9-454343b7e069",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c",
+        "id": "a8a11ec8-f28f-4938-be44-0d5cd19912d6"
+      },
+      {
+        "idOnDefinition": "b40eb318-634d-4c9a-9f74-934d8ef7e112",
+        "id": "15d1d860-4179-4cb6-9e8c-1ee9ddb48f11"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\"limit\":10}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "06ed0cd3-4576-4ba1-bc2b-c39edce97521",
+  "versionType": "version",
+  "appId": "9b655762-3e36-4e73-91db-806ef70c8bba",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": "Field profile per record instead of count summary",
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

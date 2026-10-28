@@ -1,0 +1,14 @@
+{
+  "id": "bbadc931-a372-4ab6-acc1-15c75d2a2a96",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Users report failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "2c71bd3f-4a4c-409e-8f38-c3c062388e74",
+  "target": "data_query",
+  "appVersionId": "cd218cde-ecb3-4dfa-8740-15b6ddb2be4f"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "338a608e-7bbd-4de2-a2d6-59c4b1a25bd3",
+  "name": "userCounts",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT COALESCE(NULLIF(split_part(lower(email), '@', 2), ''), 'unknown') AS domain, COUNT(*)::int AS users, COUNT(*) FILTER (WHERE is_active)::int AS active FROM dev1 GROUP BY 1 ORDER BY users DESC, domain LIMIT 50;"
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15d1d860-4179-4cb6-9e8c-1ee9ddb48f11",
+  "name": "fetchRecords",
+  "options": {
+    "method": "get",
+    "url": "?_limit={{startTrigger.params.limit || 25}}",
+    "url_params": [],
+    "headers": [
+      [
+        "Accept",
+        "application/json"
+      ]
+    ],
+    "body": [],
+    "cookies": [],
+    "body_toggle": false
+  },
+  "dataSourceId": "9ca5c43f-dac2-4f1d-9798-cef47c41d333",
+  "appVersionId": "9b655762-3e36-4e73-91db-806ef70c8bba",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "4ca23e8c-593d-4d8e-ad73-44de66d67947",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Record summary failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "bb5b7e6c-f610-43c2-9f15-523e2bf601fe",
+  "target": "data_query",
+  "appVersionId": "cd218cde-ecb3-4dfa-8740-15b6ddb2be4f"
+}

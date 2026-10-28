@@ -1,0 +1,221 @@
+{
+  "id": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+  "definition": {
+    "nodes": [
+      {
+        "id": "dd73186a-1550-47bb-aedc-11e79dcbb24e",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "a7b9398c-b736-43a5-a306-73ba3c1a5136",
+        "type": "query",
+        "data": {
+          "label": "Users per email domain (v2)",
+          "nodeType": "query",
+          "idOnDefinition": "b188e474-43fb-4e48-b875-e34fb86ca590",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "10c6f9d8-f79e-49b1-b8bb-56ad3ff712db",
+        "type": "query",
+        "data": {
+          "label": "Inactive users (v2)",
+          "nodeType": "query",
+          "idOnDefinition": "2c107dae-80fc-4946-a48a-c220916ef5b2",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "f7a9b079-d4f4-4413-a145-1dde66f64a64",
+        "type": "query",
+        "data": {
+          "label": "Health check (v2)",
+          "nodeType": "query",
+          "idOnDefinition": "e15e87f0-5f87-44da-8e26-e13ec84cf3d9"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "b40a13bd-a3ff-4caa-bb53-a56ba0ca96a5",
+        "type": "output",
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return buildReport.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 1200,
+          "y": 120
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "6696b0b0-5cc5-4971-a509-921931117908",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'Postgres query failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "500"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 1200,
+          "y": 340
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "a9272471-9b5c-45d7-bf39-24ac0b2fe833",
+        "source": "dd73186a-1550-47bb-aedc-11e79dcbb24e",
+        "target": "a7b9398c-b736-43a5-a306-73ba3c1a5136",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "e242c579-295f-4f5d-8930-62ed14c3d6c3",
+        "source": "a7b9398c-b736-43a5-a306-73ba3c1a5136",
+        "target": "10c6f9d8-f79e-49b1-b8bb-56ad3ff712db",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "5bb1a9c9-64ba-45f2-b833-5bfd9b21482e",
+        "source": "10c6f9d8-f79e-49b1-b8bb-56ad3ff712db",
+        "target": "f7a9b079-d4f4-4413-a145-1dde66f64a64",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "69531786-5833-4d02-b5f5-b0e335799520",
+        "source": "f7a9b079-d4f4-4413-a145-1dde66f64a64",
+        "target": "b40a13bd-a3ff-4caa-bb53-a56ba0ca96a5",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "a9723f96-aa25-4bbc-9189-1c5db24ae0d1",
+        "source": "a7b9398c-b736-43a5-a306-73ba3c1a5136",
+        "target": "6696b0b0-5cc5-4971-a509-921931117908",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "308d2235-7190-4994-bd5f-f28db83d7953",
+        "source": "10c6f9d8-f79e-49b1-b8bb-56ad3ff712db",
+        "target": "6696b0b0-5cc5-4971-a509-921931117908",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "2c107dae-80fc-4946-a48a-c220916ef5b2",
+        "id": "4a4f180d-2daf-415d-8ec5-918cc7b1a843"
+      },
+      {
+        "idOnDefinition": "e15e87f0-5f87-44da-8e26-e13ec84cf3d9",
+        "id": "6ab90261-84d7-4031-a6fb-2f95ced5dfe2"
+      },
+      {
+        "idOnDefinition": "b188e474-43fb-4e48-b875-e34fb86ca590",
+        "id": "338a608e-7bbd-4de2-a2d6-59c4b1a25bd3"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "13bb0d5f-5337-49b3-ab79-ca16be76a549",
+  "versionType": "version",
+  "appId": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": "Health check: domain breakdown and inactive users",
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
