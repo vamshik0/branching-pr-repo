@@ -1,0 +1,11 @@
+{
+  "id": "3bba77fb-82cd-49d1-916d-c73ec6c7bc68",
+  "name": "scoreEach",
+  "options": {
+    "code": "return { word: value.word, position: value.position, length: value.word.length, upper: value.word.toUpperCase(), index };"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "1ab9119f-a3a7-41d3-831d-c30fba4cf641",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
