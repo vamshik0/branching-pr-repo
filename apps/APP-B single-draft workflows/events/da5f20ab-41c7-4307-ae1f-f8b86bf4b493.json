@@ -1,0 +1,14 @@
+{
+  "id": "da5f20ab-41c7-4307-ae1f-f8b86bf4b493",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "python error",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "ad49a7d2-0ae4-4943-b03f-24f083f1381b",
+  "target": "data_query",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad"
+}

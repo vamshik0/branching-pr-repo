@@ -1,0 +1,12 @@
+{
+  "id": "a76fe1b2-bb36-40db-9798-f4cd549db5ea",
+  "name": "pgUsers",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT id, name, email, is_active, created_at FROM dev1 ORDER BY id LIMIT 500;"
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "84add89a-7668-4c7b-8aa8-6d61e34192e0",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

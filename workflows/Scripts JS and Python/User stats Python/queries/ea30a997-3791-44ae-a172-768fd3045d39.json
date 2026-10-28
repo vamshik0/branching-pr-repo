@@ -1,0 +1,11 @@
+{
+  "id": "ea30a997-3791-44ae-a172-768fd3045d39",
+  "name": "pyStats",
+  "options": {
+    "code": "rows = pgUsers[\"data\"] or []\ndomains = Counter()\nfor r in rows:\n    email = (r.get(\"email\") or \"\").lower()\n    domains[email.split(\"@\")[-1] if \"@\" in email else \"unknown\"] += 1\nactive = sum(1 for r in rows if r.get(\"is_active\"))\ntotal = len(rows)\ndates = [dtparser.isoparse(r[\"created_at\"]) for r in rows if r.get(\"created_at\")]\n{\"total\": total, \"active\": active, \"inactive\": total - active, \"activeRatePercent\": round(active * 100.0 / total, 1) if total else 0, \"domains\": dict(domains), \"names\": sorted(r[\"name\"] for r in rows if r.get(\"name\")), \"oldestSignup\": min(dates).isoformat() if dates else None, \"newestSignup\": max(dates).isoformat() if dates else None}"
+  },
+  "dataSourceId": "b0dc05fb-338e-41dd-ba38-70b35ebb457e",
+  "appVersionId": "84add89a-7668-4c7b-8aa8-6d61e34192e0",
+  "kind": "runpy",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2e05e3d5-3997-45a7-af30-dbca3ac49cb4",
+  "name": "fetchPeople",
+  "options": {
+    "method": "get",
+    "url": "?_limit={{startTrigger.params.limit || 10}}",
+    "url_params": [],
+    "headers": [
+      [
+        "Accept",
+        "application/json"
+      ]
+    ],
+    "body": [],
+    "cookies": [],
+    "body_toggle": false
+  },
+  "dataSourceId": "9ca5c43f-dac2-4f1d-9798-cef47c41d333",
+  "appVersionId": "7d16c4d2-9494-4bb3-bfad-7e0d0d617c7d",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
