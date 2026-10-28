@@ -1,0 +1,21 @@
+{
+  "id": "ee36e0b5-fbed-4ec4-9cf1-f83817f243ea",
+  "name": "run_rest_directory_js",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "limit",
+        "value": "10"
+      }
+    ],
+    "workflowId": "4b3eb5ca-4760-422e-ac86-4306e43a1304",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

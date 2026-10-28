@@ -1,0 +1,14 @@
+{
+  "id": "afd4e19c-cb0a-4849-b8fa-e11bfa2aa4e4",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "directory JS failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "ee36e0b5-fbed-4ec4-9cf1-f83817f243ea",
+  "target": "data_query",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad"
+}

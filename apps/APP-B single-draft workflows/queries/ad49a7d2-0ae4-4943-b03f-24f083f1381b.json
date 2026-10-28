@@ -1,0 +1,21 @@
+{
+  "id": "ad49a7d2-0ae4-4943-b03f-24f083f1381b",
+  "name": "run_user_stats_python",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "workflowId": "48a07a4b-6a2f-428a-8ea1-c641d37411da",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

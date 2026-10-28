@@ -1,0 +1,190 @@
+{
+  "id": "84add89a-7668-4c7b-8aa8-6d61e34192e0",
+  "definition": {
+    "nodes": [
+      {
+        "id": "04788a88-0959-4f02-af9d-31becd77a54b",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "9de6bce7-c337-445e-a5a0-08fb2bf7b622",
+        "type": "query",
+        "data": {
+          "label": "Load users",
+          "nodeType": "query",
+          "idOnDefinition": "9ffc8705-6ab0-4a27-b517-e6e6427d28f2",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "b1c8823d-474a-46c7-9deb-59f3c95d6726",
+        "type": "query",
+        "data": {
+          "label": "Compute stats (Python + dateutil)",
+          "nodeType": "query",
+          "idOnDefinition": "232b5d6e-ac80-43ea-a71f-a8b513e6fde5",
+          "errorHandler": true
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "280ca39a-c4a5-4cbd-9c04-67a2c4a05f37",
+        "type": "output",
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return pyStats.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 120
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "0d628aa1-1ceb-4992-ac82-50e6c912d738",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'Load or Python step failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "500"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 900,
+          "y": 340
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "bc00c583-9057-41af-af2e-01d19dd378cb",
+        "source": "04788a88-0959-4f02-af9d-31becd77a54b",
+        "target": "9de6bce7-c337-445e-a5a0-08fb2bf7b622",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "25358d41-b2aa-47c8-b25f-ae813f08622b",
+        "source": "9de6bce7-c337-445e-a5a0-08fb2bf7b622",
+        "target": "b1c8823d-474a-46c7-9deb-59f3c95d6726",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "0a703f6e-32b0-429f-a8a5-fd67db8d35e3",
+        "source": "b1c8823d-474a-46c7-9deb-59f3c95d6726",
+        "target": "280ca39a-c4a5-4cbd-9c04-67a2c4a05f37",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "d49c9f0e-2564-45be-a86f-170edd1c5927",
+        "source": "9de6bce7-c337-445e-a5a0-08fb2bf7b622",
+        "target": "0d628aa1-1ceb-4992-ac82-50e6c912d738",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "3ac7de09-50c9-4b50-8222-6ffc45ce2746",
+        "source": "b1c8823d-474a-46c7-9deb-59f3c95d6726",
+        "target": "0d628aa1-1ceb-4992-ac82-50e6c912d738",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "232b5d6e-ac80-43ea-a71f-a8b513e6fde5",
+        "id": "ea30a997-3791-44ae-a172-768fd3045d39"
+      },
+      {
+        "idOnDefinition": "9ffc8705-6ab0-4a27-b517-e6e6427d28f2",
+        "id": "a76fe1b2-bb36-40db-9798-f4cd549db5ea"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": "python-dateutil==2.9.0.post0"
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# python-dateutil (pip package)\nfrom dateutil import parser as dtparser\nfrom collections import Counter\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "aeb0e745-56fe-4fa3-99f4-b89908e54e18",
+  "versionType": "version",
+  "appId": "48a07a4b-6a2f-428a-8ea1-c641d37411da",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

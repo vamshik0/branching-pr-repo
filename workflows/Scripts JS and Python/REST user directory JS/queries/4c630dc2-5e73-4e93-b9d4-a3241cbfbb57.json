@@ -1,0 +1,11 @@
+{
+  "id": "4c630dc2-5e73-4e93-b9d4-a3241cbfbb57",
+  "name": "buildDirectory",
+  "options": {
+    "code": "const rows = Array.isArray(fetchPeople.data) ? fetchPeople.data : [];\nconst people = _.sortBy(rows.filter(r => r && r.email).map(r => ({ id: r.id, name: titleCase(r.name), email: _.toLower(r.email), city: _.get(r, 'address.city', null), company: _.get(r, 'company.name', null) })), 'name');\nconst byCity = _.countBy(people, p => p.city || 'Unknown');\nreturn { fetched: rows.length, people, byCity, lodashVersion: _.VERSION };"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "7d16c4d2-9494-4bb3-bfad-7e0d0d617c7d",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
