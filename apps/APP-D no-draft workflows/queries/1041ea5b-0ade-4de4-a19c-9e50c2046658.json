@@ -1,0 +1,21 @@
+{
+  "id": "1041ea5b-0ade-4de4-a19c-9e50c2046658",
+  "name": "run_rest_vs_postgres",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "workflowId": "32283c8d-401d-4cab-977f-fd370231408d",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "7fcb7488-20b7-421f-888c-6597f5feb29e",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

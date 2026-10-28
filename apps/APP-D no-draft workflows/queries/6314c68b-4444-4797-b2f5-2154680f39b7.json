@@ -1,0 +1,21 @@
+{
+  "id": "6314c68b-4444-4797-b2f5-2154680f39b7",
+  "name": "run_user_lookup_fail",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "email",
+        "value": "someone@example.com"
+      }
+    ],
+    "workflowId": "a4fff547-2a8b-4a33-8031-9e0c9cf2a798",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "7fcb7488-20b7-421f-888c-6597f5feb29e",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

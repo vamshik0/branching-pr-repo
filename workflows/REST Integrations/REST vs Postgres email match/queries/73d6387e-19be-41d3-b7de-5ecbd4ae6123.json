@@ -1,0 +1,11 @@
+{
+  "id": "73d6387e-19be-41d3-b7de-5ecbd4ae6123",
+  "name": "matchSummary",
+  "options": {
+    "code": "const rows = matchEmails.data || [];\nconst withEmail = rows.filter(r => r.email);\nconst matched = withEmail.filter(r => r.matched);\nreturn { remoteRecords: rows.length, remoteWithEmail: withEmail.length, matched: matched.length, unmatched: withEmail.length - matched.length, matchedEmails: matched.map(r => r.email) };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "32283c8d-401d-4cab-977f-fd370231408d",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
