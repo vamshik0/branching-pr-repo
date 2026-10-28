@@ -1,0 +1,12 @@
+{
+  "id": "4a4f180d-2daf-415d-8ec5-918cc7b1a843",
+  "name": "recentUsers",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT id, name, email, created_at FROM dev1 WHERE is_active IS NOT TRUE ORDER BY created_at ASC NULLS LAST LIMIT 50;"
+  },
+  "dataSourceId": "b13c5f17-e1f2-43f2-a43d-b83646dafaea",
+  "appVersionId": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}

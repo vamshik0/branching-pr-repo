@@ -1,0 +1,21 @@
+{
+  "id": "2c71bd3f-4a4c-409e-8f38-c3c062388e74",
+  "name": "run_active_users_report",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "workflowId": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "cd218cde-ecb3-4dfa-8740-15b6ddb2be4f",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "6ab90261-84d7-4031-a6fb-2f95ced5dfe2",
+  "name": "buildReport",
+  "options": {
+    "code": "const domains = userCounts.data || [];\nconst inactive = recentUsers.data || [];\nconst total = domains.reduce((s, d) => s + d.users, 0);\nconst inactivePercent = total ? Math.round(inactive.length * 1000 / total) / 10 : 0;\nconst status = inactive.length === 0 ? 'healthy' : (inactivePercent > 25 ? 'needs attention' : 'ok');\nreturn { version: 'v2', status, inactivePercent, topDomain: domains[0] ? domains[0].domain : null, domains, inactiveUsers: inactive.map(u => ({ name: u.name, email: u.email })) };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "3d3bb2d9-d8fb-4d4a-a4e9-8e5262a6d982",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

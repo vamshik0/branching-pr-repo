@@ -1,0 +1,21 @@
+{
+  "id": "bb5b7e6c-f610-43c2-9f15-523e2bf601fe",
+  "name": "run_rest_records_summary",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "limit",
+        "value": "10"
+      }
+    ],
+    "workflowId": "9b655762-3e36-4e73-91db-806ef70c8bba",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "cd218cde-ecb3-4dfa-8740-15b6ddb2be4f",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
