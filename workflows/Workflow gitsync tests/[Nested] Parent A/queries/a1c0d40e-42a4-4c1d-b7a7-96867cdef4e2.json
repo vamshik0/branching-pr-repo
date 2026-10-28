@@ -1,0 +1,20 @@
+{
+  "id": "a1c0d40e-42a4-4c1d-b7a7-96867cdef4e2",
+  "name": "childTwo",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "value",
+        "value": "{{startTrigger.params.value}}"
+      }
+    ],
+    "workflowId": "3f58d5db-058b-4450-89ff-426a7aacf721",
+    "workflowVersionId": "__default_branch_draft__"
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "d850d861-b1ba-404a-a9dd-15ab81888ebd",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

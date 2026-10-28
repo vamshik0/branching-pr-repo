@@ -1,0 +1,11 @@
+{
+  "id": "4c0f1182-d6b2-459c-8443-73a854947af8",
+  "name": "childOneCalc",
+  "options": {
+    "code": "return { child: 1, doubled: Number(startTrigger.params.value || 1) * 2 };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "a7b37c4b-fa8d-48a9-9dbe-72b059266ab5",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

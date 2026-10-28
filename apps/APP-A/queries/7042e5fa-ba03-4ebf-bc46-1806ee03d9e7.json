@@ -1,0 +1,21 @@
+{
+  "id": "7042e5fa-ba03-4ebf-bc46-1806ee03d9e7",
+  "name": "run_parent_a",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "value",
+        "value": "3"
+      }
+    ],
+    "workflowId": "cede52cf-aaa0-48b8-9ebd-98143ae2f0cb",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "d912bcf9-4622-402c-b3a1-8db0819159fd",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

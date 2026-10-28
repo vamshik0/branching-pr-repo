@@ -1,0 +1,20 @@
+{
+  "id": "1db7c95a-6bb9-4cfb-ad78-db727d894428",
+  "name": "childOne",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "value",
+        "value": "{{startTrigger.params.value}}"
+      }
+    ],
+    "workflowId": "24f5a23f-6ecb-4a65-bcc5-04360eb229c3",
+    "workflowVersionId": "__default_branch_draft__"
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "d850d861-b1ba-404a-a9dd-15ab81888ebd",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

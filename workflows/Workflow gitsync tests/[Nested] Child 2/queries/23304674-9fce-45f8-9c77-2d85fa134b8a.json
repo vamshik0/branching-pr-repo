@@ -1,0 +1,11 @@
+{
+  "id": "23304674-9fce-45f8-9c77-2d85fa134b8a",
+  "name": "childTwoCalc",
+  "options": {
+    "code": "return { child: 2, squared: Math.pow(Number(startTrigger.params.value || 1), 2) };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "63b41b2b-d3d1-446d-b43a-5f7e398444b5",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
