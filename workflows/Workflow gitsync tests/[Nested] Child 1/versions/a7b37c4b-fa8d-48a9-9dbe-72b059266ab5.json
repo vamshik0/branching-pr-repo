@@ -1,0 +1,125 @@
+{
+  "id": "a7b37c4b-fa8d-48a9-9dbe-72b059266ab5",
+  "definition": {
+    "nodes": [
+      {
+        "id": "165fe5b9-135c-4350-b9ec-540a8085beaa",
+        "type": "input",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 41,
+        "selected": false
+      },
+      {
+        "id": "42306c8f-62f7-42a1-a5d4-0618df2b077e",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "calc",
+          "nodeType": "query",
+          "idOnDefinition": "f63e3620-e8d5-4005-b6cc-d9b07d0391ec"
+        },
+        "position": {
+          "x": 420,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "17d7f9f8-78c2-47b3-85cb-c24afd281279",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return childOneCalc.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "position": {
+          "x": 740,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "b776c2d1-c01a-49ef-af35-3ebfafa7d5ff",
+        "source": "165fe5b9-135c-4350-b9ec-540a8085beaa",
+        "target": "42306c8f-62f7-42a1-a5d4-0618df2b077e",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "1c335061-ad9a-42aa-90d6-6df976a66fe1",
+        "source": "42306c8f-62f7-42a1-a5d4-0618df2b077e",
+        "target": "17d7f9f8-78c2-47b3-85cb-c24afd281279",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "f63e3620-e8d5-4005-b6cc-d9b07d0391ec",
+        "id": "4c0f1182-d6b2-459c-8443-73a854947af8"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "156ebb31-1b3d-4874-b1db-0ad90d54c57f",
+  "versionType": "version",
+  "appId": "24f5a23f-6ecb-4a65-bcc5-04360eb229c3",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

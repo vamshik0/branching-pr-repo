@@ -1,0 +1,14 @@
+{
+  "id": "0d7367d2-5afc-4f0f-9636-342b6dde7f74",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Parent failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "7042e5fa-ba03-4ebf-bc46-1806ee03d9e7",
+  "target": "data_query",
+  "appVersionId": "d912bcf9-4622-402c-b3a1-8db0819159fd"
+}

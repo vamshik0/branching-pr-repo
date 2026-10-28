@@ -1,0 +1,156 @@
+{
+  "id": "d850d861-b1ba-404a-a9dd-15ab81888ebd",
+  "definition": {
+    "nodes": [
+      {
+        "id": "8988b5ce-9a43-42e9-bb18-ee407a8d0851",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 41,
+        "selected": false
+      },
+      {
+        "id": "f83e9b63-951d-465d-9efe-d7771537057e",
+        "type": "output",
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return { child1: childOne.data, child2: childTwo.data };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 740,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "a3575e84-5cb4-450e-b6f5-8b8a13ab9c3b",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Child 1",
+          "nodeType": "query",
+          "idOnDefinition": "c3d2892f-0a7d-4448-a435-bb7df2cb22c7"
+        },
+        "position": {
+          "x": 420,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "242cb9b9-ac14-46af-a0ca-e10715e85495",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Child 2",
+          "nodeType": "query",
+          "idOnDefinition": "c86ed54b-e594-47d0-baa9-b79b7db4d73c"
+        },
+        "position": {
+          "x": 740,
+          "y": 430
+        },
+        "width": 206,
+        "height": 40,
+        "selected": true
+      }
+    ],
+    "edges": [
+      {
+        "id": "5474e38f-b40b-4355-92cf-8909579fb47d",
+        "source": "8988b5ce-9a43-42e9-bb18-ee407a8d0851",
+        "target": "a3575e84-5cb4-450e-b6f5-8b8a13ab9c3b",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "f3fa9692-a444-4477-abac-72198b308efa",
+        "source": "a3575e84-5cb4-450e-b6f5-8b8a13ab9c3b",
+        "target": "242cb9b9-ac14-46af-a0ca-e10715e85495",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "01b6f595-72c6-478e-9213-9fa8fd8a7d6b",
+        "source": "242cb9b9-ac14-46af-a0ca-e10715e85495",
+        "target": "f83e9b63-951d-465d-9efe-d7771537057e",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "c86ed54b-e594-47d0-baa9-b79b7db4d73c",
+        "id": "a1c0d40e-42a4-4c1d-b7a7-96867cdef4e2"
+      },
+      {
+        "idOnDefinition": "c3d2892f-0a7d-4448-a435-bb7df2cb22c7",
+        "id": "1db7c95a-6bb9-4cfb-ad78-db727d894428"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": "python-dateutil==2.9.0.post0"
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# python-dateutil (pip package)\nfrom dateutil import parser as dtparser\nfrom collections import Counter\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "c570da37-8e75-46b8-97c4-e80b20d8d003",
+  "versionType": "version",
+  "appId": "cede52cf-aaa0-48b8-9ebd-98143ae2f0cb",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

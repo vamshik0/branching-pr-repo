@@ -1,0 +1,14 @@
+{
+  "id": "70fd9b5c-aeed-4453-8474-d50047ad2c15",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Parent passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "7042e5fa-ba03-4ebf-bc46-1806ee03d9e7",
+  "target": "data_query",
+  "appVersionId": "d912bcf9-4622-402c-b3a1-8db0819159fd"
+}
