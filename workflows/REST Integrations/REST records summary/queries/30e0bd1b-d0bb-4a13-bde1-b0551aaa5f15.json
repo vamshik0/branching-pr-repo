@@ -1,0 +1,11 @@
+{
+  "id": "30e0bd1b-d0bb-4a13-bde1-b0551aaa5f15",
+  "name": "summarizeRecords",
+  "options": {
+    "code": "const rows = Array.isArray(fetchRecords.data) ? fetchRecords.data : [];\nconst fields = rows.length ? Object.keys(rows[0]) : [];\nreturn { count: rows.length, fields, firstIds: rows.slice(0, 5).map(r => r.id) };"
+  },
+  "dataSourceId": "f8eee74e-0d8a-40fe-b365-4a9a5be722f6",
+  "appVersionId": "65827294-548f-4078-bb2f-7197eb750dfd",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

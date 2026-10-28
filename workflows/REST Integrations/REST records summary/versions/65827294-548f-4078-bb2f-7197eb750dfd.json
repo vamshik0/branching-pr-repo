@@ -1,17 +1,17 @@
 {
-  "id": "9b655762-3e36-4e73-91db-806ef70c8bba",
+  "id": "65827294-548f-4078-bb2f-7197eb750dfd",
   "definition": {
     "nodes": [
       {
         "id": "66448503-1d1d-4a59-9e07-20db321c9238",
         "type": "input",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
         "data": {
           "label": "start",
           "nodeType": "start"
         },
-        "sourcePosition": "right",
-        "targetPosition": "left",
-        "deletable": false,
         "position": {
           "x": 0,
           "y": 200
@@ -22,15 +22,15 @@
       {
         "id": "6c5d00dd-2806-4238-a486-50ff20b2330a",
         "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
         "data": {
           "label": "Fetch REST records",
           "nodeType": "query",
           "idOnDefinition": "b40eb318-634d-4c9a-9f74-934d8ef7e112",
           "errorHandler": true
         },
-        "sourcePosition": "right",
-        "targetPosition": "left",
-        "deletable": false,
         "position": {
           "x": 300,
           "y": 200
@@ -41,14 +41,14 @@
       {
         "id": "29b6ef29-595f-4060-84f0-13369faa7597",
         "type": "query",
-        "data": {
-          "label": "Field profile (v2)",
-          "nodeType": "query",
-          "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c"
-        },
         "sourcePosition": "right",
         "targetPosition": "left",
         "deletable": false,
+        "data": {
+          "label": "Summarize",
+          "nodeType": "query",
+          "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c"
+        },
         "position": {
           "x": 600,
           "y": 200
@@ -59,6 +59,9 @@
       {
         "id": "8db7e5dc-fb40-416c-9d50-a940920324b1",
         "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
         "data": {
           "label": "ok",
           "nodeType": "response",
@@ -68,9 +71,6 @@
             "value": "200"
           }
         },
-        "sourcePosition": "right",
-        "targetPosition": "left",
-        "deletable": false,
         "position": {
           "x": 900,
           "y": 120
@@ -81,6 +81,9 @@
       {
         "id": "49f2e6f4-04be-4f52-82b9-454343b7e069",
         "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
         "data": {
           "label": "fail",
           "nodeType": "response",
@@ -90,9 +93,6 @@
             "value": "502"
           }
         },
-        "sourcePosition": "right",
-        "targetPosition": "left",
-        "deletable": false,
         "position": {
           "x": 900,
           "y": 320
@@ -133,12 +133,12 @@
     ],
     "queries": [
       {
-        "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c",
-        "id": "a8a11ec8-f28f-4938-be44-0d5cd19912d6"
+        "idOnDefinition": "b40eb318-634d-4c9a-9f74-934d8ef7e112",
+        "id": "889ebd84-f029-4b0c-80dd-a600a3f0e9ec"
       },
       {
-        "idOnDefinition": "b40eb318-634d-4c9a-9f74-934d8ef7e112",
-        "id": "15d1d860-4179-4cb6-9e8c-1ee9ddb48f11"
+        "idOnDefinition": "aac842b4-8110-437a-83c6-b127496ae51c",
+        "id": "30e0bd1b-d0bb-4a13-bde1-b0551aaa5f15"
       }
     ],
     "webhookParams": [],
@@ -167,12 +167,12 @@
   },
   "pageSettings": null,
   "showViewerNavigation": true,
-  "homePageId": "06ed0cd3-4576-4ba1-bc2b-c39edce97521",
+  "homePageId": "f66f42d3-c666-4f3d-b15c-23dea0c9d116",
   "versionType": "version",
   "appId": "9b655762-3e36-4e73-91db-806ef70c8bba",
   "promotedFrom": null,
-  "status": "DRAFT",
-  "description": "Field profile per record instead of count summary",
+  "status": "PUBLISHED",
+  "description": "",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,

@@ -1,5 +1,5 @@
 {
-  "id": "15d1d860-4179-4cb6-9e8c-1ee9ddb48f11",
+  "id": "889ebd84-f029-4b0c-80dd-a600a3f0e9ec",
   "name": "fetchRecords",
   "options": {
     "method": "get",
@@ -16,7 +16,7 @@
     "body_toggle": false
   },
   "dataSourceId": "9ca5c43f-dac2-4f1d-9798-cef47c41d333",
-  "appVersionId": "9b655762-3e36-4e73-91db-806ef70c8bba",
+  "appVersionId": "65827294-548f-4078-bb2f-7197eb750dfd",
   "kind": "restapi",
   "dataSourceType": "default"
 }
