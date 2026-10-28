@@ -1,0 +1,14 @@
+{
+  "id": "6bfef629-7037-4a32-a197-680008324514",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "directory JS passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "ee36e0b5-fbed-4ec4-9cf1-f83817f243ea",
+  "target": "data_query",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad"
+}

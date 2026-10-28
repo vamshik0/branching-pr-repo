@@ -1,0 +1,14 @@
+{
+  "id": "b18163d8-abdb-4590-987b-8c3079164f77",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "python passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "ad49a7d2-0ae4-4943-b03f-24f083f1381b",
+  "target": "data_query",
+  "appVersionId": "00c7c1bc-e861-440f-b07f-8c00d297b1ad"
+}
