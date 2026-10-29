@@ -1,0 +1,185 @@
+{
+  "id": "8b9fb382-1ba7-4d2d-9884-feceb966c4a3",
+  "definition": {
+    "nodes": [
+      {
+        "id": "ca62d9d6-e765-498e-b68a-7889d479a771",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 98,
+          "y": 254
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 43,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 98,
+          "y": 254
+        }
+      },
+      {
+        "id": "3bb329f6-468e-4a7f-bd3f-4e8847808441",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "52fc0f13-6a2b-4f0e-ae7f-446c0cc70ba2",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 396,
+          "y": 255
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": true,
+        "positionAbsolute": {
+          "x": 396,
+          "y": 255
+        }
+      },
+      {
+        "id": "1acb0ae3-72ed-4c35-a88c-ae6d9b783ec3",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "5f087c1c-48d4-485c-9862-4d1b4a425268",
+          "kind": "restapi",
+          "options": {},
+          "errorHandler": false
+        },
+        "position": {
+          "x": 679,
+          "y": 254
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 679,
+          "y": 254
+        }
+      },
+      {
+        "id": "dbe3600c-7b47-4b95-9225-978f3452fe3b",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "{{publishToKafka}}",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response"
+        },
+        "position": {
+          "x": 952,
+          "y": 254.21218448877335
+        },
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 952,
+          "y": 254.21218448877335
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "7bbe1443-7f64-43db-9935-5efb796d3fda",
+        "source": "ca62d9d6-e765-498e-b68a-7889d479a771",
+        "target": "3bb329f6-468e-4a7f-bd3f-4e8847808441",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "4e842c8d-2565-45f9-88e1-fbc6dd0839b0",
+        "source": "3bb329f6-468e-4a7f-bd3f-4e8847808441",
+        "target": "1acb0ae3-72ed-4c35-a88c-ae6d9b783ec3",
+        "sourceHandle": "success",
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "51f95e2a-b9a0-4501-a1d8-b18eb4fbb032",
+        "source": "1acb0ae3-72ed-4c35-a88c-ae6d9b783ec3",
+        "target": "dbe3600c-7b47-4b95-9225-978f3452fe3b",
+        "sourceHandle": "success",
+        "targetHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "52fc0f13-6a2b-4f0e-ae7f-446c0cc70ba2",
+        "id": "b9f99397-ee6a-435d-81c8-7d27b7d08940"
+      },
+      {
+        "idOnDefinition": "5f087c1c-48d4-485c-9862-4d1b4a425268",
+        "id": "03077496-8a4a-4c09-b42a-01f98d6a9f62"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\n  \"event_type\": \"EVENT_TYPE_CHANGE_SUBMITTED\",\n  \"workspace_name\": \"operator-console\",\n  \"app_name\": \"swt-config\",\n  \"page_name\": \"suspension-wallet-threshold\",\n  \"config_type\": \"suspension_wallet_threshold\",\n  \"config_group_id\": \"test-uuid-123\",\n  \"current_version\": \"1\",\n  \"actor_email\": \"ayush.thakare@theporter.in\",\n  \"actor_role\": \"ACTOR_ROLE_MAKER\",\n  \"user_email\": \"ayush.thakare@theporter.in\",\n  \"comment\": \"test justification\",\n  \"created_at\": \"2026-04-06T10:00:00Z\",\n  \"config_version_id\": \"\",\n  \"intent\": \"\",\n  \"is_rollback\": false,\n  \"rollback_of_version\": null,\n  \"rollback_target_id\": null,\n  \"rollback_from_id\": null,\n  \"outcome\": null,\n  \"effective_from\": null,\n  \"effective_to\": null,\n  \"country_code\": \"\",\n  \"geo_region_id\": null,\n  \"vehicle_category\": \"\",\n  \"change_request_id\": \"\",\n  \"payload\": {\"knobs\": {}, \"conditions\": [], \"default_scope\": null, \"pinned_knobs\": [], \"rank\": 0},\n  \"request\": {\"endpoint\": \"POST /coc/v1/config_records\", \"body\": {}},\n  \"response\": {\"status_code\": 200, \"body\": null, \"error\": null}\n}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require(\"lodash\");\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "29989520-d3a9-4075-ba86-51bf13e54dcc",
+  "versionType": "branch",
+  "appId": "3333d93b-2ff7-40ec-98a0-e39b192c0825",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "03077496-8a4a-4c09-b42a-01f98d6a9f62",
+  "name": "publishToKafka",
+  "options": {
+    "url": "{{constants.KAFKA_PRODUCE_URL}}",
+    "body": [
+      [
+        "value",
+        "{{buildPayload.data.value}}"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "method": "post",
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "Content-Type",
+        "application/json"
+      ],
+      [
+        "Authorization",
+        "{{secrets.KAFKA_AUTH}}"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "raw_body": "",
+    "json_body": null,
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body_toggle": false,
+    "arrayValuesChanged": false,
+    "confirmationMessage": "",
+    "enableTransformation": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript"
+  },
+  "dataSourceId": "c5a9baa0-0a01-4970-90ba-18c731af7dd6",
+  "appVersionId": "8b9fb382-1ba7-4d2d-9884-feceb966c4a3",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}
