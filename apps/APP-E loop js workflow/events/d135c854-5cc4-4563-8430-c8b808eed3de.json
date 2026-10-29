@@ -1,0 +1,14 @@
+{
+  "id": "d135c854-5cc4-4563-8430-c8b808eed3de",
+  "name": "Confirm run_loop_js",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Loop JS workflow passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "b5466517-f6c9-4852-b053-5088271a8d1b",
+  "target": "data_query",
+  "appVersionId": "31838a71-c71a-4fb5-a349-b759836f5a88"
+}

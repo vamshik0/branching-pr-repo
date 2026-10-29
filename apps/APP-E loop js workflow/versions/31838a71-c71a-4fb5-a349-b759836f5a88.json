@@ -1,0 +1,128 @@
+{
+  "id": "31838a71-c71a-4fb5-a349-b759836f5a88",
+  "definition": null,
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light",
+    "theme": {
+      "id": "6a3e73f2-56e8-4dab-b456-c8e2e769a25f",
+      "name": "ToolJet Modern",
+      "organizationId": "141fcb24-5825-4648-99e5-16d4674b5c2b",
+      "definition": {
+        "brand": {
+          "colors": {
+            "primary": {
+              "light": "#2563EB",
+              "dark": "#3B82F6"
+            },
+            "secondary": {
+              "light": "#111827",
+              "dark": "#F9FAFB"
+            },
+            "tertiary": {
+              "light": "#6B7280",
+              "dark": "#9CA3AF"
+            }
+          }
+        },
+        "text": {
+          "font": "Inter",
+          "colors": {
+            "primary": {
+              "light": "#111827",
+              "dark": "#F9FAFB"
+            },
+            "placeholder": {
+              "light": "#6B7280",
+              "dark": "#9CA3AF"
+            },
+            "disabled": {
+              "light": "#9CA3AF",
+              "dark": "#6B7280"
+            }
+          }
+        },
+        "border": {
+          "radius": {
+            "default": 8,
+            "small": 6,
+            "large": 12
+          },
+          "colors": {
+            "default": {
+              "light": "#E5E7EB",
+              "dark": "#374151"
+            },
+            "weak": {
+              "light": "#F3F4F6",
+              "dark": "#1F2937"
+            },
+            "disabled": {
+              "light": "#F3F4F6",
+              "dark": "#1F2937"
+            }
+          }
+        },
+        "systemStatus": {
+          "colors": {
+            "success": {
+              "light": "#16A34A",
+              "dark": "#4ADE80"
+            },
+            "error": {
+              "light": "#DC2626",
+              "dark": "#F87171"
+            },
+            "warning": {
+              "light": "#D97706",
+              "dark": "#FBBF24"
+            }
+          }
+        },
+        "surface": {
+          "colors": {
+            "appBackground": {
+              "light": "#F9FAFB",
+              "dark": "#111827"
+            },
+            "surface1": {
+              "light": "#FFFFFF",
+              "dark": "#1F2937"
+            },
+            "surface2": {
+              "light": "#F9FAFB",
+              "dark": "#1F2937"
+            },
+            "surface3": {
+              "light": "#F3F4F6",
+              "dark": "#374151"
+            }
+          }
+        }
+      },
+      "isDefault": false,
+      "isBasic": false,
+      "createdAt": "2026-10-19T06:18:46.409Z",
+      "updatedAt": "2026-10-19T06:18:46.409Z"
+    }
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "12d9509a-10b7-414d-a762-8ab31b9fa972",
+  "versionType": "version",
+  "appId": "808aab6c-3b79-4a35-8c2b-8a691f9db8d9",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

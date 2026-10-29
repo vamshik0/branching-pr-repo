@@ -1,0 +1,47 @@
+{
+  "id": "a01dde2b-7884-40a7-8c24-c8645d3375d4",
+  "name": "runButton",
+  "type": "Button",
+  "pageId": "12d9509a-10b7-414d-a762-8ab31b9fa972",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Run workflow"
+    },
+    "loadingState": {
+      "value": "{{queries.run_loop_js.isLoading}}",
+      "fxActive": true
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "93d9a1e1-d711-4578-92e8-1bd8d29a7185",
+      "type": "desktop",
+      "top": 25,
+      "left": 33,
+      "width": 8,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "a01dde2b-7884-40a7-8c24-c8645d3375d4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2bdb10ed-8ad3-4917-90b3-d2faa85ed0f2",
+      "type": "mobile",
+      "top": 25,
+      "left": 33,
+      "width": 8,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "a01dde2b-7884-40a7-8c24-c8645d3375d4",
+      "dimensionUnit": "count"
+    }
+  ]
+}
