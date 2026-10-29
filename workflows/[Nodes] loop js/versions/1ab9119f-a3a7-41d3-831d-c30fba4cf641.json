@@ -1,0 +1,192 @@
+{
+  "id": "1ab9119f-a3a7-41d3-831d-c30fba4cf641",
+  "definition": {
+    "nodes": [
+      {
+        "id": "989ca79e-e37a-4ac4-bda4-31bd90b32632",
+        "type": "input",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "position": {
+          "x": 0,
+          "y": 200
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "f8421a64-d884-496e-85a6-4db048f3653a",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Build items (JS)",
+          "nodeType": "query",
+          "idOnDefinition": "4be9f38b-72d1-41d5-9a38-858f99cd48d3",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "28bc2325-66e1-4a4c-8eff-509195123c18",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "Score each (loop)",
+          "nodeType": "query",
+          "looped": true,
+          "iterationValuesCode": "return buildItems.data;",
+          "idOnDefinition": "44e482be-19da-45b6-92f9-b325f7aa7140",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 600,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "fabdc83f-ae66-4ba0-b864-0e71aee6a48b",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "ok",
+          "nodeType": "response",
+          "code": "return { items: scoreEach.data, count: scoreEach.data.length, totalLength: scoreEach.data.reduce((s, x) => s + x.length, 0) };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "position": {
+          "x": 900,
+          "y": 200
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "9944b32f-0502-47cc-8a29-8a406d67e391",
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { error: 'JS or loop step failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "500"
+          }
+        },
+        "position": {
+          "x": 600,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "f82c83d1-930c-476d-9123-64c85eb5f7b8",
+        "source": "989ca79e-e37a-4ac4-bda4-31bd90b32632",
+        "target": "f8421a64-d884-496e-85a6-4db048f3653a",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "610eb359-e9f0-4ba6-963e-786592293ec3",
+        "source": "f8421a64-d884-496e-85a6-4db048f3653a",
+        "target": "28bc2325-66e1-4a4c-8eff-509195123c18",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "b25932a0-5527-4442-ae61-405a3aa8d465",
+        "source": "28bc2325-66e1-4a4c-8eff-509195123c18",
+        "target": "fabdc83f-ae66-4ba0-b864-0e71aee6a48b",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "ddc866a7-10b9-401d-acad-7158d4bf422e",
+        "source": "f8421a64-d884-496e-85a6-4db048f3653a",
+        "target": "9944b32f-0502-47cc-8a29-8a406d67e391",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "fb7e42a4-8363-412e-8be0-f0a89da81495",
+        "source": "28bc2325-66e1-4a4c-8eff-509195123c18",
+        "target": "9944b32f-0502-47cc-8a29-8a406d67e391",
+        "sourceHandle": "failure",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "4be9f38b-72d1-41d5-9a38-858f99cd48d3",
+        "id": "af10b18a-43ff-451d-9343-fee49769c5bc"
+      },
+      {
+        "idOnDefinition": "44e482be-19da-45b6-92f9-b325f7aa7140",
+        "id": "3bba77fb-82cd-49d1-916d-c73ec6c7bc68"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\"words\":[\"alpha\",\"beta\",\"gamma\"]}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "201ad4c2-01a2-4aa4-973a-194b11893cf5",
+  "versionType": "version",
+  "appId": "aaa07ab2-992b-46a9-9dd7-d94e608c96fa",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

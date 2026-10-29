@@ -1,0 +1,14 @@
+{
+  "id": "47452e9c-d232-487b-8d7d-f982a7471ac1",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "queryId": "b5466517-f6c9-4852-b053-5088271a8d1b",
+    "actionId": "run-query",
+    "queryName": "run_loop_js"
+  },
+  "sourceId": "a01dde2b-7884-40a7-8c24-c8645d3375d4",
+  "target": "component",
+  "appVersionId": "31838a71-c71a-4fb5-a349-b759836f5a88"
+}

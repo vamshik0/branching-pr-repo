@@ -1,0 +1,14 @@
+{
+  "id": "9b6ba52f-d96c-4e38-8020-d99ca3658306",
+  "name": "run_loop_js failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Loop JS workflow failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "b5466517-f6c9-4852-b053-5088271a8d1b",
+  "target": "data_query",
+  "appVersionId": "31838a71-c71a-4fb5-a349-b759836f5a88"
+}

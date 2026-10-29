@@ -1,0 +1,21 @@
+{
+  "id": "b5466517-f6c9-4852-b053-5088271a8d1b",
+  "name": "run_loop_js",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "words",
+        "value": "{{[\"alpha\", \"beta\", \"gamma\"]}}"
+      }
+    ],
+    "workflowId": "aaa07ab2-992b-46a9-9dd7-d94e608c96fa",
+    "workflowVersionId": "__default_branch_draft__",
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "05a36061-2a11-457f-b590-24a1a9150afa",
+  "appVersionId": "31838a71-c71a-4fb5-a349-b759836f5a88",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
