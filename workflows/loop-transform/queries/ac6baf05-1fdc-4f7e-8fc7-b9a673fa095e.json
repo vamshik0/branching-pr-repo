@@ -1,0 +1,11 @@
+{
+  "id": "ac6baf05-1fdc-4f7e-8fc7-b9a673fa095e",
+  "name": "sizeCompanies_v2",
+  "options": {
+    "code": "const n = Number(value.employeeCount) || 0;\nreturn { id: value.id, name: value.name, employees: n, size: n >= 7000 ? 'large' : n >= 4000 ? 'medium' : 'small' };"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "ae75dfcd-3e51-4de5-9224-5e1b81630f01",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
