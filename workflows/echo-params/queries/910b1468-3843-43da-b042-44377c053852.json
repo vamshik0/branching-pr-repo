@@ -1,0 +1,11 @@
+{
+  "id": "910b1468-3843-43da-b042-44377c053852",
+  "name": "shapeInput_v2",
+  "options": {
+    "code": "const p = startTrigger.params || {};\nreturn {\n  environment: constants.env,\n  apiUrl: constants.api_url,\n  uiUrl: constants.ui_url,\n  greeting: `Hello, ${p.name || 'there'} from ${constants.env}!`,\n  received: p\n};"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "dd8315e2-f21a-43a5-960e-051dcc485f38",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
