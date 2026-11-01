@@ -1,0 +1,150 @@
+{
+  "id": "ae75dfcd-3e51-4de5-9224-5e1b81630f01",
+  "definition": {
+    "nodes": [
+      {
+        "id": "1a7a6341-20ab-48eb-8499-11844226e732",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 43
+      },
+      {
+        "id": "2f2a63b1-1d85-490b-9f4c-08e99d434733",
+        "type": "output",
+        "data": {
+          "label": "response",
+          "nodeType": "response",
+          "code": "const rows = sizeCompanies_v2.data || [];\nconst bySize = rows.reduce((acc, r) => { acc[r.size] = (acc[r.size] || 0) + 1; return acc; }, {});\nreturn { environment: constants.env, count: rows.length, bySize, companies: rows };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 820,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "list",
+          "nodeType": "query",
+          "idOnDefinition": "da71debc-e818-4ccd-99c8-f54fc93bf432"
+        },
+        "position": {
+          "x": 320,
+          "y": 250
+        }
+      },
+      {
+        "id": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "loop",
+          "nodeType": "query",
+          "looped": true,
+          "iterationValuesCode": "return Array.isArray(fetchCompanies_v2.data) ? fetchCompanies_v2.data : [];",
+          "idOnDefinition": "c0cc7120-a5df-4ff9-9fef-2c856803a18f"
+        },
+        "position": {
+          "x": 560,
+          "y": 250
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "859cb4fe-567b-4c67-9715-7bc56ddd37f0",
+        "source": "1a7a6341-20ab-48eb-8499-11844226e732",
+        "target": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "449ea017-453b-45df-8d3a-36ec71da1e17",
+        "source": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "target": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "a8200ed0-b1a3-4a44-9d42-c04c9009675b",
+        "source": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "target": "2f2a63b1-1d85-490b-9f4c-08e99d434733",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "da71debc-e818-4ccd-99c8-f54fc93bf432",
+        "id": "a6cd4371-f7d1-4bab-925a-19b48c7fc35c"
+      },
+      {
+        "idOnDefinition": "c0cc7120-a5df-4ff9-9fef-2c856803a18f",
+        "id": "ac6baf05-1fdc-4f7e-8fc7-b9a673fa095e"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "837c7675-f5f6-4273-b833-904f797c9cbb",
+  "versionType": "version",
+  "appId": "ae75dfcd-3e51-4de5-9224-5e1b81630f01",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

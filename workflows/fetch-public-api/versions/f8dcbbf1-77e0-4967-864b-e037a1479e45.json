@@ -1,0 +1,178 @@
+{
+  "id": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "definition": {
+    "nodes": [
+      {
+        "id": "b5a750c4-825d-474d-804d-23b7bd50e7ab",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "d2f8c256-d654-41a2-8fe0-1e4efcd0c3f6",
+        "type": "output",
+        "data": {
+          "label": "response",
+          "nodeType": "response",
+          "code": "return pickFields_v2.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 940,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "a0177b79-d065-4bac-ba88-a80fe2ed5fc9",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { environment: constants.env, error: 'Company API request failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "502"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 660,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "list",
+          "nodeType": "query",
+          "idOnDefinition": "e7210558-0736-40d3-843b-adf298585f45",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 380,
+          "y": 250
+        }
+      },
+      {
+        "id": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "pick",
+          "nodeType": "query",
+          "idOnDefinition": "4d864032-ee1b-4b48-a8f6-3b79e359da71"
+        },
+        "position": {
+          "x": 660,
+          "y": 250
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "7167f5ed-2162-409d-b050-ebd360abcf7a",
+        "source": "b5a750c4-825d-474d-804d-23b7bd50e7ab",
+        "target": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "957c052a-f118-4d8e-b774-65afe731507f",
+        "source": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "target": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "a0b1ca4e-bb49-456f-938e-ccf62e999f1d",
+        "source": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "target": "a0177b79-d065-4bac-ba88-a80fe2ed5fc9",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "6fdd1178-f2c8-4b56-9ba1-b1963037496a",
+        "source": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "target": "d2f8c256-d654-41a2-8fe0-1e4efcd0c3f6",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "e7210558-0736-40d3-843b-adf298585f45",
+        "id": "2e545e7e-3239-46a8-a7d7-7538e8ad1f44"
+      },
+      {
+        "idOnDefinition": "4d864032-ee1b-4b48-a8f6-3b79e359da71",
+        "id": "8398f37b-f105-4f59-a099-d4115299824b"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{\"userId\":2}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "35336b0b-e398-4e43-82db-5a01d9fa6061",
+  "versionType": "version",
+  "appId": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

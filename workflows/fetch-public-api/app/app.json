@@ -1,0 +1,11 @@
+{
+  "id": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "type": "workflow",
+  "slug": "b9dec179-7728-45f6-af83-000c330aec6b",
+  "isPublic": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": null,
+  "tooljetVersion": "3.21.86-beta-ee"
+}

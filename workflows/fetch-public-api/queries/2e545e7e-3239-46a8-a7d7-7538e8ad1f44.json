@@ -1,0 +1,39 @@
+{
+  "id": "2e545e7e-3239-46a8-a7d7-7538e8ad1f44",
+  "name": "listCompanies_v2",
+  "options": {
+    "url": "/",
+    "method": "get",
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body_toggle": false,
+    "retry_network_errors": true
+  },
+  "dataSourceId": "e03943ab-6982-416b-9c02-15407829bef8",
+  "appVersionId": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a6cd4371-f7d1-4bab-925a-19b48c7fc35c",
+  "name": "fetchCompanies_v2",
+  "options": {
+    "url": "/",
+    "method": "get",
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body_toggle": false,
+    "retry_network_errors": true
+  },
+  "dataSourceId": "e03943ab-6982-416b-9c02-15407829bef8",
+  "appVersionId": "ae75dfcd-3e51-4de5-9224-5e1b81630f01",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
