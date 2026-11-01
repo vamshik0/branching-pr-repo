@@ -1,0 +1,11 @@
+{
+  "id": "8398f37b-f105-4f59-a099-d4115299824b",
+  "name": "pickFields_v2",
+  "options": {
+    "code": "const rows = Array.isArray(listCompanies_v2.data) ? listCompanies_v2.data : [];\nconst country = startTrigger.params.country;\nconst filtered = country ? rows.filter(r => String(r.country).toLowerCase() === String(country).toLowerCase()) : rows;\nreturn {\n  environment: constants.env,\n  total: filtered.length,\n  companies: filtered.map(r => ({ id: r.id, name: r.name, country: r.country, employees: r.employeeCount, ceo: r.ceoName }))\n};"
+  },
+  "dataSourceId": "914ba2f9-c65c-46cb-8cf7-e9d889ccdeb7",
+  "appVersionId": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
