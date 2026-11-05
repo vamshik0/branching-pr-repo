@@ -1,0 +1,77 @@
+{
+  "id": "57e7bcb5-756d-4b9f-a2d0-869f770ca631",
+  "name": "claudetool11",
+  "type": "ModuleViewer",
+  "pageId": "e799df96-d480-461e-b30f-6a792246ff68",
+  "parent": null,
+  "properties": {
+    "visibility": {
+      "value": true
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "moduleAppId": {
+      "value": "32d830e1-7d5e-4472-89d0-79905dd699e3"
+    },
+    "moduleVersionId": {
+      "value": "9d8d4689-b951-4682-94fa-57740e9dbbff",
+      "versionName": "d1a620f4-1d01-49a8-a306-6470024b7e42"
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "backgroundColor": {
+      "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "29a3f05f-768c-4076-809e-0039cbb78eed",
+      "type": "desktop",
+      "top": 60,
+      "left": 2,
+      "width": 38,
+      "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "57e7bcb5-756d-4b9f-a2d0-869f770ca631",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "ad93815c-5691-4ad4-84b2-b695b556fca6",
+      "type": "mobile",
+      "top": 60,
+      "left": 0,
+      "width": 38,
+      "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "57e7bcb5-756d-4b9f-a2d0-869f770ca631",
+      "dimensionUnit": "count"
+    }
+  ]
+}
