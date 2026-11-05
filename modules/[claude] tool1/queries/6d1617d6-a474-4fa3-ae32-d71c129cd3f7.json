@@ -1,0 +1,13 @@
+{
+  "id": "6d1617d6-a474-4fa3-ae32-d71c129cd3f7",
+  "name": "runjs1",
+  "options": {
+    "code": "return `hello ${globals.currentUser.email}`",
+    "parameters": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "0527fa3f-a5cb-4d32-be92-3715704be475",
+  "appVersionId": "b4298251-035a-4202-a5f3-b27e7d5747ac",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

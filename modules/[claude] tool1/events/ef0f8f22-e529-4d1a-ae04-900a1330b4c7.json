@@ -1,0 +1,14 @@
+{
+  "id": "ef0f8f22-e529-4d1a-ae04-900a1330b4c7",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Error world!",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "6d1617d6-a474-4fa3-ae32-d71c129cd3f7",
+  "target": "data_query",
+  "appVersionId": "b4298251-035a-4202-a5f3-b27e7d5747ac"
+}

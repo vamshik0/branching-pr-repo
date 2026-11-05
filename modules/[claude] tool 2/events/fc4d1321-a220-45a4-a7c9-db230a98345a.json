@@ -1,0 +1,14 @@
+{
+  "id": "fc4d1321-a220-45a4-a7c9-db230a98345a",
+  "name": "Event #1 copy",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "error",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "586c0cf3-15dd-4c4d-82fc-358513c66724",
+  "target": "data_query",
+  "appVersionId": "7b04a646-4b60-487f-b6f6-be29b1fe66e6"
+}
