@@ -1,7 +1,6 @@
 {
   "id": "ac30704f-8da8-4114-8761-3387cd2dc51c",
   "kind": "s3",
-  "name": "AWS S3",
   "options": {
     "development": {
       "access_key": "",

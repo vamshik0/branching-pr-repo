@@ -1,7 +1,6 @@
 {
   "id": "4ef46370-da72-47a1-b468-d091e23cee15",
   "kind": "bigquery",
-  "name": "common-5",
   "options": {
     "development": {
       "access_token_url": "https://oauth2.googleapis.com/token",

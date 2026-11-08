@@ -2,7 +2,6 @@
   "id": "7b8ddab3-4df3-4525-bb44-a5374ad7f4bb",
   "isPlugin": true,
   "kind": "jira",
-  "name": "jira",
   "options": {
     "development": {
       "auth_type": "personal_access_token"

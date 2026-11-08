@@ -1,7 +1,6 @@
 {
   "id": "247f5f62-6c37-43a4-bd6e-829b4a013ddc",
   "kind": "elasticsearch",
-  "name": "elasticsearch",
   "options": {
     "development": {
       "host": "localhost",

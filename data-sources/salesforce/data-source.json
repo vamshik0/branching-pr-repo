@@ -2,7 +2,6 @@
   "id": "ae342240-6725-406e-bd77-e1664b100192",
   "isPlugin": true,
   "kind": "salesforce",
-  "name": "salesforce",
   "options": {
     "development": {
       "auth_type": "oauth2",
