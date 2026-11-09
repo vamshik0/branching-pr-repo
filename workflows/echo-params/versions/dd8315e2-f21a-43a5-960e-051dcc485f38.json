@@ -17,7 +17,7 @@
           "y": 250
         },
         "width": 206,
-        "height": 43
+        "height": 104
       },
       {
         "id": "4ee99ffe-bc3e-40cd-baa7-ecbd342168fa",
@@ -55,7 +55,9 @@
         "position": {
           "x": 400,
           "y": 250
-        }
+        },
+        "width": 206,
+        "height": 40
       }
     ],
     "edges": [
@@ -104,10 +106,17 @@
     "backgroundFxQuery": "",
     "appMode": "light"
   },
-  "pageSettings": null,
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
   "showViewerNavigation": true,
   "homePageId": "53b1c837-0f2b-4120-a42b-2133248f0c5a",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "dd8315e2-f21a-43a5-960e-051dcc485f38",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -116,6 +125,6 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "workflowEnabled": false,
-  "isSynced": false
+  "workflowEnabled": true,
+  "isSynced": true
 }
