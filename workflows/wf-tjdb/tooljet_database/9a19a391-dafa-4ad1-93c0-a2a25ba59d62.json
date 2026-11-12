@@ -1,0 +1,83 @@
+{
+  "id": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62",
+  "table_name": "qa_orders",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"workspace_0cdb5c55-27b2-44f2-844e-bf23afd3b998\".\"81ce896e-bc77-4eb9-99ef-e9f52a0420dc_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "9c5bead1-4afa-4404-971f-872e8a3ea026",
+        "configurations": {}
+      },
+      {
+        "column_name": "customer_id",
+        "data_type": "integer",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "4e33e7d4-15a4-41b4-908e-066877876ff9",
+        "configurations": {}
+      },
+      {
+        "column_name": "amount",
+        "data_type": "double precision",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 53,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "f850bddd-3706-42b7-87b0-46105187418c",
+        "configurations": {}
+      },
+      {
+        "column_name": "status",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "40e38058-fd11-434e-b857-e960575bd958",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": [
+      {
+        "referenced_table_name": "qa_customers",
+        "constraint_name": "FK_972ea7a1d73b0bcf9bc3af3c18f",
+        "column_names": [
+          "customer_id"
+        ],
+        "referenced_column_names": [
+          "id"
+        ],
+        "on_update": "NO ACTION",
+        "on_delete": "CASCADE",
+        "referenced_table_id": "42470bd0-1ffd-40b5-8f17-be6c29f8a57e"
+      }
+    ]
+  }
+}

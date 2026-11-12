@@ -1,0 +1,19 @@
+{
+  "id": "1aac2d9e-84b4-4083-a87b-75c4a4ceb952",
+  "name": "run_wh_token_styles",
+  "options": {
+    "workflowId": "91a5a7c7-a46e-4830-a297-7d2373d52cee",
+    "workflowVersionId": "v1",
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "syncExecution": true
+  },
+  "dataSourceId": "97692ee3-6bac-4b0f-a1c7-e29ab8984a02",
+  "appVersionId": "a9d9f78e-903c-4679-87b0-1aa452dd2162",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

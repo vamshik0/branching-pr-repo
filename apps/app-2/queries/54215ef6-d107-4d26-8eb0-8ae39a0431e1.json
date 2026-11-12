@@ -1,0 +1,19 @@
+{
+  "id": "54215ef6-d107-4d26-8eb0-8ae39a0431e1",
+  "name": "run_wh_response_status",
+  "options": {
+    "workflowId": "10d9226a-c54d-4006-98de-84637e209bf6",
+    "workflowVersionId": "v1",
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "syncExecution": true
+  },
+  "dataSourceId": "97692ee3-6bac-4b0f-a1c7-e29ab8984a02",
+  "appVersionId": "a9d9f78e-903c-4679-87b0-1aa452dd2162",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

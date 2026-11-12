@@ -1,0 +1,12 @@
+{
+  "id": "a96880b0-e2fb-46d9-8aaf-35ec0e9d2c6f",
+  "name": "work",
+  "options": {
+    "code": "return { from: 'wh-async', params: startTrigger.params }",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "c43c50ad-ecaa-47b8-a161-7b508fc3c904",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

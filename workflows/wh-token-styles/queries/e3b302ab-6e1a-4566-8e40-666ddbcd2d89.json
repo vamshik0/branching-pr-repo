@@ -1,0 +1,12 @@
+{
+  "id": "e3b302ab-6e1a-4566-8e40-666ddbcd2d89",
+  "name": "echo",
+  "options": {
+    "code": "return { from: 'wh-token-styles' }",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "2929cd68-00c9-4e6a-9101-a7fcc4f0a34c",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

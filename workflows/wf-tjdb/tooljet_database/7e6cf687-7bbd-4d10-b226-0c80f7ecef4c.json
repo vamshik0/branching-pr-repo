@@ -1,0 +1,54 @@
+{
+  "id": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c",
+  "table_name": "qa_customers",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"workspace_0cdb5c55-27b2-44f2-844e-bf23afd3b998\".\"42470bd0-1ffd-40b5-8f17-be6c29f8a57e_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "3bb006db-2c14-4f11-89d5-6bf12b17e98b",
+        "configurations": {}
+      },
+      {
+        "column_name": "name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "4bb059fa-d0cb-4880-86d1-9f4689b4b345",
+        "configurations": {}
+      },
+      {
+        "column_name": "city",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "d860054e-1b11-4f98-acda-7f0c6dcdd943",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": []
+  }
+}

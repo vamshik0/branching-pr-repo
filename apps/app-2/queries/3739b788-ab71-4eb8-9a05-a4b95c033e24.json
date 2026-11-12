@@ -1,0 +1,19 @@
+{
+  "id": "3739b788-ab71-4eb8-9a05-a4b95c033e24",
+  "name": "run_wh_node_error",
+  "options": {
+    "workflowId": "96dde09d-70b8-4dac-a212-a85a25ceece6",
+    "workflowVersionId": "v1",
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "syncExecution": true
+  },
+  "dataSourceId": "97692ee3-6bac-4b0f-a1c7-e29ab8984a02",
+  "appVersionId": "a9d9f78e-903c-4679-87b0-1aa452dd2162",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

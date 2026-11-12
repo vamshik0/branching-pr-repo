@@ -1,0 +1,13 @@
+{
+  "id": "b97ef479-8262-4d46-8d87-2a0e9ff49fe2",
+  "name": "tjdbListRows",
+  "options": {
+    "operation": "list_rows",
+    "table_id": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c",
+    "list_rows": {}
+  },
+  "dataSourceId": "7880c096-0dc8-4054-ae77-b77149f74b21",
+  "appVersionId": "a6af288b-bab4-4f25-8e1d-5d56634a530a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

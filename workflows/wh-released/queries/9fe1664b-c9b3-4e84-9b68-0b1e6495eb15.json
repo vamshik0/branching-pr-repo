@@ -1,0 +1,12 @@
+{
+  "id": "9fe1664b-c9b3-4e84-9b68-0b1e6495eb15",
+  "name": "echo",
+  "options": {
+    "code": "return { from: 'wh-released' }",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "608cff50-535c-4b5c-acb5-7002e1104002",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

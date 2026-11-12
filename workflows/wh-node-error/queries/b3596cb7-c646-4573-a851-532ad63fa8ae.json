@@ -1,0 +1,12 @@
+{
+  "id": "b3596cb7-c646-4573-a851-532ad63fa8ae",
+  "name": "boom",
+  "options": {
+    "code": "throw new Error('wh-node-error boom')",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "2aceeee5-32cf-4f8a-93bb-3ad27469c449",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

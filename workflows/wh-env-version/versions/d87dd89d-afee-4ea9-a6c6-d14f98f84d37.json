@@ -1,0 +1,115 @@
+{
+  "id": "d87dd89d-afee-4ea9-a6c6-d14f98f84d37",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "deletable": false
+      },
+      {
+        "id": "echo-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "7f433de5-3a88-4a66-8d2a-9136575eef4e",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 400,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "response",
+        "type": "output",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "return echo.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 900,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-echo-node",
+        "source": "start",
+        "target": "echo-node",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "echo-node-success-response",
+        "source": "echo-node",
+        "target": "response",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "7f433de5-3a88-4a66-8d2a-9136575eef4e",
+        "id": "7f433de5-3a88-4a66-8d2a-9136575eef4e"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": ""
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "43ccff6e-a40c-48bb-8b9a-a46fb9a66e8f",
+  "versionType": "version",
+  "appId": "96db001c-a122-428f-a31a-f54f08f305ed",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": true,
+  "isSynced": false
+}

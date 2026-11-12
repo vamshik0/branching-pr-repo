@@ -1,0 +1,124 @@
+{
+  "id": "bd08a400-5066-4b7a-95c3-80d03a021abd",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "deletable": false
+      },
+      {
+        "id": "echo-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "08301f1c-da52-4bbe-8b9f-5b29b0479aec",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 400,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "response",
+        "type": "output",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "return echo.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 900,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-echo-node",
+        "source": "start",
+        "target": "echo-node",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "echo-node-success-response",
+        "source": "echo-node",
+        "target": "response",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "08301f1c-da52-4bbe-8b9f-5b29b0479aec",
+        "id": "08301f1c-da52-4bbe-8b9f-5b29b0479aec"
+      }
+    ],
+    "webhookParams": [
+      {
+        "key": "name",
+        "dataType": "string"
+      },
+      {
+        "key": "region",
+        "dataType": "string"
+      }
+    ],
+    "defaultParams": "{\"region\":\"apac\"}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": ""
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "7f7876be-6611-447f-ac75-90ac39895e32",
+  "versionType": "version",
+  "appId": "4dd97c9b-c15d-43f3-a967-1a18484473bf",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": true,
+  "isSynced": false
+}

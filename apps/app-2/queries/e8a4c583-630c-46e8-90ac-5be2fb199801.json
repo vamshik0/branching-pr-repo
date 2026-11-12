@@ -1,0 +1,19 @@
+{
+  "id": "e8a4c583-630c-46e8-90ac-5be2fb199801",
+  "name": "run_wh_env_version",
+  "options": {
+    "workflowId": "96db001c-a122-428f-a31a-f54f08f305ed",
+    "workflowVersionId": "v1",
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "syncExecution": true
+  },
+  "dataSourceId": "97692ee3-6bac-4b0f-a1c7-e29ab8984a02",
+  "appVersionId": "a9d9f78e-903c-4679-87b0-1aa452dd2162",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
