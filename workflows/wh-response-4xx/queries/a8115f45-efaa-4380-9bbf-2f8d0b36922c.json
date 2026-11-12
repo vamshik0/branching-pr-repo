@@ -1,0 +1,12 @@
+{
+  "id": "a8115f45-efaa-4380-9bbf-2f8d0b36922c",
+  "name": "make",
+  "options": {
+    "code": "return { teapot: true }",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "341351f2-c288-4e18-a497-cf063b80c97f",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

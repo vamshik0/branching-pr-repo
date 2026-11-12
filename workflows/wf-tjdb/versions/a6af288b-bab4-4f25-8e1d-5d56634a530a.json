@@ -1,0 +1,193 @@
+{
+  "id": "a6af288b-bab4-4f25-8e1d-5d56634a530a",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "deletable": false
+      },
+      {
+        "id": "tjdbListRows-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "b97ef479-8262-4d46-8d87-2a0e9ff49fe2",
+          "kind": "tooljetdb",
+          "options": {}
+        },
+        "position": {
+          "x": 350,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "tjdbSql-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "6a76bf83-a405-450f-8e4d-f7729c915797",
+          "kind": "tooljetdb",
+          "options": {}
+        },
+        "position": {
+          "x": 600,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "tjdbJoin-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "13d5d22e-3a56-44a9-9c62-bb93a0fcb246",
+          "kind": "tooljetdb",
+          "options": {}
+        },
+        "position": {
+          "x": 850,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "shapeReport-node",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "e01bea2d-9063-481f-bf77-dd8aff030518",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 1100,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "response",
+        "type": "output",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "return shapeReport.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 1600,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-tjdbListRows-node",
+        "source": "start",
+        "target": "tjdbListRows-node",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "tjdbListRows-node-success-tjdbSql-node",
+        "source": "tjdbListRows-node",
+        "target": "tjdbSql-node",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "tjdbSql-node-success-tjdbJoin-node",
+        "source": "tjdbSql-node",
+        "target": "tjdbJoin-node",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "tjdbJoin-node-success-shapeReport-node",
+        "source": "tjdbJoin-node",
+        "target": "shapeReport-node",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "shapeReport-node-success-response",
+        "source": "shapeReport-node",
+        "target": "response",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "b97ef479-8262-4d46-8d87-2a0e9ff49fe2",
+        "id": "b97ef479-8262-4d46-8d87-2a0e9ff49fe2"
+      },
+      {
+        "idOnDefinition": "6a76bf83-a405-450f-8e4d-f7729c915797",
+        "id": "6a76bf83-a405-450f-8e4d-f7729c915797"
+      },
+      {
+        "idOnDefinition": "13d5d22e-3a56-44a9-9c62-bb93a0fcb246",
+        "id": "13d5d22e-3a56-44a9-9c62-bb93a0fcb246"
+      },
+      {
+        "idOnDefinition": "e01bea2d-9063-481f-bf77-dd8aff030518",
+        "id": "e01bea2d-9063-481f-bf77-dd8aff030518"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": ""
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "c1ad0203-e347-45a9-a376-6937854ee107",
+  "versionType": "version",
+  "appId": "e4bf5be1-35a6-4cb2-be72-04ea20819e88",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": null,
+  "isSynced": false
+}

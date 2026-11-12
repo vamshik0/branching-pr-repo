@@ -1,0 +1,75 @@
+{
+  "id": "13d5d22e-3a56-44a9-9c62-bb93a0fcb246",
+  "name": "tjdbJoin",
+  "options": {
+    "operation": "join_tables",
+    "join_table": {
+      "from": {
+        "name": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c",
+        "type": "Table"
+      },
+      "fields": [
+        {
+          "name": "id",
+          "table": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c"
+        },
+        {
+          "name": "name",
+          "table": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c"
+        },
+        {
+          "name": "city",
+          "table": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c"
+        },
+        {
+          "name": "amount",
+          "table": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62"
+        },
+        {
+          "name": "status",
+          "table": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62"
+        }
+      ],
+      "joins": [
+        {
+          "joinType": "INNER",
+          "table": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62",
+          "conditions": {
+            "operator": "AND",
+            "conditionsList": [
+              {
+                "operator": "=",
+                "leftField": {
+                  "type": "Column",
+                  "table": "7e6cf687-7bbd-4d10-b226-0c80f7ecef4c",
+                  "columnName": "id"
+                },
+                "rightField": {
+                  "type": "Column",
+                  "table": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62",
+                  "columnName": "customer_id"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "conditions": {
+        "operator": "AND",
+        "conditionsList": []
+      },
+      "order_by": [
+        {
+          "direction": "DESC",
+          "table": "9a19a391-dafa-4ad1-93c0-a2a25ba59d62",
+          "columnName": "amount"
+        }
+      ],
+      "limit": "50"
+    }
+  },
+  "dataSourceId": "7880c096-0dc8-4054-ae77-b77149f74b21",
+  "appVersionId": "a6af288b-bab4-4f25-8e1d-5d56634a530a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

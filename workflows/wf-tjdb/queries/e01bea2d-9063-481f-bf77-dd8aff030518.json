@@ -1,0 +1,12 @@
+{
+  "id": "e01bea2d-9063-481f-bf77-dd8aff030518",
+  "name": "shapeReport",
+  "options": {
+    "code": "\nconst shape = (d) => {\n  if (Array.isArray(d)) return { type: 'array', rows: d.length };\n  if (d && typeof d === 'object') {\n    const at = ['results', 'result', 'rows'].find((k) => Array.isArray(d[k]));\n    return { type: 'object', keys: Object.keys(d), rowsAt: at ? 'data.' + at : null, rows: at ? d[at].length : null };\n  }\n  return { type: d === null ? 'null' : typeof d };\n};\nreturn { listRows: shape(tjdbListRows.data), sql: shape(tjdbSql.data), join: shape(tjdbJoin.data) };",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "a6af288b-bab4-4f25-8e1d-5d56634a530a",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

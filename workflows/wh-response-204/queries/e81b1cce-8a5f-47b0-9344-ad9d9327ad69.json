@@ -1,0 +1,12 @@
+{
+  "id": "e81b1cce-8a5f-47b0-9344-ad9d9327ad69",
+  "name": "make",
+  "options": {
+    "code": "return { ignored: true }",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "5f042323-5d8f-48c8-8018-f629644cd6c6",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

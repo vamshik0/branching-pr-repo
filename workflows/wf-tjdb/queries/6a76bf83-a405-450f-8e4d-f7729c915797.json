@@ -1,0 +1,14 @@
+{
+  "id": "6a76bf83-a405-450f-8e4d-f7729c915797",
+  "name": "tjdbSql",
+  "options": {
+    "operation": "sql_execution",
+    "sql_execution": {
+      "sqlQuery": "SELECT c.name, COUNT(o.id) AS orders FROM qa_customers c LEFT JOIN qa_orders o ON o.customer_id=c.id GROUP BY c.name ORDER BY c.name"
+    }
+  },
+  "dataSourceId": "7880c096-0dc8-4054-ae77-b77149f74b21",
+  "appVersionId": "a6af288b-bab4-4f25-8e1d-5d56634a530a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

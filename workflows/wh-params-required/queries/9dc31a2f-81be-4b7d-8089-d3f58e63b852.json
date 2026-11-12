@@ -1,0 +1,12 @@
+{
+  "id": "9dc31a2f-81be-4b7d-8089-d3f58e63b852",
+  "name": "echo",
+  "options": {
+    "code": "return startTrigger.params",
+    "parameters": []
+  },
+  "dataSourceId": "f79eb5f2-e206-4f83-aac2-20752e8bc132",
+  "appVersionId": "ebcf1272-756d-4a06-b539-9074dc0f31db",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
