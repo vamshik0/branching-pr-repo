@@ -1,0 +1,12 @@
+{
+  "id": "c0f927b6-d98e-4845-9e2d-dd5a1907f066",
+  "name": "h3Base",
+  "options": {
+    "method": "get",
+    "url": "/h3"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "bba40504-b882-4bca-8191-feadba7fddee",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
