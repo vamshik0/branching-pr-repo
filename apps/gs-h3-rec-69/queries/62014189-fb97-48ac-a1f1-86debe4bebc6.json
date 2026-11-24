@@ -1,0 +1,12 @@
+{
+  "id": "62014189-fb97-48ac-a1f1-86debe4bebc6",
+  "name": "baseQuery",
+  "options": {
+    "method": "get",
+    "url": "/b"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "598cfddc-98d8-41c7-be67-f72a0191226a",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
