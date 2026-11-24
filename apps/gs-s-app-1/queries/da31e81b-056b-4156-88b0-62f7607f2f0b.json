@@ -1,0 +1,12 @@
+{
+  "id": "da31e81b-056b-4156-88b0-62f7607f2f0b",
+  "name": "gsH3T71478",
+  "options": {
+    "method": "get",
+    "url": "/h3"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "57c87313-298d-430e-9142-394697fefc2f",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
