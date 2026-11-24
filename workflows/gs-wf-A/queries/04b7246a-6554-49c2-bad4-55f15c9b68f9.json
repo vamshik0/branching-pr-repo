@@ -1,0 +1,12 @@
+{
+  "id": "04b7246a-6554-49c2-bad4-55f15c9b68f9",
+  "name": "gsLnk781",
+  "options": {
+    "method": "get",
+    "url": "/l"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
