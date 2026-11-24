@@ -1,0 +1,12 @@
+{
+  "id": "151ace71-01f2-44a1-97f8-f5ac20c0e02b",
+  "name": "teammateQuery",
+  "options": {
+    "method": "get",
+    "url": "/team"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "598cfddc-98d8-41c7-be67-f72a0191226a",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
