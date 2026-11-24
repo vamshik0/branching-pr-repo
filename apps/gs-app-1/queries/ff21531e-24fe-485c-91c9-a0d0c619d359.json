@@ -1,9 +1,9 @@
 {
-  "id": "0ce2a3f7-f9bb-447c-a51f-ec8d169fc40f",
-  "name": "gsR113586",
+  "id": "ff21531e-24fe-485c-91c9-a0d0c619d359",
+  "name": "gsMine13586",
   "options": {
     "method": "get",
-    "url": "/todos/5"
+    "url": "/todos/8"
   },
   "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
   "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
