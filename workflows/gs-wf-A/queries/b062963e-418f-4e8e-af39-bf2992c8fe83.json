@@ -1,0 +1,12 @@
+{
+  "id": "b062963e-418f-4e8e-af39-bf2992c8fe83",
+  "name": "gsG28196",
+  "options": {
+    "method": "get",
+    "url": "/todos/3"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
