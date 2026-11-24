@@ -1,0 +1,12 @@
+{
+  "id": "e36162b1-358d-49da-bf7e-1051862298be",
+  "name": "gsQuery1",
+  "options": {
+    "method": "get",
+    "url": "/todos/1"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
