@@ -1,0 +1,12 @@
+{
+  "id": "0610a24f-8876-4b2f-9340-4db322caf1c2",
+  "name": "gsPush294",
+  "options": {
+    "method": "get",
+    "url": "/p"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
