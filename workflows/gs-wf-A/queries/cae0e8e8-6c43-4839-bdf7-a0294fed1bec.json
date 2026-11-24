@@ -1,0 +1,12 @@
+{
+  "id": "cae0e8e8-6c43-4839-bdf7-a0294fed1bec",
+  "name": "gsG12350",
+  "options": {
+    "method": "get",
+    "url": "/todos/3"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
