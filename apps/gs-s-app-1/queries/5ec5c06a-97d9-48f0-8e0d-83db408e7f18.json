@@ -1,0 +1,12 @@
+{
+  "id": "5ec5c06a-97d9-48f0-8e0d-83db408e7f18",
+  "name": "gsS415806",
+  "options": {
+    "method": "get",
+    "url": "/todos/9"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "57c87313-298d-430e-9142-394697fefc2f",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
