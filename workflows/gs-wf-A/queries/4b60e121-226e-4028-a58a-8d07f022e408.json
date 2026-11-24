@@ -1,0 +1,12 @@
+{
+  "id": "4b60e121-226e-4028-a58a-8d07f022e408",
+  "name": "gsU75219",
+  "options": {
+    "method": "get",
+    "url": "/todos/13"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
