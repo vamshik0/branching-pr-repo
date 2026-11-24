@@ -1,0 +1,16 @@
+{
+  "id": "09b675b3-bb36-460e-93c2-3d6f0c815a27",
+  "kind": "restapi",
+  "options": {
+    "development": {
+      "url": "https://example.com"
+    },
+    "production": {
+      "url": "https://example.com"
+    },
+    "staging": {
+      "url": "https://example.com"
+    }
+  },
+  "type": "default"
+}
