@@ -7,6 +7,12 @@
   "properties": {
     "text": {
       "value": "gs"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
