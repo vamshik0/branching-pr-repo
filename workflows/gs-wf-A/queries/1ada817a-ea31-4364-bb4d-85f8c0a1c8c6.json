@@ -1,0 +1,12 @@
+{
+  "id": "1ada817a-ea31-4364-bb4d-85f8c0a1c8c6",
+  "name": "gsG76522",
+  "options": {
+    "method": "get",
+    "url": "/todos/3"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
