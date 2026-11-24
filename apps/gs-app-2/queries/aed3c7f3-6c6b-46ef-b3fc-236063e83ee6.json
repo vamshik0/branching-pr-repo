@@ -1,0 +1,12 @@
+{
+  "id": "aed3c7f3-6c6b-46ef-b3fc-236063e83ee6",
+  "name": "gsQ59093",
+  "options": {
+    "method": "get",
+    "url": "/todos/2"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "68f4fe86-18d4-4ede-8cf4-b1c4da4b0db5",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
