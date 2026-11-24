@@ -1,0 +1,12 @@
+{
+  "id": "b99c1d52-7dfa-4686-9d6b-af170038f8ec",
+  "name": "gsL4991",
+  "options": {
+    "method": "get",
+    "url": "/todos/16"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
