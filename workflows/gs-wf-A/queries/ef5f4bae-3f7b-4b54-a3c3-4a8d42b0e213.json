@@ -1,0 +1,12 @@
+{
+  "id": "ef5f4bae-3f7b-4b54-a3c3-4a8d42b0e213",
+  "name": "gsML93593",
+  "options": {
+    "method": "get",
+    "url": "/todos/17"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
