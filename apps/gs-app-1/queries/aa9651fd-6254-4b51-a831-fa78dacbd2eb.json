@@ -1,0 +1,12 @@
+{
+  "id": "aa9651fd-6254-4b51-a831-fa78dacbd2eb",
+  "name": "gsU83081",
+  "options": {
+    "method": "get",
+    "url": "/todos/13"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
