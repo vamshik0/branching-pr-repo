@@ -1,0 +1,14 @@
+{
+  "id": "4298f5fb-6dfd-4990-88b9-97dd2c2adee1",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "gs",
+    "actionId": "show-alert",
+    "alertType": "info"
+  },
+  "sourceId": "e36162b1-358d-49da-bf7e-1051862298be",
+  "target": "data_query",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb"
+}
