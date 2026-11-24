@@ -1,0 +1,12 @@
+{
+  "id": "1be510f0-706b-47df-b6bf-fc99b72b7aed",
+  "name": "gsM810015",
+  "options": {
+    "method": "get",
+    "url": "/todos/10"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
