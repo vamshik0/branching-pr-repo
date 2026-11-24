@@ -22,6 +22,5 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "workflowEnabled": null,
-  "isSynced": false
+  "workflowEnabled": false
 }

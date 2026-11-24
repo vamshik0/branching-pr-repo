@@ -1,0 +1,12 @@
+{
+  "id": "68bd30e0-8987-4f9b-bfc5-bff3030d3cab",
+  "name": "l3TeammateQuery",
+  "options": {
+    "method": "get",
+    "url": "/l3"
+  },
+  "dataSourceId": "25941bd4-4bac-45d5-b796-366642f11ec7",
+  "appVersionId": "2d68caad-4721-48f7-8f3e-a91d48985ce7",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
