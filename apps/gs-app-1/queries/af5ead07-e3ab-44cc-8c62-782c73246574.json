@@ -1,0 +1,12 @@
+{
+  "id": "af5ead07-e3ab-44cc-8c62-782c73246574",
+  "name": "gsG51131",
+  "options": {
+    "method": "get",
+    "url": "/todos/3"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
