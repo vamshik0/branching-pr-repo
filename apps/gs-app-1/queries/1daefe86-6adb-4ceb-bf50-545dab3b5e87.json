@@ -1,0 +1,12 @@
+{
+  "id": "1daefe86-6adb-4ceb-bf50-545dab3b5e87",
+  "name": "gsLnk31605",
+  "options": {
+    "method": "get",
+    "url": "/l"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
