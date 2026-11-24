@@ -1,0 +1,12 @@
+{
+  "id": "cbdb12d0-9183-4977-94e9-a82553102a73",
+  "name": "gsE563086",
+  "options": {
+    "method": "get",
+    "url": "/todos/21"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
