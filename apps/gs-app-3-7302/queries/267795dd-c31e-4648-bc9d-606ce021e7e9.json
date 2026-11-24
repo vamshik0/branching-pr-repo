@@ -1,0 +1,12 @@
+{
+  "id": "267795dd-c31e-4648-bc9d-606ce021e7e9",
+  "name": "gsR47302",
+  "options": {
+    "method": "get",
+    "url": "/todos/5"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "5379b979-52f6-4ca4-b0fa-b0ba3ed997ec",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
