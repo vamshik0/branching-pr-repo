@@ -1,0 +1,12 @@
+{
+  "id": "991414b2-4c56-4e85-b50e-854e4185f609",
+  "name": "gsUi60700",
+  "options": {
+    "method": "get",
+    "url": "/todos/15"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "28bb15d0-fa74-41ed-ac2a-640873dfe295",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
