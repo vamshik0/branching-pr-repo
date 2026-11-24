@@ -1,0 +1,12 @@
+{
+  "id": "33fe0558-6c16-4e4e-9a02-fba89c59b809",
+  "name": "gsW69621",
+  "options": {
+    "method": "get",
+    "url": "/todos/19"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "95f2e3e7-fbb5-45e4-98f3-f04086279aeb",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
