@@ -1,0 +1,12 @@
+{
+  "id": "bc30ee59-23b3-4f8f-a74e-b1e02d6be7fe",
+  "name": "h3Team7936",
+  "options": {
+    "method": "get",
+    "url": "/h3"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "f16f638d-f127-44f3-aafc-273bb4977dd4",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
