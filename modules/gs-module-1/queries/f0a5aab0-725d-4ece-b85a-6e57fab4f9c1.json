@@ -1,0 +1,12 @@
+{
+  "id": "f0a5aab0-725d-4ece-b85a-6e57fab4f9c1",
+  "name": "gsU54663",
+  "options": {
+    "method": "get",
+    "url": "/todos/13"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "7e57f604-0b08-438b-934c-bf363508ab21",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
