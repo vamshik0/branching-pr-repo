@@ -1,0 +1,12 @@
+{
+  "id": "373d5b4a-36ca-4a33-a4dd-bd2bde19d764",
+  "name": "gsSBase",
+  "options": {
+    "method": "get",
+    "url": "/todos/1"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "57c87313-298d-430e-9142-394697fefc2f",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
