@@ -6,7 +6,7 @@
       "url": "https://jsonplaceholder.typicode.com"
     },
     "production": {
-      "url": "https://jsonplaceholder.typicode.com/?g=922"
+      "url": "https://jsonplaceholder.typicode.com/?m=919"
     },
     "staging": {
       "url": "https://jsonplaceholder.typicode.com"
