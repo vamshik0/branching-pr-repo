@@ -1,0 +1,12 @@
+{
+  "id": "207770cd-4f00-40a6-8bc4-4a917e372eb9",
+  "name": "gsJ86443",
+  "options": {
+    "method": "get",
+    "url": "/todos/20"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "7e57f604-0b08-438b-934c-bf363508ab21",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
