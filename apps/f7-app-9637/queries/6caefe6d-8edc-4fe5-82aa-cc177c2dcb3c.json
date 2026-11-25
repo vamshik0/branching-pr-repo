@@ -1,0 +1,12 @@
+{
+  "id": "6caefe6d-8edc-4fe5-82aa-cc177c2dcb3c",
+  "name": "f7Query",
+  "options": {
+    "method": "get",
+    "url": "/f7"
+  },
+  "dataSourceId": "e03943ab-6982-416b-9c02-15407829bef8",
+  "appVersionId": "f6b5feda-d1e4-44d7-9605-89a4507c9894",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
