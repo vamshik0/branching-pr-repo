@@ -1,0 +1,12 @@
+{
+  "id": "dcdeb661-ea9e-405d-9eac-1f32924859ed",
+  "name": "gsS1997",
+  "options": {
+    "method": "get",
+    "url": "/todos/9"
+  },
+  "dataSourceId": "de3359c6-9d8f-4fa0-a035-91beff467e1d",
+  "appVersionId": "57c87313-298d-430e-9142-394697fefc2f",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
