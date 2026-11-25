@@ -1,0 +1,12 @@
+{
+  "id": "78d309a3-d3a2-48cd-9b7c-8022aabfda31",
+  "name": "f7Teammate660",
+  "options": {
+    "method": "get",
+    "url": "/t"
+  },
+  "dataSourceId": "e03943ab-6982-416b-9c02-15407829bef8",
+  "appVersionId": "630d86f6-7d0b-4fa7-8171-b952997c3d14",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
