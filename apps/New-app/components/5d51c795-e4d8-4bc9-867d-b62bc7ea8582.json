@@ -34,6 +34,9 @@
     },
     "showClearBtn": {
       "value": "{{false}}"
+    },
+    "legacyInputSize": {
+      "value": "{{true}}"
     }
   },
   "general": {},
