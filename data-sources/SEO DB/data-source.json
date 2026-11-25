@@ -1,7 +1,6 @@
 {
   "id": "4e56170d-faad-4d84-ba9e-ef1262471155",
   "kind": "postgresql",
-  "name": "SEO DB",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

@@ -1,7 +1,6 @@
 {
   "id": "965a84da-3a75-4fc7-805d-c31ef7a9fa03",
   "kind": "mongodb",
-  "name": "mongodb",
   "options": {
     "development": {
       "connection_format": "mongodb",
