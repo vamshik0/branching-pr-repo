@@ -1,7 +1,6 @@
 {
   "id": "3a5fce74-2ea9-4b33-83aa-1c5e11e6abdd",
   "kind": "restapi",
-  "name": "constants-restapi",
   "options": {
     "development": {
       "access_token_custom_headers": [
