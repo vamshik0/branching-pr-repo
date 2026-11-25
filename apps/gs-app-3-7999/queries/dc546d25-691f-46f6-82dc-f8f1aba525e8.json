@@ -1,0 +1,12 @@
+{
+  "id": "dc546d25-691f-46f6-82dc-f8f1aba525e8",
+  "name": "gsR367999",
+  "options": {
+    "method": "get",
+    "url": "/todos/5"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "0f4efd17-5d37-4cfe-874f-6a0f172883b1",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
