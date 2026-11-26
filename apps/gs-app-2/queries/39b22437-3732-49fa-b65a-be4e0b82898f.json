@@ -1,0 +1,12 @@
+{
+  "id": "39b22437-3732-49fa-b65a-be4e0b82898f",
+  "name": "gsQ59930",
+  "options": {
+    "method": "get",
+    "url": "/todos/2"
+  },
+  "dataSourceId": "ce9ccc53-2274-4cda-a39d-07be7f9e8764",
+  "appVersionId": "68f4fe86-18d4-4ede-8cf4-b1c4da4b0db5",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
